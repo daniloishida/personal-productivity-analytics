@@ -1,0 +1,5001 @@
+date,category,description,amount
+2025-01-01,assinaturas,Restaurante,198.35
+2025-01-02,saude,Mercado,173.73
+2025-01-03,assinaturas,Compra,445.42
+2025-01-04,lazer,Restaurante,435.25
+2025-01-05,transporte,Mercado,89.41
+2025-01-06,saude,Taxi/Uber,426.27
+2025-01-07,lazer,Restaurante,313.06
+2025-01-08,transporte,Restaurante,186.94
+2025-01-09,lazer,Assinatura mensal,334.14
+2025-01-10,mercado,Restaurante,405.56
+2025-01-11,alimentacao,Assinatura mensal,85.16
+2025-01-12,alimentacao,Mercado,92.21
+2025-01-13,alimentacao,Mercado,186.88
+2025-01-14,mercado,Compra,80.3
+2025-01-15,saude,Taxi/Uber,165.38
+2025-01-16,saude,Assinatura mensal,292.33
+2025-01-17,mercado,Compra,366.7
+2025-01-18,alimentacao,Farmácia,139.36
+2025-01-19,alimentacao,Compra,130.37
+2025-01-20,transporte,Mercado,351.99
+2025-01-21,transporte,Farmácia,174.56
+2025-01-22,assinaturas,Compra,369.22
+2025-01-23,lazer,Restaurante,447.05
+2025-01-24,transporte,Taxi/Uber,440.95
+2025-01-25,transporte,Assinatura mensal,299.9
+2025-01-26,transporte,Restaurante,171.97
+2025-01-27,transporte,Farmácia,34.14
+2025-01-28,mercado,Taxi/Uber,333.43
+2025-01-29,assinaturas,Compra,440.2
+2025-01-30,transporte,Restaurante,35.25
+2025-01-31,saude,Mercado,7.74
+2025-02-01,lazer,Mercado,375.14
+2025-02-02,transporte,Taxi/Uber,50.51
+2025-02-03,mercado,Mercado,41.32
+2025-02-04,saude,Assinatura mensal,410.1
+2025-02-05,alimentacao,Taxi/Uber,40.4
+2025-02-06,alimentacao,Taxi/Uber,55.74
+2025-02-07,assinaturas,Mercado,258.46
+2025-02-08,alimentacao,Taxi/Uber,341.78
+2025-02-09,transporte,Compra,182.81
+2025-02-10,mercado,Farmácia,192.16
+2025-02-11,assinaturas,Restaurante,286.52
+2025-02-12,saude,Farmácia,229.91
+2025-02-13,transporte,Restaurante,13.29
+2025-02-14,alimentacao,Mercado,55.54
+2025-02-15,lazer,Assinatura mensal,263.81
+2025-02-16,transporte,Assinatura mensal,358.18
+2025-02-17,lazer,Mercado,344.58
+2025-02-18,saude,Mercado,334.33
+2025-02-19,lazer,Taxi/Uber,348.22
+2025-02-20,saude,Assinatura mensal,24.78
+2025-02-21,assinaturas,Farmácia,403.32
+2025-02-22,mercado,Mercado,400.73
+2025-02-23,alimentacao,Farmácia,241.71
+2025-02-24,alimentacao,Restaurante,115.62
+2025-02-25,transporte,Farmácia,268.52
+2025-02-26,alimentacao,Assinatura mensal,253.26
+2025-02-27,assinaturas,Restaurante,104.22
+2025-02-28,alimentacao,Farmácia,273.39
+2025-03-01,transporte,Taxi/Uber,359.8
+2025-03-02,alimentacao,Taxi/Uber,363.72
+2025-03-03,mercado,Assinatura mensal,31.57
+2025-03-04,saude,Taxi/Uber,92.74
+2025-03-05,lazer,Mercado,302.36
+2025-03-06,lazer,Restaurante,387.63
+2025-03-07,saude,Assinatura mensal,236.94
+2025-03-08,lazer,Restaurante,319.85
+2025-03-09,mercado,Farmácia,14.38
+2025-03-10,assinaturas,Mercado,275.75
+2025-03-11,transporte,Assinatura mensal,433.05
+2025-03-12,mercado,Farmácia,299.15
+2025-03-13,transporte,Farmácia,415.41
+2025-03-14,assinaturas,Farmácia,256.87
+2025-03-15,mercado,Farmácia,380.3
+2025-03-16,alimentacao,Farmácia,60.25
+2025-03-17,assinaturas,Assinatura mensal,59.96
+2025-03-18,lazer,Taxi/Uber,58.48
+2025-03-19,mercado,Farmácia,222.54
+2025-03-20,assinaturas,Mercado,151.97
+2025-03-21,assinaturas,Assinatura mensal,325.04
+2025-03-22,mercado,Compra,406.67
+2025-03-23,lazer,Taxi/Uber,280.62
+2025-03-24,saude,Mercado,99.88
+2025-03-25,lazer,Farmácia,419.24
+2025-03-26,assinaturas,Assinatura mensal,239.9
+2025-03-27,transporte,Assinatura mensal,325.38
+2025-03-28,saude,Farmácia,401.28
+2025-03-29,saude,Mercado,445.48
+2025-03-30,assinaturas,Assinatura mensal,230.2
+2025-03-31,mercado,Restaurante,364.59
+2025-04-01,mercado,Taxi/Uber,257.26
+2025-04-02,mercado,Mercado,221.47
+2025-04-03,lazer,Farmácia,244.28
+2025-04-04,alimentacao,Mercado,220.5
+2025-04-05,mercado,Restaurante,192.36
+2025-04-06,mercado,Mercado,327.06
+2025-04-07,saude,Compra,116.11
+2025-04-08,transporte,Farmácia,279.29
+2025-04-09,transporte,Taxi/Uber,322.27
+2025-04-10,assinaturas,Farmácia,401.98
+2025-04-11,assinaturas,Compra,152.69
+2025-04-12,assinaturas,Farmácia,387.97
+2025-04-13,mercado,Farmácia,425.65
+2025-04-14,transporte,Taxi/Uber,293.66
+2025-04-15,assinaturas,Compra,348.29
+2025-04-16,transporte,Farmácia,185.54
+2025-04-17,mercado,Restaurante,428.7
+2025-04-18,saude,Farmácia,303.53
+2025-04-19,mercado,Assinatura mensal,143.02
+2025-04-20,assinaturas,Farmácia,184.9
+2025-04-21,mercado,Taxi/Uber,279.9
+2025-04-22,mercado,Assinatura mensal,109.19
+2025-04-23,transporte,Restaurante,340.49
+2025-04-24,alimentacao,Restaurante,104.99
+2025-04-25,lazer,Restaurante,268.35
+2025-04-26,assinaturas,Compra,315.17
+2025-04-27,alimentacao,Restaurante,387.59
+2025-04-28,saude,Mercado,331.59
+2025-04-29,assinaturas,Taxi/Uber,360.48
+2025-04-30,alimentacao,Compra,411.25
+2025-05-01,mercado,Assinatura mensal,271.01
+2025-05-02,assinaturas,Mercado,381.59
+2025-05-03,alimentacao,Compra,108.18
+2025-05-04,lazer,Taxi/Uber,367.56
+2025-05-05,mercado,Assinatura mensal,103.65
+2025-05-06,assinaturas,Taxi/Uber,420.91
+2025-05-07,saude,Taxi/Uber,151.84
+2025-05-08,saude,Assinatura mensal,81.47
+2025-05-09,assinaturas,Restaurante,70.94
+2025-05-10,alimentacao,Farmácia,88.34
+2025-05-11,assinaturas,Taxi/Uber,204.16
+2025-05-12,mercado,Restaurante,237.36
+2025-05-13,transporte,Assinatura mensal,411.63
+2025-05-14,saude,Taxi/Uber,174.55
+2025-05-15,alimentacao,Farmácia,101.78
+2025-05-16,lazer,Assinatura mensal,336.0
+2025-05-17,assinaturas,Compra,64.92
+2025-05-18,mercado,Compra,402.07
+2025-05-19,assinaturas,Restaurante,187.18
+2025-05-20,lazer,Compra,278.16
+2025-05-21,mercado,Mercado,87.85
+2025-05-22,lazer,Taxi/Uber,69.76
+2025-05-23,mercado,Taxi/Uber,360.48
+2025-05-24,transporte,Assinatura mensal,196.22
+2025-05-25,saude,Mercado,444.1
+2025-05-26,mercado,Taxi/Uber,238.31
+2025-05-27,lazer,Assinatura mensal,381.32
+2025-05-28,alimentacao,Farmácia,441.08
+2025-05-29,saude,Taxi/Uber,130.11
+2025-05-30,transporte,Restaurante,361.39
+2025-05-31,assinaturas,Taxi/Uber,14.79
+2025-06-01,transporte,Farmácia,307.49
+2025-06-02,transporte,Farmácia,336.61
+2025-06-03,assinaturas,Taxi/Uber,217.43
+2025-06-04,mercado,Farmácia,77.14
+2025-06-05,transporte,Assinatura mensal,279.44
+2025-06-06,saude,Taxi/Uber,404.4
+2025-06-07,transporte,Taxi/Uber,419.44
+2025-06-08,alimentacao,Compra,337.02
+2025-06-09,saude,Restaurante,122.35
+2025-06-10,alimentacao,Taxi/Uber,392.3
+2025-06-11,saude,Compra,400.53
+2025-06-12,lazer,Farmácia,168.42
+2025-06-13,assinaturas,Restaurante,86.43
+2025-06-14,saude,Restaurante,394.22
+2025-06-15,saude,Farmácia,398.87
+2025-06-16,mercado,Assinatura mensal,49.9
+2025-06-17,mercado,Compra,435.31
+2025-06-18,lazer,Taxi/Uber,242.22
+2025-06-19,mercado,Compra,447.21
+2025-06-20,mercado,Farmácia,203.03
+2025-06-21,alimentacao,Farmácia,242.31
+2025-06-22,mercado,Assinatura mensal,123.41
+2025-06-23,mercado,Restaurante,405.03
+2025-06-24,lazer,Restaurante,202.45
+2025-06-25,lazer,Farmácia,367.5
+2025-06-26,transporte,Compra,40.48
+2025-06-27,mercado,Restaurante,355.77
+2025-06-28,mercado,Taxi/Uber,223.16
+2025-06-29,saude,Taxi/Uber,7.41
+2025-06-30,mercado,Compra,105.69
+2025-07-01,alimentacao,Assinatura mensal,91.21
+2025-07-02,saude,Taxi/Uber,339.54
+2025-07-03,mercado,Compra,217.35
+2025-07-04,alimentacao,Compra,76.07
+2025-07-05,transporte,Farmácia,119.28
+2025-07-06,saude,Restaurante,229.31
+2025-07-07,assinaturas,Farmácia,13.74
+2025-07-08,mercado,Restaurante,193.74
+2025-07-09,saude,Assinatura mensal,306.74
+2025-07-10,lazer,Assinatura mensal,235.4
+2025-07-11,saude,Assinatura mensal,271.15
+2025-07-12,lazer,Compra,150.35
+2025-07-13,mercado,Compra,86.47
+2025-07-14,alimentacao,Farmácia,365.33
+2025-07-15,lazer,Taxi/Uber,408.01
+2025-07-16,saude,Restaurante,232.28
+2025-07-17,saude,Restaurante,140.74
+2025-07-18,lazer,Assinatura mensal,232.49
+2025-07-19,transporte,Restaurante,396.15
+2025-07-20,transporte,Mercado,312.68
+2025-07-21,transporte,Assinatura mensal,387.08
+2025-07-22,lazer,Restaurante,151.13
+2025-07-23,lazer,Farmácia,321.83
+2025-07-24,saude,Restaurante,295.61
+2025-07-25,mercado,Compra,259.37
+2025-07-26,mercado,Farmácia,240.06
+2025-07-27,alimentacao,Farmácia,250.19
+2025-07-28,lazer,Farmácia,383.1
+2025-07-29,mercado,Mercado,412.62
+2025-07-30,mercado,Mercado,55.22
+2025-07-31,transporte,Restaurante,258.1
+2025-08-01,transporte,Assinatura mensal,413.69
+2025-08-02,transporte,Restaurante,64.96
+2025-08-03,assinaturas,Restaurante,188.72
+2025-08-04,mercado,Restaurante,44.64
+2025-08-05,transporte,Compra,55.5
+2025-08-06,transporte,Farmácia,407.33
+2025-08-07,lazer,Taxi/Uber,203.55
+2025-08-08,saude,Assinatura mensal,311.49
+2025-08-09,transporte,Assinatura mensal,66.82
+2025-08-10,lazer,Farmácia,14.77
+2025-08-11,alimentacao,Assinatura mensal,401.27
+2025-08-12,transporte,Farmácia,260.67
+2025-08-13,saude,Assinatura mensal,13.89
+2025-08-14,lazer,Restaurante,446.59
+2025-08-15,saude,Compra,224.03
+2025-08-16,transporte,Assinatura mensal,216.77
+2025-08-17,alimentacao,Assinatura mensal,281.31
+2025-08-18,transporte,Taxi/Uber,8.52
+2025-08-19,lazer,Compra,258.27
+2025-08-20,alimentacao,Restaurante,285.12
+2025-08-21,alimentacao,Compra,137.14
+2025-08-22,alimentacao,Compra,328.45
+2025-08-23,assinaturas,Assinatura mensal,172.96
+2025-08-24,lazer,Mercado,324.41
+2025-08-25,assinaturas,Assinatura mensal,69.0
+2025-08-26,saude,Farmácia,411.6
+2025-08-27,alimentacao,Taxi/Uber,396.36
+2025-08-28,assinaturas,Compra,72.03
+2025-08-29,transporte,Farmácia,422.61
+2025-08-30,assinaturas,Restaurante,253.21
+2025-08-31,mercado,Farmácia,317.23
+2025-09-01,saude,Mercado,378.93
+2025-09-02,alimentacao,Compra,42.19
+2025-09-03,alimentacao,Assinatura mensal,80.33
+2025-09-04,saude,Compra,134.22
+2025-09-05,saude,Taxi/Uber,217.36
+2025-09-06,lazer,Compra,158.99
+2025-09-07,transporte,Farmácia,230.1
+2025-09-08,saude,Farmácia,87.73
+2025-09-09,saude,Assinatura mensal,308.56
+2025-09-10,lazer,Assinatura mensal,29.8
+2025-09-11,saude,Assinatura mensal,165.85
+2025-09-12,assinaturas,Restaurante,84.67
+2025-09-13,mercado,Taxi/Uber,329.82
+2025-09-14,mercado,Restaurante,398.23
+2025-09-15,mercado,Restaurante,40.06
+2025-09-16,saude,Restaurante,354.34
+2025-09-17,mercado,Compra,403.6
+2025-09-18,transporte,Mercado,438.42
+2025-09-19,assinaturas,Compra,262.83
+2025-09-20,mercado,Assinatura mensal,150.69
+2025-09-21,alimentacao,Taxi/Uber,148.28
+2025-09-22,saude,Restaurante,173.64
+2025-09-23,assinaturas,Compra,277.64
+2025-09-24,transporte,Farmácia,223.15
+2025-09-25,mercado,Restaurante,295.87
+2025-09-26,transporte,Compra,22.49
+2025-09-27,saude,Farmácia,52.12
+2025-09-28,mercado,Compra,439.56
+2025-09-29,alimentacao,Compra,447.95
+2025-09-30,assinaturas,Restaurante,337.26
+2025-10-01,alimentacao,Compra,119.1
+2025-10-02,mercado,Assinatura mensal,429.25
+2025-10-03,lazer,Farmácia,100.1
+2025-10-04,assinaturas,Taxi/Uber,330.49
+2025-10-05,transporte,Mercado,56.29
+2025-10-06,mercado,Restaurante,293.76
+2025-10-07,alimentacao,Farmácia,342.98
+2025-10-08,saude,Assinatura mensal,387.54
+2025-10-09,lazer,Farmácia,331.77
+2025-10-10,saude,Taxi/Uber,415.95
+2025-10-11,mercado,Restaurante,236.81
+2025-10-12,transporte,Farmácia,306.46
+2025-10-13,alimentacao,Assinatura mensal,169.45
+2025-10-14,assinaturas,Restaurante,9.62
+2025-10-15,lazer,Assinatura mensal,341.73
+2025-10-16,mercado,Restaurante,392.09
+2025-10-17,mercado,Mercado,82.4
+2025-10-18,mercado,Taxi/Uber,17.75
+2025-10-19,mercado,Mercado,78.2
+2025-10-20,alimentacao,Compra,403.4
+2025-10-21,assinaturas,Assinatura mensal,136.5
+2025-10-22,transporte,Mercado,109.0
+2025-10-23,lazer,Assinatura mensal,11.49
+2025-10-24,mercado,Restaurante,137.19
+2025-10-25,saude,Assinatura mensal,323.46
+2025-10-26,mercado,Compra,431.79
+2025-10-27,assinaturas,Assinatura mensal,144.17
+2025-10-28,assinaturas,Restaurante,112.1
+2025-10-29,alimentacao,Restaurante,400.19
+2025-10-30,alimentacao,Mercado,384.36
+2025-10-31,saude,Taxi/Uber,151.03
+2025-11-01,saude,Farmácia,35.62
+2025-11-02,alimentacao,Mercado,446.44
+2025-11-03,lazer,Compra,307.91
+2025-11-04,saude,Farmácia,417.33
+2025-11-05,alimentacao,Assinatura mensal,157.13
+2025-11-06,mercado,Mercado,293.22
+2025-11-07,alimentacao,Farmácia,305.15
+2025-11-08,lazer,Mercado,393.44
+2025-11-09,alimentacao,Assinatura mensal,446.91
+2025-11-10,alimentacao,Restaurante,53.36
+2025-11-11,mercado,Mercado,285.85
+2025-11-12,saude,Compra,154.72
+2025-11-13,mercado,Farmácia,366.19
+2025-11-14,mercado,Farmácia,340.6
+2025-11-15,alimentacao,Farmácia,402.17
+2025-11-16,mercado,Mercado,157.95
+2025-11-17,assinaturas,Assinatura mensal,87.12
+2025-11-18,transporte,Mercado,14.7
+2025-11-19,transporte,Mercado,118.7
+2025-11-20,mercado,Restaurante,168.39
+2025-11-21,saude,Farmácia,426.0
+2025-11-22,lazer,Assinatura mensal,223.66
+2025-11-23,mercado,Taxi/Uber,252.62
+2025-11-24,saude,Assinatura mensal,396.66
+2025-11-25,mercado,Mercado,398.86
+2025-11-26,alimentacao,Compra,239.92
+2025-11-27,saude,Assinatura mensal,55.6
+2025-11-28,lazer,Farmácia,125.38
+2025-11-29,mercado,Compra,208.32
+2025-11-30,assinaturas,Taxi/Uber,339.27
+2025-12-01,saude,Taxi/Uber,321.7
+2025-12-02,transporte,Compra,291.01
+2025-12-03,saude,Taxi/Uber,396.71
+2025-12-04,assinaturas,Compra,362.18
+2025-12-05,assinaturas,Mercado,442.04
+2025-12-06,assinaturas,Compra,400.68
+2025-12-07,lazer,Mercado,92.07
+2025-12-08,lazer,Farmácia,30.64
+2025-12-09,saude,Farmácia,189.46
+2025-12-10,lazer,Taxi/Uber,279.79
+2025-12-11,transporte,Restaurante,291.18
+2025-12-12,alimentacao,Restaurante,124.04
+2025-12-13,saude,Compra,387.65
+2025-12-14,mercado,Mercado,151.51
+2025-12-15,mercado,Farmácia,414.01
+2025-12-16,saude,Farmácia,214.86
+2025-12-17,alimentacao,Farmácia,9.62
+2025-12-18,mercado,Taxi/Uber,77.11
+2025-12-19,saude,Farmácia,50.53
+2025-12-20,saude,Restaurante,24.59
+2025-12-21,assinaturas,Assinatura mensal,322.74
+2025-12-22,transporte,Taxi/Uber,90.58
+2025-12-23,mercado,Compra,378.19
+2025-12-24,transporte,Assinatura mensal,122.69
+2025-12-25,saude,Taxi/Uber,19.39
+2025-12-26,alimentacao,Taxi/Uber,370.2
+2025-12-27,saude,Mercado,212.43
+2025-12-28,mercado,Assinatura mensal,271.78
+2025-12-29,transporte,Assinatura mensal,154.62
+2025-12-30,assinaturas,Restaurante,25.49
+2025-12-31,assinaturas,Assinatura mensal,169.73
+2026-01-01,saude,Farmácia,235.64
+2026-01-02,alimentacao,Restaurante,10.2
+2026-01-03,lazer,Farmácia,260.56
+2026-01-04,mercado,Restaurante,402.4
+2026-01-05,saude,Compra,101.94
+2026-01-06,assinaturas,Restaurante,417.41
+2026-01-07,assinaturas,Compra,48.44
+2026-01-08,alimentacao,Restaurante,372.32
+2026-01-09,assinaturas,Compra,378.94
+2026-01-10,mercado,Farmácia,119.7
+2026-01-11,alimentacao,Restaurante,431.24
+2026-01-12,transporte,Mercado,190.39
+2026-01-13,alimentacao,Restaurante,67.86
+2026-01-14,mercado,Compra,268.31
+2026-01-15,mercado,Taxi/Uber,448.49
+2026-01-16,transporte,Farmácia,405.18
+2026-01-17,saude,Mercado,128.98
+2026-01-18,alimentacao,Taxi/Uber,261.76
+2026-01-19,mercado,Taxi/Uber,56.34
+2026-01-20,mercado,Farmácia,210.52
+2026-01-21,transporte,Restaurante,237.77
+2026-01-22,lazer,Assinatura mensal,145.3
+2026-01-23,alimentacao,Mercado,220.46
+2026-01-24,mercado,Restaurante,414.37
+2026-01-25,assinaturas,Farmácia,227.56
+2026-01-26,transporte,Assinatura mensal,374.79
+2026-01-27,lazer,Farmácia,146.24
+2026-01-28,lazer,Farmácia,437.27
+2026-01-29,transporte,Taxi/Uber,46.59
+2026-01-30,lazer,Restaurante,265.59
+2026-01-31,mercado,Farmácia,356.5
+2026-02-01,lazer,Restaurante,367.25
+2026-02-02,alimentacao,Assinatura mensal,93.24
+2026-02-03,assinaturas,Taxi/Uber,183.73
+2026-02-04,mercado,Assinatura mensal,282.77
+2026-02-05,transporte,Assinatura mensal,145.57
+2026-02-06,assinaturas,Taxi/Uber,297.94
+2026-02-07,saude,Restaurante,173.56
+2026-02-08,mercado,Assinatura mensal,161.14
+2026-02-09,assinaturas,Compra,53.09
+2026-02-10,lazer,Restaurante,22.47
+2026-02-11,saude,Farmácia,376.7
+2026-02-12,transporte,Taxi/Uber,222.85
+2026-02-13,transporte,Taxi/Uber,255.48
+2026-02-14,alimentacao,Restaurante,170.64
+2026-02-15,lazer,Compra,65.85
+2026-02-16,alimentacao,Compra,205.06
+2026-02-17,alimentacao,Compra,106.89
+2026-02-18,lazer,Compra,377.77
+2026-02-19,mercado,Mercado,444.12
+2026-02-20,saude,Taxi/Uber,400.65
+2026-02-21,alimentacao,Assinatura mensal,240.08
+2026-02-22,assinaturas,Taxi/Uber,284.52
+2026-02-23,saude,Taxi/Uber,426.91
+2026-02-24,mercado,Taxi/Uber,244.71
+2026-02-25,lazer,Compra,289.17
+2026-02-26,transporte,Compra,285.01
+2026-02-27,mercado,Mercado,320.11
+2026-02-28,alimentacao,Restaurante,289.93
+2026-03-01,assinaturas,Taxi/Uber,303.46
+2026-03-02,saude,Farmácia,328.02
+2026-03-03,lazer,Restaurante,365.05
+2026-03-04,transporte,Mercado,184.36
+2026-03-05,saude,Compra,336.9
+2026-03-06,assinaturas,Taxi/Uber,49.59
+2026-03-07,transporte,Compra,394.9
+2026-03-08,lazer,Restaurante,134.07
+2026-03-09,saude,Assinatura mensal,184.54
+2026-03-10,mercado,Compra,362.61
+2026-03-11,alimentacao,Compra,288.46
+2026-03-12,lazer,Mercado,142.34
+2026-03-13,assinaturas,Assinatura mensal,105.3
+2026-03-14,mercado,Restaurante,431.18
+2026-03-15,saude,Farmácia,44.06
+2026-03-16,transporte,Farmácia,6.93
+2026-03-17,mercado,Farmácia,304.46
+2026-03-18,mercado,Taxi/Uber,278.44
+2026-03-19,assinaturas,Farmácia,333.24
+2026-03-20,alimentacao,Taxi/Uber,330.58
+2026-03-21,mercado,Restaurante,389.15
+2026-03-22,mercado,Restaurante,415.34
+2026-03-23,alimentacao,Compra,349.89
+2026-03-24,alimentacao,Farmácia,108.37
+2026-03-25,transporte,Mercado,211.26
+2026-03-26,saude,Restaurante,290.56
+2026-03-27,transporte,Assinatura mensal,245.02
+2026-03-28,alimentacao,Assinatura mensal,75.71
+2026-03-29,lazer,Restaurante,267.23
+2026-03-30,alimentacao,Compra,399.51
+2026-03-31,transporte,Assinatura mensal,191.24
+2026-04-01,assinaturas,Assinatura mensal,302.68
+2026-04-02,assinaturas,Compra,279.09
+2026-04-03,saude,Compra,172.78
+2026-04-04,mercado,Compra,256.55
+2026-04-05,assinaturas,Mercado,98.54
+2026-04-06,transporte,Compra,248.02
+2026-04-07,assinaturas,Compra,360.48
+2026-04-08,lazer,Compra,342.73
+2026-04-09,alimentacao,Restaurante,164.29
+2026-04-10,alimentacao,Farmácia,54.88
+2026-04-11,transporte,Restaurante,360.97
+2026-04-12,mercado,Farmácia,122.94
+2026-04-13,alimentacao,Mercado,28.6
+2026-04-14,assinaturas,Mercado,203.11
+2026-04-15,lazer,Assinatura mensal,334.06
+2026-04-16,mercado,Restaurante,364.78
+2026-04-17,mercado,Farmácia,442.08
+2026-04-18,mercado,Mercado,89.29
+2026-04-19,alimentacao,Mercado,135.74
+2026-04-20,saude,Restaurante,276.22
+2026-04-21,mercado,Assinatura mensal,366.05
+2026-04-22,transporte,Compra,109.16
+2026-04-23,assinaturas,Taxi/Uber,187.41
+2026-04-24,saude,Assinatura mensal,186.74
+2026-04-25,lazer,Taxi/Uber,348.96
+2026-04-26,assinaturas,Assinatura mensal,112.21
+2026-04-27,transporte,Assinatura mensal,436.1
+2026-04-28,transporte,Compra,232.16
+2026-04-29,saude,Mercado,130.52
+2026-04-30,assinaturas,Farmácia,131.51
+2026-05-01,alimentacao,Assinatura mensal,13.14
+2026-05-02,transporte,Compra,313.13
+2026-05-03,mercado,Taxi/Uber,350.3
+2026-05-04,lazer,Restaurante,19.43
+2026-05-05,lazer,Restaurante,265.74
+2026-05-06,transporte,Mercado,352.84
+2026-05-07,mercado,Restaurante,172.43
+2026-05-08,assinaturas,Assinatura mensal,197.57
+2026-05-09,lazer,Taxi/Uber,165.92
+2026-05-10,mercado,Assinatura mensal,145.46
+2026-05-11,mercado,Restaurante,223.56
+2026-05-12,alimentacao,Farmácia,78.91
+2026-05-13,transporte,Restaurante,201.11
+2026-05-14,mercado,Farmácia,424.11
+2026-05-15,assinaturas,Restaurante,17.19
+2026-05-16,lazer,Mercado,78.31
+2026-05-17,alimentacao,Taxi/Uber,351.08
+2026-05-18,assinaturas,Farmácia,63.77
+2026-05-19,lazer,Compra,125.72
+2026-05-20,transporte,Mercado,207.4
+2026-05-21,assinaturas,Assinatura mensal,424.71
+2026-05-22,lazer,Restaurante,86.66
+2026-05-23,alimentacao,Taxi/Uber,415.77
+2026-05-24,lazer,Taxi/Uber,324.74
+2026-05-25,mercado,Restaurante,303.66
+2026-05-26,alimentacao,Compra,326.98
+2026-05-27,assinaturas,Farmácia,18.9
+2026-05-28,saude,Restaurante,49.01
+2026-05-29,transporte,Taxi/Uber,154.0
+2026-05-30,alimentacao,Compra,37.92
+2026-05-31,alimentacao,Compra,444.48
+2026-06-01,alimentacao,Assinatura mensal,263.28
+2026-06-02,lazer,Compra,221.87
+2026-06-03,mercado,Mercado,354.55
+2026-06-04,saude,Taxi/Uber,439.75
+2026-06-05,transporte,Mercado,430.03
+2026-06-06,transporte,Compra,357.91
+2026-06-07,mercado,Compra,172.84
+2026-06-08,lazer,Mercado,34.35
+2026-06-09,lazer,Assinatura mensal,48.78
+2026-06-10,mercado,Compra,5.51
+2026-06-11,mercado,Mercado,5.85
+2026-06-12,assinaturas,Mercado,421.71
+2026-06-13,lazer,Taxi/Uber,417.52
+2026-06-14,alimentacao,Assinatura mensal,302.06
+2026-06-15,transporte,Farmácia,328.37
+2026-06-16,lazer,Mercado,233.38
+2026-06-17,mercado,Taxi/Uber,110.84
+2026-06-18,alimentacao,Farmácia,411.9
+2026-06-19,assinaturas,Taxi/Uber,128.57
+2026-06-20,saude,Taxi/Uber,334.15
+2026-06-21,assinaturas,Restaurante,114.22
+2026-06-22,alimentacao,Assinatura mensal,392.22
+2026-06-23,alimentacao,Compra,294.8
+2026-06-24,mercado,Assinatura mensal,291.0
+2026-06-25,saude,Farmácia,48.33
+2026-06-26,mercado,Restaurante,191.66
+2026-06-27,transporte,Assinatura mensal,238.58
+2026-06-28,saude,Compra,135.85
+2026-06-29,saude,Assinatura mensal,397.03
+2026-06-30,transporte,Assinatura mensal,377.76
+2026-07-01,assinaturas,Assinatura mensal,224.66
+2026-07-02,alimentacao,Mercado,156.31
+2026-07-03,assinaturas,Mercado,361.69
+2026-07-04,mercado,Assinatura mensal,92.62
+2026-07-05,lazer,Compra,36.82
+2026-07-06,mercado,Compra,25.34
+2026-07-07,lazer,Compra,22.21
+2026-07-08,alimentacao,Compra,222.56
+2026-07-09,alimentacao,Restaurante,118.61
+2026-07-10,saude,Restaurante,312.22
+2026-07-11,alimentacao,Taxi/Uber,295.98
+2026-07-12,transporte,Assinatura mensal,246.2
+2026-07-13,transporte,Assinatura mensal,162.02
+2026-07-14,lazer,Taxi/Uber,383.45
+2026-07-15,assinaturas,Compra,320.82
+2026-07-16,saude,Farmácia,125.83
+2026-07-17,assinaturas,Farmácia,228.25
+2026-07-18,lazer,Taxi/Uber,74.54
+2026-07-19,transporte,Farmácia,151.31
+2026-07-20,mercado,Mercado,448.73
+2026-07-21,saude,Assinatura mensal,104.61
+2026-07-22,lazer,Farmácia,315.74
+2026-07-23,assinaturas,Restaurante,111.1
+2026-07-24,lazer,Restaurante,422.47
+2026-07-25,lazer,Mercado,143.01
+2026-07-26,alimentacao,Assinatura mensal,159.28
+2026-07-27,transporte,Mercado,269.27
+2026-07-28,saude,Assinatura mensal,266.71
+2026-07-29,alimentacao,Assinatura mensal,262.69
+2026-07-30,transporte,Farmácia,260.1
+2026-07-31,lazer,Restaurante,143.92
+2026-08-01,transporte,Taxi/Uber,198.31
+2026-08-02,assinaturas,Farmácia,269.08
+2026-08-03,saude,Compra,303.72
+2026-08-04,alimentacao,Mercado,117.64
+2026-08-05,saude,Compra,317.16
+2026-08-06,lazer,Assinatura mensal,415.86
+2026-08-07,assinaturas,Farmácia,342.28
+2026-08-08,transporte,Compra,42.48
+2026-08-09,transporte,Compra,213.76
+2026-08-10,assinaturas,Restaurante,198.69
+2026-08-11,transporte,Compra,154.74
+2026-08-12,alimentacao,Restaurante,223.64
+2026-08-13,mercado,Restaurante,200.64
+2026-08-14,transporte,Assinatura mensal,7.75
+2026-08-15,lazer,Restaurante,110.27
+2026-08-16,transporte,Assinatura mensal,100.13
+2026-08-17,saude,Restaurante,160.42
+2026-08-18,lazer,Restaurante,82.63
+2026-08-19,transporte,Assinatura mensal,35.17
+2026-08-20,transporte,Compra,92.49
+2026-08-21,lazer,Mercado,385.11
+2026-08-22,alimentacao,Farmácia,359.68
+2026-08-23,mercado,Farmácia,201.73
+2026-08-24,mercado,Assinatura mensal,395.63
+2026-08-25,alimentacao,Compra,108.54
+2026-08-26,transporte,Mercado,264.97
+2026-08-27,mercado,Taxi/Uber,68.6
+2026-08-28,alimentacao,Assinatura mensal,375.86
+2026-08-29,alimentacao,Taxi/Uber,63.11
+2026-08-30,mercado,Farmácia,19.18
+2026-08-31,lazer,Farmácia,126.68
+2026-09-01,assinaturas,Mercado,405.92
+2026-09-02,lazer,Mercado,62.61
+2026-09-03,transporte,Taxi/Uber,152.15
+2026-09-04,lazer,Farmácia,145.8
+2026-09-05,saude,Mercado,361.73
+2026-09-06,assinaturas,Mercado,192.58
+2026-09-07,assinaturas,Farmácia,277.15
+2026-09-08,alimentacao,Farmácia,184.95
+2026-09-09,saude,Compra,250.4
+2026-09-10,transporte,Restaurante,32.79
+2026-09-11,alimentacao,Mercado,171.44
+2026-09-12,lazer,Taxi/Uber,385.52
+2026-09-13,lazer,Assinatura mensal,312.53
+2026-09-14,mercado,Assinatura mensal,441.91
+2026-09-15,alimentacao,Farmácia,355.62
+2026-09-16,saude,Restaurante,205.92
+2026-09-17,alimentacao,Taxi/Uber,305.94
+2026-09-18,alimentacao,Compra,350.28
+2026-09-19,alimentacao,Mercado,125.01
+2026-09-20,assinaturas,Compra,31.71
+2026-09-21,mercado,Taxi/Uber,185.6
+2026-09-22,transporte,Compra,69.38
+2026-09-23,transporte,Farmácia,128.37
+2026-09-24,transporte,Assinatura mensal,426.35
+2026-09-25,assinaturas,Farmácia,381.95
+2026-09-26,mercado,Mercado,268.65
+2026-09-27,saude,Farmácia,183.56
+2026-09-28,mercado,Taxi/Uber,122.63
+2026-09-29,assinaturas,Taxi/Uber,259.3
+2026-09-30,saude,Mercado,242.26
+2026-10-01,alimentacao,Mercado,352.45
+2026-10-02,lazer,Assinatura mensal,417.97
+2026-10-03,alimentacao,Compra,151.38
+2026-10-04,transporte,Assinatura mensal,96.8
+2026-10-05,alimentacao,Farmácia,184.25
+2026-10-06,assinaturas,Compra,199.71
+2026-10-07,transporte,Mercado,22.74
+2026-10-08,lazer,Taxi/Uber,388.45
+2026-10-09,saude,Farmácia,448.04
+2026-10-10,saude,Assinatura mensal,415.83
+2026-10-11,transporte,Restaurante,388.0
+2026-10-12,alimentacao,Restaurante,446.71
+2026-10-13,mercado,Mercado,408.97
+2026-10-14,mercado,Compra,311.32
+2026-10-15,saude,Restaurante,79.21
+2026-10-16,mercado,Compra,74.58
+2026-10-17,transporte,Taxi/Uber,26.71
+2026-10-18,mercado,Mercado,188.26
+2026-10-19,assinaturas,Mercado,364.93
+2026-10-20,saude,Farmácia,223.18
+2026-10-21,lazer,Farmácia,168.01
+2026-10-22,mercado,Compra,53.61
+2026-10-23,assinaturas,Restaurante,28.03
+2026-10-24,assinaturas,Restaurante,182.63
+2026-10-25,transporte,Assinatura mensal,49.47
+2026-10-26,saude,Compra,51.08
+2026-10-27,transporte,Restaurante,180.93
+2026-10-28,lazer,Farmácia,228.77
+2026-10-29,lazer,Farmácia,88.07
+2026-10-30,alimentacao,Farmácia,309.66
+2026-10-31,lazer,Compra,191.32
+2026-11-01,saude,Mercado,45.91
+2026-11-02,saude,Assinatura mensal,288.48
+2026-11-03,transporte,Assinatura mensal,163.84
+2026-11-04,assinaturas,Farmácia,28.28
+2026-11-05,alimentacao,Taxi/Uber,426.85
+2026-11-06,lazer,Compra,259.18
+2026-11-07,assinaturas,Restaurante,217.59
+2026-11-08,transporte,Restaurante,387.32
+2026-11-09,mercado,Mercado,421.85
+2026-11-10,alimentacao,Farmácia,103.04
+2026-11-11,saude,Taxi/Uber,365.51
+2026-11-12,assinaturas,Farmácia,374.83
+2026-11-13,transporte,Taxi/Uber,29.21
+2026-11-14,transporte,Assinatura mensal,321.82
+2026-11-15,alimentacao,Taxi/Uber,33.02
+2026-11-16,alimentacao,Assinatura mensal,269.63
+2026-11-17,lazer,Assinatura mensal,302.81
+2026-11-18,lazer,Compra,168.34
+2026-11-19,saude,Taxi/Uber,396.95
+2026-11-20,saude,Mercado,361.23
+2026-11-21,alimentacao,Mercado,417.05
+2026-11-22,alimentacao,Taxi/Uber,145.13
+2026-11-23,assinaturas,Compra,14.58
+2026-11-24,lazer,Mercado,366.1
+2026-11-25,transporte,Farmácia,104.22
+2026-11-26,lazer,Mercado,212.88
+2026-11-27,lazer,Compra,368.71
+2026-11-28,alimentacao,Assinatura mensal,101.18
+2026-11-29,alimentacao,Assinatura mensal,143.8
+2026-11-30,lazer,Assinatura mensal,200.39
+2026-12-01,mercado,Compra,125.96
+2026-12-02,mercado,Assinatura mensal,210.29
+2026-12-03,saude,Assinatura mensal,9.27
+2026-12-04,lazer,Compra,99.42
+2026-12-05,mercado,Farmácia,375.49
+2026-12-06,saude,Mercado,189.0
+2026-12-07,saude,Compra,288.2
+2026-12-08,lazer,Compra,108.37
+2026-12-09,saude,Taxi/Uber,294.2
+2026-12-10,alimentacao,Assinatura mensal,449.99
+2026-12-11,alimentacao,Restaurante,269.9
+2026-12-12,alimentacao,Farmácia,284.62
+2026-12-13,transporte,Restaurante,54.63
+2026-12-14,alimentacao,Taxi/Uber,184.5
+2026-12-15,alimentacao,Farmácia,388.02
+2026-12-16,lazer,Assinatura mensal,376.25
+2026-12-17,mercado,Restaurante,237.47
+2026-12-18,mercado,Assinatura mensal,407.04
+2026-12-19,alimentacao,Assinatura mensal,68.61
+2026-12-20,alimentacao,Mercado,297.89
+2026-12-21,alimentacao,Farmácia,115.75
+2026-12-22,saude,Farmácia,292.27
+2026-12-23,lazer,Taxi/Uber,43.89
+2026-12-24,lazer,Compra,424.91
+2026-12-25,lazer,Assinatura mensal,354.92
+2026-12-26,mercado,Assinatura mensal,94.43
+2026-12-27,transporte,Restaurante,288.59
+2026-12-28,mercado,Taxi/Uber,342.82
+2026-12-29,lazer,Farmácia,98.2
+2026-12-30,assinaturas,Mercado,46.53
+2026-12-31,transporte,Farmácia,161.54
+2027-01-01,alimentacao,Mercado,65.41
+2027-01-02,saude,Mercado,256.74
+2027-01-03,mercado,Farmácia,193.73
+2027-01-04,saude,Restaurante,210.78
+2027-01-05,transporte,Assinatura mensal,246.57
+2027-01-06,assinaturas,Mercado,442.01
+2027-01-07,transporte,Restaurante,357.72
+2027-01-08,mercado,Taxi/Uber,285.11
+2027-01-09,lazer,Taxi/Uber,166.85
+2027-01-10,alimentacao,Mercado,17.05
+2027-01-11,lazer,Assinatura mensal,56.85
+2027-01-12,lazer,Mercado,330.24
+2027-01-13,mercado,Taxi/Uber,169.3
+2027-01-14,lazer,Taxi/Uber,153.82
+2027-01-15,lazer,Farmácia,400.6
+2027-01-16,mercado,Assinatura mensal,220.61
+2027-01-17,mercado,Farmácia,405.31
+2027-01-18,assinaturas,Restaurante,399.55
+2027-01-19,lazer,Restaurante,40.68
+2027-01-20,transporte,Restaurante,425.69
+2027-01-21,alimentacao,Compra,39.24
+2027-01-22,saude,Restaurante,433.76
+2027-01-23,alimentacao,Mercado,206.41
+2027-01-24,mercado,Farmácia,343.58
+2027-01-25,saude,Restaurante,319.23
+2027-01-26,mercado,Assinatura mensal,235.73
+2027-01-27,assinaturas,Restaurante,280.66
+2027-01-28,lazer,Mercado,427.71
+2027-01-29,mercado,Mercado,417.67
+2027-01-30,mercado,Mercado,296.18
+2027-01-31,alimentacao,Mercado,297.68
+2027-02-01,lazer,Mercado,114.89
+2027-02-02,assinaturas,Assinatura mensal,373.74
+2027-02-03,mercado,Compra,286.51
+2027-02-04,mercado,Taxi/Uber,372.68
+2027-02-05,mercado,Compra,297.74
+2027-02-06,alimentacao,Taxi/Uber,138.2
+2027-02-07,mercado,Farmácia,89.32
+2027-02-08,mercado,Mercado,39.25
+2027-02-09,alimentacao,Farmácia,265.77
+2027-02-10,mercado,Farmácia,131.4
+2027-02-11,lazer,Taxi/Uber,285.58
+2027-02-12,lazer,Assinatura mensal,31.1
+2027-02-13,alimentacao,Mercado,172.17
+2027-02-14,lazer,Restaurante,120.95
+2027-02-15,saude,Farmácia,169.8
+2027-02-16,saude,Compra,29.16
+2027-02-17,saude,Mercado,327.26
+2027-02-18,assinaturas,Assinatura mensal,56.93
+2027-02-19,mercado,Mercado,11.41
+2027-02-20,assinaturas,Restaurante,426.1
+2027-02-21,lazer,Restaurante,90.83
+2027-02-22,alimentacao,Farmácia,373.49
+2027-02-23,saude,Compra,434.19
+2027-02-24,alimentacao,Farmácia,242.68
+2027-02-25,assinaturas,Assinatura mensal,239.12
+2027-02-26,lazer,Taxi/Uber,168.5
+2027-02-27,mercado,Restaurante,194.39
+2027-02-28,lazer,Compra,219.52
+2027-03-01,saude,Restaurante,72.68
+2027-03-02,lazer,Assinatura mensal,167.31
+2027-03-03,alimentacao,Assinatura mensal,368.17
+2027-03-04,transporte,Restaurante,86.17
+2027-03-05,saude,Farmácia,329.78
+2027-03-06,mercado,Restaurante,294.96
+2027-03-07,saude,Farmácia,30.5
+2027-03-08,saude,Restaurante,14.98
+2027-03-09,mercado,Farmácia,161.88
+2027-03-10,saude,Taxi/Uber,313.02
+2027-03-11,alimentacao,Mercado,152.04
+2027-03-12,lazer,Mercado,302.14
+2027-03-13,alimentacao,Farmácia,301.13
+2027-03-14,lazer,Farmácia,363.92
+2027-03-15,transporte,Taxi/Uber,49.27
+2027-03-16,saude,Mercado,261.82
+2027-03-17,transporte,Taxi/Uber,32.81
+2027-03-18,assinaturas,Assinatura mensal,83.3
+2027-03-19,lazer,Restaurante,149.85
+2027-03-20,alimentacao,Mercado,319.79
+2027-03-21,alimentacao,Farmácia,438.38
+2027-03-22,saude,Compra,157.42
+2027-03-23,alimentacao,Assinatura mensal,236.91
+2027-03-24,assinaturas,Restaurante,120.28
+2027-03-25,mercado,Compra,305.59
+2027-03-26,alimentacao,Taxi/Uber,168.13
+2027-03-27,saude,Restaurante,219.31
+2027-03-28,transporte,Taxi/Uber,257.68
+2027-03-29,alimentacao,Taxi/Uber,310.38
+2027-03-30,alimentacao,Farmácia,31.72
+2027-03-31,alimentacao,Taxi/Uber,251.93
+2027-04-01,saude,Compra,196.87
+2027-04-02,mercado,Assinatura mensal,64.53
+2027-04-03,alimentacao,Farmácia,97.58
+2027-04-04,mercado,Assinatura mensal,398.33
+2027-04-05,mercado,Taxi/Uber,392.94
+2027-04-06,assinaturas,Mercado,19.83
+2027-04-07,transporte,Restaurante,311.78
+2027-04-08,alimentacao,Farmácia,251.61
+2027-04-09,alimentacao,Taxi/Uber,423.22
+2027-04-10,alimentacao,Farmácia,409.06
+2027-04-11,mercado,Mercado,262.91
+2027-04-12,lazer,Compra,66.83
+2027-04-13,transporte,Compra,209.62
+2027-04-14,saude,Restaurante,327.7
+2027-04-15,alimentacao,Compra,428.52
+2027-04-16,lazer,Mercado,166.9
+2027-04-17,lazer,Assinatura mensal,354.18
+2027-04-18,lazer,Mercado,309.09
+2027-04-19,transporte,Mercado,39.84
+2027-04-20,lazer,Taxi/Uber,253.3
+2027-04-21,saude,Compra,86.66
+2027-04-22,alimentacao,Farmácia,309.18
+2027-04-23,saude,Restaurante,276.49
+2027-04-24,alimentacao,Assinatura mensal,438.01
+2027-04-25,assinaturas,Farmácia,421.25
+2027-04-26,mercado,Taxi/Uber,9.17
+2027-04-27,lazer,Taxi/Uber,40.61
+2027-04-28,saude,Assinatura mensal,347.26
+2027-04-29,mercado,Farmácia,310.11
+2027-04-30,mercado,Assinatura mensal,361.42
+2027-05-01,mercado,Assinatura mensal,123.73
+2027-05-02,mercado,Compra,382.95
+2027-05-03,mercado,Farmácia,201.88
+2027-05-04,alimentacao,Compra,121.55
+2027-05-05,transporte,Compra,9.72
+2027-05-06,lazer,Restaurante,392.76
+2027-05-07,lazer,Compra,243.23
+2027-05-08,alimentacao,Mercado,439.05
+2027-05-09,saude,Taxi/Uber,323.03
+2027-05-10,alimentacao,Taxi/Uber,40.79
+2027-05-11,mercado,Mercado,266.75
+2027-05-12,transporte,Assinatura mensal,12.62
+2027-05-13,lazer,Farmácia,253.21
+2027-05-14,saude,Farmácia,160.84
+2027-05-15,assinaturas,Farmácia,291.27
+2027-05-16,alimentacao,Compra,246.0
+2027-05-17,assinaturas,Farmácia,121.3
+2027-05-18,lazer,Farmácia,77.25
+2027-05-19,alimentacao,Farmácia,185.1
+2027-05-20,lazer,Taxi/Uber,444.14
+2027-05-21,alimentacao,Mercado,198.89
+2027-05-22,saude,Restaurante,338.21
+2027-05-23,lazer,Assinatura mensal,30.35
+2027-05-24,assinaturas,Mercado,173.6
+2027-05-25,transporte,Farmácia,263.24
+2027-05-26,saude,Assinatura mensal,339.28
+2027-05-27,saude,Assinatura mensal,240.13
+2027-05-28,alimentacao,Mercado,234.31
+2027-05-29,assinaturas,Mercado,344.94
+2027-05-30,lazer,Mercado,144.41
+2027-05-31,assinaturas,Restaurante,45.32
+2027-06-01,saude,Mercado,159.48
+2027-06-02,alimentacao,Restaurante,75.75
+2027-06-03,assinaturas,Compra,434.85
+2027-06-04,lazer,Taxi/Uber,261.99
+2027-06-05,mercado,Restaurante,203.74
+2027-06-06,saude,Taxi/Uber,410.86
+2027-06-07,transporte,Farmácia,405.66
+2027-06-08,transporte,Compra,189.99
+2027-06-09,saude,Assinatura mensal,394.25
+2027-06-10,mercado,Mercado,33.49
+2027-06-11,alimentacao,Farmácia,399.15
+2027-06-12,assinaturas,Assinatura mensal,143.21
+2027-06-13,assinaturas,Taxi/Uber,256.48
+2027-06-14,mercado,Assinatura mensal,125.01
+2027-06-15,mercado,Mercado,443.24
+2027-06-16,lazer,Mercado,36.94
+2027-06-17,lazer,Restaurante,203.9
+2027-06-18,transporte,Restaurante,281.34
+2027-06-19,alimentacao,Taxi/Uber,278.95
+2027-06-20,alimentacao,Mercado,333.75
+2027-06-21,mercado,Compra,327.36
+2027-06-22,transporte,Farmácia,357.95
+2027-06-23,transporte,Taxi/Uber,109.26
+2027-06-24,lazer,Taxi/Uber,169.88
+2027-06-25,assinaturas,Assinatura mensal,175.0
+2027-06-26,alimentacao,Taxi/Uber,430.35
+2027-06-27,transporte,Farmácia,187.14
+2027-06-28,lazer,Compra,103.73
+2027-06-29,lazer,Assinatura mensal,286.39
+2027-06-30,lazer,Farmácia,195.13
+2027-07-01,assinaturas,Restaurante,116.29
+2027-07-02,transporte,Taxi/Uber,323.24
+2027-07-03,mercado,Mercado,90.41
+2027-07-04,mercado,Restaurante,286.84
+2027-07-05,lazer,Mercado,196.59
+2027-07-06,lazer,Farmácia,147.03
+2027-07-07,assinaturas,Compra,425.96
+2027-07-08,lazer,Mercado,149.36
+2027-07-09,saude,Farmácia,159.64
+2027-07-10,transporte,Assinatura mensal,392.43
+2027-07-11,lazer,Taxi/Uber,62.42
+2027-07-12,lazer,Compra,53.09
+2027-07-13,transporte,Compra,130.8
+2027-07-14,alimentacao,Assinatura mensal,268.28
+2027-07-15,saude,Compra,176.01
+2027-07-16,saude,Farmácia,275.81
+2027-07-17,mercado,Compra,76.09
+2027-07-18,lazer,Compra,121.35
+2027-07-19,transporte,Compra,256.5
+2027-07-20,mercado,Farmácia,101.63
+2027-07-21,assinaturas,Restaurante,193.15
+2027-07-22,alimentacao,Taxi/Uber,259.83
+2027-07-23,lazer,Mercado,438.27
+2027-07-24,alimentacao,Restaurante,40.55
+2027-07-25,lazer,Compra,209.88
+2027-07-26,lazer,Assinatura mensal,181.34
+2027-07-27,lazer,Assinatura mensal,371.79
+2027-07-28,alimentacao,Farmácia,405.63
+2027-07-29,saude,Taxi/Uber,408.62
+2027-07-30,assinaturas,Compra,171.94
+2027-07-31,saude,Farmácia,140.57
+2027-08-01,transporte,Mercado,204.87
+2027-08-02,transporte,Taxi/Uber,158.07
+2027-08-03,saude,Taxi/Uber,324.89
+2027-08-04,assinaturas,Farmácia,100.04
+2027-08-05,assinaturas,Restaurante,298.11
+2027-08-06,lazer,Assinatura mensal,417.51
+2027-08-07,lazer,Restaurante,129.56
+2027-08-08,transporte,Taxi/Uber,306.22
+2027-08-09,lazer,Assinatura mensal,68.88
+2027-08-10,lazer,Taxi/Uber,59.02
+2027-08-11,assinaturas,Taxi/Uber,56.46
+2027-08-12,alimentacao,Taxi/Uber,66.65
+2027-08-13,saude,Mercado,101.19
+2027-08-14,mercado,Assinatura mensal,255.46
+2027-08-15,mercado,Mercado,346.31
+2027-08-16,lazer,Assinatura mensal,61.45
+2027-08-17,lazer,Mercado,392.16
+2027-08-18,saude,Mercado,380.01
+2027-08-19,mercado,Mercado,328.69
+2027-08-20,assinaturas,Farmácia,194.55
+2027-08-21,mercado,Mercado,5.69
+2027-08-22,mercado,Restaurante,331.97
+2027-08-23,mercado,Restaurante,396.15
+2027-08-24,lazer,Taxi/Uber,154.2
+2027-08-25,lazer,Compra,324.5
+2027-08-26,saude,Mercado,32.61
+2027-08-27,mercado,Compra,320.73
+2027-08-28,lazer,Compra,35.4
+2027-08-29,saude,Taxi/Uber,266.3
+2027-08-30,mercado,Compra,270.91
+2027-08-31,assinaturas,Compra,139.46
+2027-09-01,lazer,Restaurante,40.21
+2027-09-02,alimentacao,Compra,427.45
+2027-09-03,saude,Assinatura mensal,243.33
+2027-09-04,lazer,Mercado,262.99
+2027-09-05,assinaturas,Mercado,278.68
+2027-09-06,assinaturas,Compra,401.52
+2027-09-07,lazer,Taxi/Uber,31.81
+2027-09-08,transporte,Assinatura mensal,402.51
+2027-09-09,saude,Taxi/Uber,111.66
+2027-09-10,mercado,Taxi/Uber,39.69
+2027-09-11,mercado,Compra,297.48
+2027-09-12,assinaturas,Farmácia,439.75
+2027-09-13,lazer,Compra,30.47
+2027-09-14,transporte,Restaurante,194.62
+2027-09-15,saude,Farmácia,240.75
+2027-09-16,alimentacao,Assinatura mensal,117.19
+2027-09-17,mercado,Farmácia,442.38
+2027-09-18,saude,Compra,290.23
+2027-09-19,saude,Compra,380.74
+2027-09-20,transporte,Taxi/Uber,190.02
+2027-09-21,saude,Compra,162.51
+2027-09-22,mercado,Restaurante,251.16
+2027-09-23,lazer,Compra,198.7
+2027-09-24,mercado,Mercado,323.15
+2027-09-25,alimentacao,Mercado,123.29
+2027-09-26,lazer,Taxi/Uber,205.07
+2027-09-27,assinaturas,Farmácia,403.33
+2027-09-28,transporte,Farmácia,341.47
+2027-09-29,mercado,Mercado,79.79
+2027-09-30,lazer,Restaurante,399.65
+2027-10-01,saude,Assinatura mensal,267.11
+2027-10-02,lazer,Restaurante,307.28
+2027-10-03,mercado,Mercado,135.94
+2027-10-04,assinaturas,Restaurante,201.49
+2027-10-05,mercado,Assinatura mensal,364.03
+2027-10-06,assinaturas,Farmácia,152.15
+2027-10-07,saude,Mercado,78.45
+2027-10-08,mercado,Compra,173.35
+2027-10-09,lazer,Assinatura mensal,35.8
+2027-10-10,alimentacao,Assinatura mensal,324.45
+2027-10-11,alimentacao,Assinatura mensal,70.75
+2027-10-12,saude,Farmácia,131.88
+2027-10-13,lazer,Restaurante,397.08
+2027-10-14,alimentacao,Taxi/Uber,245.52
+2027-10-15,saude,Compra,148.0
+2027-10-16,assinaturas,Mercado,248.71
+2027-10-17,lazer,Restaurante,102.13
+2027-10-18,assinaturas,Assinatura mensal,16.2
+2027-10-19,lazer,Farmácia,273.66
+2027-10-20,assinaturas,Assinatura mensal,322.79
+2027-10-21,assinaturas,Restaurante,396.5
+2027-10-22,alimentacao,Mercado,348.49
+2027-10-23,lazer,Compra,417.37
+2027-10-24,mercado,Assinatura mensal,443.75
+2027-10-25,alimentacao,Farmácia,336.5
+2027-10-26,assinaturas,Farmácia,391.23
+2027-10-27,assinaturas,Taxi/Uber,304.81
+2027-10-28,mercado,Farmácia,81.07
+2027-10-29,mercado,Taxi/Uber,85.86
+2027-10-30,assinaturas,Compra,54.07
+2027-10-31,mercado,Mercado,424.62
+2027-11-01,transporte,Taxi/Uber,304.37
+2027-11-02,alimentacao,Assinatura mensal,356.51
+2027-11-03,lazer,Restaurante,152.37
+2027-11-04,mercado,Assinatura mensal,209.89
+2027-11-05,mercado,Mercado,22.7
+2027-11-06,transporte,Farmácia,400.61
+2027-11-07,lazer,Restaurante,384.59
+2027-11-08,transporte,Assinatura mensal,354.24
+2027-11-09,lazer,Restaurante,30.94
+2027-11-10,alimentacao,Taxi/Uber,82.54
+2027-11-11,mercado,Mercado,153.71
+2027-11-12,alimentacao,Assinatura mensal,122.06
+2027-11-13,lazer,Farmácia,378.11
+2027-11-14,mercado,Restaurante,91.7
+2027-11-15,transporte,Farmácia,241.8
+2027-11-16,assinaturas,Restaurante,259.26
+2027-11-17,transporte,Assinatura mensal,194.13
+2027-11-18,assinaturas,Mercado,112.11
+2027-11-19,transporte,Compra,432.33
+2027-11-20,lazer,Assinatura mensal,188.96
+2027-11-21,alimentacao,Farmácia,328.65
+2027-11-22,assinaturas,Compra,86.9
+2027-11-23,lazer,Mercado,371.15
+2027-11-24,alimentacao,Farmácia,101.07
+2027-11-25,alimentacao,Mercado,305.51
+2027-11-26,mercado,Restaurante,230.39
+2027-11-27,mercado,Assinatura mensal,70.22
+2027-11-28,mercado,Mercado,16.1
+2027-11-29,assinaturas,Farmácia,419.18
+2027-11-30,assinaturas,Assinatura mensal,60.93
+2027-12-01,alimentacao,Farmácia,318.7
+2027-12-02,assinaturas,Farmácia,295.44
+2027-12-03,alimentacao,Compra,157.07
+2027-12-04,lazer,Taxi/Uber,87.5
+2027-12-05,transporte,Mercado,84.36
+2027-12-06,alimentacao,Mercado,265.47
+2027-12-07,alimentacao,Compra,248.38
+2027-12-08,lazer,Restaurante,394.79
+2027-12-09,mercado,Mercado,289.8
+2027-12-10,saude,Compra,369.58
+2027-12-11,mercado,Mercado,19.42
+2027-12-12,mercado,Mercado,303.59
+2027-12-13,alimentacao,Farmácia,109.0
+2027-12-14,alimentacao,Compra,117.51
+2027-12-15,assinaturas,Restaurante,325.66
+2027-12-16,assinaturas,Mercado,358.08
+2027-12-17,transporte,Restaurante,170.42
+2027-12-18,transporte,Taxi/Uber,356.58
+2027-12-19,saude,Compra,202.47
+2027-12-20,assinaturas,Compra,386.65
+2027-12-21,alimentacao,Compra,16.08
+2027-12-22,lazer,Farmácia,42.16
+2027-12-23,assinaturas,Compra,350.48
+2027-12-24,alimentacao,Farmácia,282.72
+2027-12-25,assinaturas,Taxi/Uber,253.76
+2027-12-26,mercado,Assinatura mensal,278.22
+2027-12-27,assinaturas,Farmácia,418.93
+2027-12-28,saude,Mercado,296.71
+2027-12-29,mercado,Compra,293.13
+2027-12-30,alimentacao,Assinatura mensal,342.96
+2027-12-31,mercado,Farmácia,390.65
+2028-01-01,assinaturas,Restaurante,121.55
+2028-01-02,mercado,Restaurante,279.45
+2028-01-03,saude,Mercado,264.87
+2028-01-04,lazer,Assinatura mensal,65.01
+2028-01-05,mercado,Taxi/Uber,236.54
+2028-01-06,saude,Farmácia,35.95
+2028-01-07,mercado,Restaurante,87.31
+2028-01-08,transporte,Restaurante,411.27
+2028-01-09,lazer,Farmácia,58.06
+2028-01-10,alimentacao,Restaurante,262.62
+2028-01-11,saude,Taxi/Uber,148.95
+2028-01-12,mercado,Restaurante,252.11
+2028-01-13,lazer,Farmácia,109.56
+2028-01-14,alimentacao,Compra,202.75
+2028-01-15,lazer,Restaurante,390.96
+2028-01-16,saude,Farmácia,172.42
+2028-01-17,transporte,Compra,162.1
+2028-01-18,saude,Restaurante,203.52
+2028-01-19,saude,Restaurante,49.72
+2028-01-20,alimentacao,Farmácia,177.37
+2028-01-21,alimentacao,Mercado,8.07
+2028-01-22,mercado,Mercado,229.01
+2028-01-23,assinaturas,Assinatura mensal,382.33
+2028-01-24,saude,Mercado,250.67
+2028-01-25,alimentacao,Taxi/Uber,275.44
+2028-01-26,saude,Assinatura mensal,18.6
+2028-01-27,saude,Mercado,387.48
+2028-01-28,alimentacao,Compra,176.33
+2028-01-29,transporte,Farmácia,438.81
+2028-01-30,transporte,Mercado,58.61
+2028-01-31,saude,Compra,425.38
+2028-02-01,transporte,Assinatura mensal,287.26
+2028-02-02,saude,Farmácia,28.29
+2028-02-03,mercado,Mercado,437.41
+2028-02-04,alimentacao,Assinatura mensal,11.17
+2028-02-05,saude,Mercado,330.16
+2028-02-06,transporte,Assinatura mensal,400.84
+2028-02-07,transporte,Mercado,83.24
+2028-02-08,lazer,Compra,157.79
+2028-02-09,lazer,Taxi/Uber,254.75
+2028-02-10,transporte,Compra,307.52
+2028-02-11,mercado,Farmácia,392.98
+2028-02-12,assinaturas,Mercado,343.68
+2028-02-13,saude,Taxi/Uber,166.68
+2028-02-14,lazer,Taxi/Uber,370.67
+2028-02-15,saude,Farmácia,434.9
+2028-02-16,lazer,Farmácia,106.01
+2028-02-17,alimentacao,Taxi/Uber,37.97
+2028-02-18,alimentacao,Farmácia,194.85
+2028-02-19,transporte,Farmácia,397.22
+2028-02-20,alimentacao,Mercado,71.88
+2028-02-21,alimentacao,Compra,399.18
+2028-02-22,assinaturas,Restaurante,446.53
+2028-02-23,mercado,Assinatura mensal,29.03
+2028-02-24,transporte,Taxi/Uber,225.39
+2028-02-25,assinaturas,Assinatura mensal,151.35
+2028-02-26,transporte,Taxi/Uber,180.19
+2028-02-27,mercado,Taxi/Uber,205.98
+2028-02-28,transporte,Compra,334.17
+2028-02-29,saude,Taxi/Uber,268.13
+2028-03-01,saude,Taxi/Uber,432.73
+2028-03-02,saude,Compra,153.08
+2028-03-03,alimentacao,Farmácia,245.97
+2028-03-04,mercado,Restaurante,366.93
+2028-03-05,assinaturas,Assinatura mensal,171.0
+2028-03-06,assinaturas,Taxi/Uber,212.06
+2028-03-07,lazer,Compra,309.81
+2028-03-08,assinaturas,Taxi/Uber,388.03
+2028-03-09,saude,Compra,189.98
+2028-03-10,saude,Assinatura mensal,241.72
+2028-03-11,lazer,Mercado,438.93
+2028-03-12,alimentacao,Farmácia,23.9
+2028-03-13,assinaturas,Mercado,204.46
+2028-03-14,mercado,Compra,288.01
+2028-03-15,lazer,Taxi/Uber,8.75
+2028-03-16,assinaturas,Farmácia,270.57
+2028-03-17,alimentacao,Assinatura mensal,30.01
+2028-03-18,mercado,Restaurante,386.61
+2028-03-19,mercado,Farmácia,364.15
+2028-03-20,alimentacao,Taxi/Uber,19.35
+2028-03-21,assinaturas,Mercado,26.72
+2028-03-22,transporte,Compra,340.36
+2028-03-23,assinaturas,Mercado,169.45
+2028-03-24,lazer,Farmácia,260.89
+2028-03-25,lazer,Restaurante,125.3
+2028-03-26,assinaturas,Taxi/Uber,81.97
+2028-03-27,saude,Compra,136.75
+2028-03-28,lazer,Taxi/Uber,114.79
+2028-03-29,transporte,Taxi/Uber,204.5
+2028-03-30,saude,Restaurante,337.27
+2028-03-31,transporte,Farmácia,251.59
+2028-04-01,mercado,Mercado,276.08
+2028-04-02,lazer,Taxi/Uber,214.18
+2028-04-03,saude,Taxi/Uber,149.51
+2028-04-04,assinaturas,Taxi/Uber,68.86
+2028-04-05,saude,Compra,162.78
+2028-04-06,mercado,Taxi/Uber,301.01
+2028-04-07,transporte,Taxi/Uber,331.53
+2028-04-08,mercado,Farmácia,213.79
+2028-04-09,alimentacao,Taxi/Uber,292.02
+2028-04-10,lazer,Restaurante,98.69
+2028-04-11,assinaturas,Restaurante,387.73
+2028-04-12,transporte,Taxi/Uber,390.34
+2028-04-13,mercado,Restaurante,147.55
+2028-04-14,assinaturas,Farmácia,248.73
+2028-04-15,lazer,Compra,274.96
+2028-04-16,assinaturas,Restaurante,215.23
+2028-04-17,lazer,Restaurante,410.46
+2028-04-18,lazer,Mercado,334.17
+2028-04-19,lazer,Farmácia,304.27
+2028-04-20,mercado,Restaurante,236.44
+2028-04-21,lazer,Compra,42.76
+2028-04-22,assinaturas,Mercado,52.98
+2028-04-23,alimentacao,Taxi/Uber,138.06
+2028-04-24,assinaturas,Farmácia,99.13
+2028-04-25,mercado,Restaurante,428.88
+2028-04-26,lazer,Taxi/Uber,187.37
+2028-04-27,alimentacao,Farmácia,395.09
+2028-04-28,mercado,Mercado,369.05
+2028-04-29,transporte,Restaurante,366.59
+2028-04-30,transporte,Compra,100.99
+2028-05-01,transporte,Farmácia,204.06
+2028-05-02,alimentacao,Compra,146.49
+2028-05-03,assinaturas,Taxi/Uber,436.83
+2028-05-04,alimentacao,Taxi/Uber,395.15
+2028-05-05,alimentacao,Mercado,116.22
+2028-05-06,alimentacao,Mercado,144.52
+2028-05-07,transporte,Assinatura mensal,240.36
+2028-05-08,saude,Assinatura mensal,128.98
+2028-05-09,assinaturas,Mercado,371.92
+2028-05-10,saude,Restaurante,369.56
+2028-05-11,saude,Taxi/Uber,327.33
+2028-05-12,alimentacao,Compra,311.74
+2028-05-13,assinaturas,Mercado,248.55
+2028-05-14,saude,Restaurante,159.46
+2028-05-15,lazer,Compra,377.44
+2028-05-16,alimentacao,Assinatura mensal,387.18
+2028-05-17,alimentacao,Compra,27.03
+2028-05-18,alimentacao,Mercado,182.39
+2028-05-19,lazer,Taxi/Uber,16.85
+2028-05-20,lazer,Mercado,378.57
+2028-05-21,transporte,Farmácia,83.81
+2028-05-22,mercado,Restaurante,304.87
+2028-05-23,assinaturas,Restaurante,164.03
+2028-05-24,mercado,Restaurante,368.15
+2028-05-25,alimentacao,Farmácia,231.81
+2028-05-26,saude,Farmácia,149.36
+2028-05-27,alimentacao,Taxi/Uber,149.12
+2028-05-28,saude,Restaurante,150.48
+2028-05-29,transporte,Mercado,355.92
+2028-05-30,mercado,Farmácia,321.45
+2028-05-31,alimentacao,Mercado,147.05
+2028-06-01,mercado,Assinatura mensal,223.14
+2028-06-02,transporte,Restaurante,38.89
+2028-06-03,mercado,Farmácia,373.24
+2028-06-04,saude,Farmácia,123.35
+2028-06-05,assinaturas,Taxi/Uber,400.71
+2028-06-06,transporte,Mercado,270.57
+2028-06-07,mercado,Taxi/Uber,257.68
+2028-06-08,alimentacao,Taxi/Uber,77.41
+2028-06-09,lazer,Mercado,35.94
+2028-06-10,lazer,Assinatura mensal,250.91
+2028-06-11,transporte,Mercado,213.26
+2028-06-12,lazer,Assinatura mensal,58.26
+2028-06-13,assinaturas,Taxi/Uber,376.84
+2028-06-14,transporte,Assinatura mensal,190.67
+2028-06-15,alimentacao,Restaurante,120.9
+2028-06-16,alimentacao,Assinatura mensal,355.78
+2028-06-17,transporte,Assinatura mensal,411.31
+2028-06-18,lazer,Farmácia,141.15
+2028-06-19,lazer,Farmácia,350.3
+2028-06-20,alimentacao,Taxi/Uber,295.37
+2028-06-21,assinaturas,Mercado,445.43
+2028-06-22,saude,Assinatura mensal,95.78
+2028-06-23,lazer,Restaurante,432.5
+2028-06-24,assinaturas,Farmácia,145.3
+2028-06-25,lazer,Mercado,188.32
+2028-06-26,saude,Restaurante,164.68
+2028-06-27,transporte,Assinatura mensal,124.46
+2028-06-28,mercado,Mercado,313.48
+2028-06-29,alimentacao,Restaurante,267.17
+2028-06-30,transporte,Compra,141.03
+2028-07-01,lazer,Restaurante,63.83
+2028-07-02,saude,Restaurante,146.23
+2028-07-03,alimentacao,Assinatura mensal,174.65
+2028-07-04,mercado,Mercado,174.39
+2028-07-05,mercado,Assinatura mensal,163.98
+2028-07-06,saude,Assinatura mensal,26.68
+2028-07-07,saude,Compra,211.49
+2028-07-08,lazer,Restaurante,377.11
+2028-07-09,alimentacao,Mercado,85.26
+2028-07-10,lazer,Taxi/Uber,69.82
+2028-07-11,mercado,Farmácia,214.97
+2028-07-12,transporte,Assinatura mensal,169.92
+2028-07-13,transporte,Assinatura mensal,254.77
+2028-07-14,assinaturas,Assinatura mensal,426.45
+2028-07-15,mercado,Assinatura mensal,343.59
+2028-07-16,mercado,Farmácia,310.74
+2028-07-17,lazer,Taxi/Uber,190.09
+2028-07-18,assinaturas,Compra,132.88
+2028-07-19,saude,Taxi/Uber,245.42
+2028-07-20,assinaturas,Farmácia,399.02
+2028-07-21,alimentacao,Mercado,395.15
+2028-07-22,lazer,Compra,203.25
+2028-07-23,saude,Compra,114.57
+2028-07-24,saude,Mercado,105.28
+2028-07-25,transporte,Restaurante,20.12
+2028-07-26,alimentacao,Assinatura mensal,379.99
+2028-07-27,assinaturas,Farmácia,122.85
+2028-07-28,transporte,Mercado,164.75
+2028-07-29,mercado,Taxi/Uber,365.1
+2028-07-30,lazer,Taxi/Uber,58.41
+2028-07-31,assinaturas,Restaurante,210.25
+2028-08-01,mercado,Mercado,59.44
+2028-08-02,saude,Farmácia,201.62
+2028-08-03,assinaturas,Restaurante,25.98
+2028-08-04,transporte,Restaurante,235.34
+2028-08-05,alimentacao,Restaurante,359.09
+2028-08-06,transporte,Compra,305.95
+2028-08-07,lazer,Compra,231.58
+2028-08-08,lazer,Assinatura mensal,373.8
+2028-08-09,assinaturas,Farmácia,106.37
+2028-08-10,transporte,Taxi/Uber,374.7
+2028-08-11,alimentacao,Taxi/Uber,127.98
+2028-08-12,saude,Assinatura mensal,166.31
+2028-08-13,lazer,Taxi/Uber,62.15
+2028-08-14,alimentacao,Restaurante,50.28
+2028-08-15,mercado,Assinatura mensal,419.79
+2028-08-16,assinaturas,Assinatura mensal,89.54
+2028-08-17,alimentacao,Mercado,153.32
+2028-08-18,assinaturas,Compra,240.47
+2028-08-19,mercado,Farmácia,159.8
+2028-08-20,alimentacao,Farmácia,392.21
+2028-08-21,alimentacao,Compra,405.82
+2028-08-22,saude,Restaurante,150.07
+2028-08-23,mercado,Farmácia,45.95
+2028-08-24,transporte,Taxi/Uber,98.52
+2028-08-25,alimentacao,Taxi/Uber,216.1
+2028-08-26,saude,Farmácia,133.37
+2028-08-27,alimentacao,Mercado,206.8
+2028-08-28,saude,Farmácia,342.62
+2028-08-29,lazer,Assinatura mensal,192.18
+2028-08-30,transporte,Restaurante,92.66
+2028-08-31,alimentacao,Assinatura mensal,164.3
+2028-09-01,mercado,Compra,335.63
+2028-09-02,assinaturas,Restaurante,193.71
+2028-09-03,mercado,Restaurante,116.04
+2028-09-04,transporte,Taxi/Uber,195.2
+2028-09-05,lazer,Restaurante,207.39
+2028-09-06,lazer,Mercado,136.89
+2028-09-07,lazer,Farmácia,448.08
+2028-09-08,saude,Assinatura mensal,346.59
+2028-09-09,mercado,Taxi/Uber,313.14
+2028-09-10,assinaturas,Taxi/Uber,385.42
+2028-09-11,assinaturas,Mercado,301.56
+2028-09-12,saude,Mercado,356.99
+2028-09-13,alimentacao,Mercado,188.57
+2028-09-14,saude,Mercado,227.67
+2028-09-15,assinaturas,Assinatura mensal,25.91
+2028-09-16,assinaturas,Mercado,129.89
+2028-09-17,alimentacao,Taxi/Uber,168.77
+2028-09-18,mercado,Taxi/Uber,283.33
+2028-09-19,mercado,Restaurante,211.57
+2028-09-20,transporte,Farmácia,275.49
+2028-09-21,mercado,Taxi/Uber,322.43
+2028-09-22,lazer,Taxi/Uber,24.01
+2028-09-23,lazer,Assinatura mensal,119.93
+2028-09-24,transporte,Restaurante,81.05
+2028-09-25,assinaturas,Taxi/Uber,88.42
+2028-09-26,transporte,Compra,228.89
+2028-09-27,alimentacao,Taxi/Uber,334.29
+2028-09-28,transporte,Farmácia,126.39
+2028-09-29,transporte,Farmácia,371.88
+2028-09-30,saude,Restaurante,402.14
+2028-10-01,lazer,Restaurante,160.99
+2028-10-02,alimentacao,Mercado,308.2
+2028-10-03,saude,Assinatura mensal,57.09
+2028-10-04,alimentacao,Farmácia,336.09
+2028-10-05,transporte,Compra,78.44
+2028-10-06,saude,Compra,310.9
+2028-10-07,saude,Mercado,192.75
+2028-10-08,alimentacao,Assinatura mensal,418.16
+2028-10-09,alimentacao,Assinatura mensal,211.68
+2028-10-10,mercado,Restaurante,18.75
+2028-10-11,alimentacao,Taxi/Uber,218.9
+2028-10-12,saude,Compra,359.0
+2028-10-13,assinaturas,Compra,292.95
+2028-10-14,alimentacao,Compra,435.01
+2028-10-15,lazer,Compra,380.26
+2028-10-16,mercado,Farmácia,239.32
+2028-10-17,lazer,Assinatura mensal,96.9
+2028-10-18,lazer,Taxi/Uber,6.68
+2028-10-19,assinaturas,Farmácia,441.32
+2028-10-20,mercado,Assinatura mensal,422.55
+2028-10-21,transporte,Mercado,126.99
+2028-10-22,saude,Compra,289.01
+2028-10-23,saude,Taxi/Uber,329.51
+2028-10-24,alimentacao,Assinatura mensal,262.22
+2028-10-25,saude,Mercado,380.12
+2028-10-26,assinaturas,Compra,39.63
+2028-10-27,saude,Mercado,403.94
+2028-10-28,assinaturas,Mercado,179.45
+2028-10-29,transporte,Farmácia,218.91
+2028-10-30,assinaturas,Mercado,202.91
+2028-10-31,transporte,Farmácia,241.42
+2028-11-01,transporte,Restaurante,271.18
+2028-11-02,transporte,Farmácia,321.1
+2028-11-03,assinaturas,Mercado,238.6
+2028-11-04,transporte,Assinatura mensal,309.72
+2028-11-05,assinaturas,Mercado,155.54
+2028-11-06,mercado,Mercado,421.82
+2028-11-07,transporte,Assinatura mensal,33.72
+2028-11-08,assinaturas,Compra,247.77
+2028-11-09,assinaturas,Taxi/Uber,43.89
+2028-11-10,assinaturas,Restaurante,202.03
+2028-11-11,alimentacao,Compra,119.62
+2028-11-12,alimentacao,Mercado,421.92
+2028-11-13,transporte,Compra,10.82
+2028-11-14,saude,Taxi/Uber,179.09
+2028-11-15,mercado,Compra,353.01
+2028-11-16,saude,Taxi/Uber,88.87
+2028-11-17,transporte,Compra,367.94
+2028-11-18,lazer,Farmácia,387.58
+2028-11-19,lazer,Mercado,320.06
+2028-11-20,mercado,Taxi/Uber,98.04
+2028-11-21,mercado,Restaurante,126.06
+2028-11-22,mercado,Mercado,79.29
+2028-11-23,alimentacao,Farmácia,86.91
+2028-11-24,alimentacao,Compra,21.24
+2028-11-25,lazer,Mercado,386.51
+2028-11-26,mercado,Compra,240.18
+2028-11-27,assinaturas,Compra,150.85
+2028-11-28,saude,Mercado,133.86
+2028-11-29,lazer,Taxi/Uber,247.39
+2028-11-30,mercado,Taxi/Uber,150.37
+2028-12-01,assinaturas,Mercado,389.35
+2028-12-02,mercado,Taxi/Uber,98.88
+2028-12-03,transporte,Assinatura mensal,397.62
+2028-12-04,assinaturas,Compra,300.52
+2028-12-05,saude,Mercado,430.7
+2028-12-06,transporte,Restaurante,11.72
+2028-12-07,alimentacao,Farmácia,31.3
+2028-12-08,lazer,Mercado,227.9
+2028-12-09,mercado,Mercado,411.01
+2028-12-10,lazer,Compra,330.2
+2028-12-11,saude,Farmácia,281.85
+2028-12-12,mercado,Compra,19.06
+2028-12-13,transporte,Restaurante,162.6
+2028-12-14,assinaturas,Taxi/Uber,158.9
+2028-12-15,assinaturas,Mercado,246.23
+2028-12-16,mercado,Compra,119.73
+2028-12-17,transporte,Restaurante,123.88
+2028-12-18,mercado,Restaurante,281.28
+2028-12-19,mercado,Assinatura mensal,425.33
+2028-12-20,mercado,Mercado,298.78
+2028-12-21,assinaturas,Restaurante,302.32
+2028-12-22,saude,Taxi/Uber,443.87
+2028-12-23,mercado,Compra,73.3
+2028-12-24,assinaturas,Compra,20.06
+2028-12-25,alimentacao,Assinatura mensal,336.75
+2028-12-26,transporte,Taxi/Uber,200.26
+2028-12-27,alimentacao,Restaurante,195.83
+2028-12-28,mercado,Assinatura mensal,105.26
+2028-12-29,assinaturas,Restaurante,230.55
+2028-12-30,transporte,Restaurante,201.77
+2028-12-31,lazer,Mercado,158.73
+2029-01-01,transporte,Farmácia,202.02
+2029-01-02,transporte,Restaurante,175.81
+2029-01-03,mercado,Compra,423.25
+2029-01-04,alimentacao,Restaurante,441.21
+2029-01-05,alimentacao,Assinatura mensal,378.76
+2029-01-06,lazer,Restaurante,445.73
+2029-01-07,mercado,Compra,123.25
+2029-01-08,transporte,Compra,380.1
+2029-01-09,saude,Assinatura mensal,185.95
+2029-01-10,alimentacao,Compra,337.03
+2029-01-11,alimentacao,Taxi/Uber,94.62
+2029-01-12,assinaturas,Taxi/Uber,366.32
+2029-01-13,transporte,Farmácia,42.14
+2029-01-14,mercado,Taxi/Uber,125.4
+2029-01-15,alimentacao,Assinatura mensal,370.77
+2029-01-16,mercado,Restaurante,337.49
+2029-01-17,transporte,Taxi/Uber,228.05
+2029-01-18,transporte,Farmácia,304.39
+2029-01-19,alimentacao,Mercado,87.58
+2029-01-20,lazer,Mercado,302.15
+2029-01-21,mercado,Assinatura mensal,8.55
+2029-01-22,mercado,Farmácia,375.78
+2029-01-23,assinaturas,Taxi/Uber,234.75
+2029-01-24,transporte,Farmácia,425.03
+2029-01-25,transporte,Compra,217.78
+2029-01-26,alimentacao,Farmácia,197.72
+2029-01-27,alimentacao,Taxi/Uber,205.27
+2029-01-28,alimentacao,Assinatura mensal,165.08
+2029-01-29,assinaturas,Compra,79.17
+2029-01-30,lazer,Farmácia,379.72
+2029-01-31,alimentacao,Mercado,178.14
+2029-02-01,alimentacao,Taxi/Uber,240.45
+2029-02-02,saude,Assinatura mensal,13.85
+2029-02-03,alimentacao,Restaurante,31.81
+2029-02-04,assinaturas,Taxi/Uber,270.75
+2029-02-05,mercado,Farmácia,396.26
+2029-02-06,lazer,Assinatura mensal,224.56
+2029-02-07,mercado,Mercado,78.41
+2029-02-08,saude,Compra,56.68
+2029-02-09,transporte,Farmácia,405.41
+2029-02-10,transporte,Assinatura mensal,317.23
+2029-02-11,alimentacao,Compra,434.96
+2029-02-12,saude,Assinatura mensal,41.65
+2029-02-13,mercado,Restaurante,406.66
+2029-02-14,assinaturas,Farmácia,381.31
+2029-02-15,lazer,Assinatura mensal,402.47
+2029-02-16,mercado,Mercado,7.56
+2029-02-17,saude,Assinatura mensal,335.15
+2029-02-18,saude,Farmácia,249.28
+2029-02-19,mercado,Assinatura mensal,260.06
+2029-02-20,lazer,Compra,213.79
+2029-02-21,mercado,Compra,335.49
+2029-02-22,mercado,Restaurante,449.93
+2029-02-23,lazer,Taxi/Uber,321.19
+2029-02-24,assinaturas,Restaurante,306.73
+2029-02-25,saude,Taxi/Uber,296.22
+2029-02-26,lazer,Mercado,314.37
+2029-02-27,alimentacao,Compra,157.24
+2029-02-28,alimentacao,Taxi/Uber,147.5
+2029-03-01,alimentacao,Assinatura mensal,354.03
+2029-03-02,alimentacao,Mercado,28.62
+2029-03-03,transporte,Farmácia,342.87
+2029-03-04,assinaturas,Taxi/Uber,367.16
+2029-03-05,transporte,Restaurante,237.11
+2029-03-06,mercado,Taxi/Uber,410.02
+2029-03-07,mercado,Restaurante,215.52
+2029-03-08,lazer,Restaurante,84.25
+2029-03-09,alimentacao,Compra,165.82
+2029-03-10,lazer,Mercado,408.11
+2029-03-11,mercado,Restaurante,447.21
+2029-03-12,alimentacao,Compra,192.73
+2029-03-13,saude,Compra,79.25
+2029-03-14,assinaturas,Restaurante,132.42
+2029-03-15,mercado,Mercado,251.22
+2029-03-16,saude,Assinatura mensal,259.58
+2029-03-17,lazer,Taxi/Uber,285.38
+2029-03-18,saude,Compra,376.73
+2029-03-19,lazer,Taxi/Uber,321.49
+2029-03-20,mercado,Mercado,121.07
+2029-03-21,transporte,Assinatura mensal,180.79
+2029-03-22,assinaturas,Farmácia,378.72
+2029-03-23,saude,Assinatura mensal,286.86
+2029-03-24,saude,Mercado,79.06
+2029-03-25,mercado,Assinatura mensal,149.86
+2029-03-26,mercado,Farmácia,357.04
+2029-03-27,lazer,Compra,81.58
+2029-03-28,alimentacao,Assinatura mensal,312.52
+2029-03-29,alimentacao,Restaurante,255.77
+2029-03-30,alimentacao,Restaurante,70.63
+2029-03-31,lazer,Mercado,311.55
+2029-04-01,alimentacao,Assinatura mensal,68.35
+2029-04-02,mercado,Farmácia,182.3
+2029-04-03,transporte,Mercado,142.31
+2029-04-04,transporte,Assinatura mensal,312.05
+2029-04-05,transporte,Mercado,353.15
+2029-04-06,alimentacao,Restaurante,79.9
+2029-04-07,transporte,Farmácia,366.34
+2029-04-08,saude,Compra,8.21
+2029-04-09,alimentacao,Farmácia,240.88
+2029-04-10,saude,Compra,234.97
+2029-04-11,mercado,Taxi/Uber,282.6
+2029-04-12,saude,Restaurante,111.67
+2029-04-13,mercado,Restaurante,9.39
+2029-04-14,lazer,Restaurante,207.37
+2029-04-15,lazer,Farmácia,36.78
+2029-04-16,saude,Compra,402.03
+2029-04-17,assinaturas,Taxi/Uber,82.28
+2029-04-18,mercado,Taxi/Uber,194.23
+2029-04-19,alimentacao,Taxi/Uber,198.13
+2029-04-20,assinaturas,Mercado,251.02
+2029-04-21,mercado,Farmácia,353.23
+2029-04-22,alimentacao,Farmácia,215.11
+2029-04-23,mercado,Restaurante,16.46
+2029-04-24,mercado,Farmácia,348.14
+2029-04-25,alimentacao,Farmácia,41.57
+2029-04-26,mercado,Mercado,290.49
+2029-04-27,mercado,Farmácia,362.53
+2029-04-28,mercado,Compra,130.8
+2029-04-29,lazer,Taxi/Uber,204.85
+2029-04-30,transporte,Mercado,11.38
+2029-05-01,mercado,Mercado,362.72
+2029-05-02,alimentacao,Restaurante,317.95
+2029-05-03,saude,Farmácia,107.97
+2029-05-04,mercado,Taxi/Uber,178.65
+2029-05-05,lazer,Compra,314.42
+2029-05-06,lazer,Taxi/Uber,164.38
+2029-05-07,saude,Assinatura mensal,77.27
+2029-05-08,mercado,Taxi/Uber,235.73
+2029-05-09,assinaturas,Compra,326.99
+2029-05-10,saude,Compra,147.76
+2029-05-11,transporte,Compra,59.19
+2029-05-12,alimentacao,Mercado,374.15
+2029-05-13,alimentacao,Mercado,117.5
+2029-05-14,alimentacao,Assinatura mensal,233.2
+2029-05-15,alimentacao,Taxi/Uber,312.65
+2029-05-16,lazer,Farmácia,146.1
+2029-05-17,transporte,Restaurante,293.64
+2029-05-18,mercado,Assinatura mensal,209.57
+2029-05-19,mercado,Farmácia,258.84
+2029-05-20,assinaturas,Farmácia,267.81
+2029-05-21,mercado,Assinatura mensal,371.75
+2029-05-22,transporte,Taxi/Uber,297.07
+2029-05-23,mercado,Restaurante,122.62
+2029-05-24,lazer,Farmácia,31.52
+2029-05-25,saude,Mercado,5.88
+2029-05-26,mercado,Mercado,407.47
+2029-05-27,alimentacao,Assinatura mensal,424.24
+2029-05-28,alimentacao,Restaurante,46.88
+2029-05-29,saude,Restaurante,221.74
+2029-05-30,alimentacao,Farmácia,72.46
+2029-05-31,alimentacao,Assinatura mensal,427.19
+2029-06-01,lazer,Restaurante,114.84
+2029-06-02,lazer,Restaurante,228.23
+2029-06-03,lazer,Mercado,78.7
+2029-06-04,mercado,Assinatura mensal,153.08
+2029-06-05,saude,Farmácia,123.73
+2029-06-06,alimentacao,Farmácia,216.56
+2029-06-07,assinaturas,Mercado,191.8
+2029-06-08,saude,Compra,152.21
+2029-06-09,assinaturas,Compra,52.12
+2029-06-10,alimentacao,Restaurante,220.6
+2029-06-11,transporte,Taxi/Uber,383.34
+2029-06-12,saude,Mercado,329.95
+2029-06-13,mercado,Taxi/Uber,325.66
+2029-06-14,assinaturas,Restaurante,167.91
+2029-06-15,saude,Mercado,320.25
+2029-06-16,saude,Farmácia,212.16
+2029-06-17,lazer,Mercado,71.87
+2029-06-18,transporte,Assinatura mensal,191.48
+2029-06-19,lazer,Taxi/Uber,64.07
+2029-06-20,transporte,Mercado,55.94
+2029-06-21,transporte,Taxi/Uber,15.26
+2029-06-22,mercado,Restaurante,130.87
+2029-06-23,saude,Mercado,152.24
+2029-06-24,lazer,Compra,316.25
+2029-06-25,lazer,Taxi/Uber,244.41
+2029-06-26,assinaturas,Farmácia,387.01
+2029-06-27,saude,Farmácia,83.53
+2029-06-28,alimentacao,Mercado,123.35
+2029-06-29,alimentacao,Farmácia,423.78
+2029-06-30,assinaturas,Farmácia,202.6
+2029-07-01,transporte,Taxi/Uber,356.13
+2029-07-02,assinaturas,Mercado,224.01
+2029-07-03,assinaturas,Taxi/Uber,214.63
+2029-07-04,lazer,Mercado,70.91
+2029-07-05,assinaturas,Farmácia,383.78
+2029-07-06,transporte,Mercado,39.87
+2029-07-07,alimentacao,Restaurante,143.07
+2029-07-08,mercado,Mercado,304.69
+2029-07-09,saude,Assinatura mensal,230.73
+2029-07-10,assinaturas,Mercado,397.21
+2029-07-11,saude,Assinatura mensal,22.49
+2029-07-12,assinaturas,Taxi/Uber,293.99
+2029-07-13,saude,Assinatura mensal,217.47
+2029-07-14,lazer,Taxi/Uber,73.67
+2029-07-15,lazer,Mercado,335.75
+2029-07-16,saude,Taxi/Uber,188.03
+2029-07-17,assinaturas,Farmácia,241.55
+2029-07-18,assinaturas,Restaurante,435.43
+2029-07-19,transporte,Mercado,221.37
+2029-07-20,alimentacao,Assinatura mensal,371.4
+2029-07-21,alimentacao,Restaurante,347.46
+2029-07-22,mercado,Compra,299.93
+2029-07-23,alimentacao,Restaurante,404.08
+2029-07-24,mercado,Mercado,116.96
+2029-07-25,lazer,Restaurante,370.24
+2029-07-26,mercado,Restaurante,173.12
+2029-07-27,mercado,Farmácia,366.56
+2029-07-28,alimentacao,Taxi/Uber,224.74
+2029-07-29,assinaturas,Restaurante,386.68
+2029-07-30,lazer,Assinatura mensal,403.21
+2029-07-31,transporte,Assinatura mensal,270.95
+2029-08-01,mercado,Farmácia,230.89
+2029-08-02,mercado,Restaurante,353.56
+2029-08-03,saude,Restaurante,123.81
+2029-08-04,mercado,Farmácia,11.83
+2029-08-05,assinaturas,Mercado,186.16
+2029-08-06,transporte,Compra,230.96
+2029-08-07,saude,Compra,137.28
+2029-08-08,alimentacao,Taxi/Uber,175.6
+2029-08-09,lazer,Assinatura mensal,64.21
+2029-08-10,assinaturas,Mercado,128.39
+2029-08-11,transporte,Assinatura mensal,111.84
+2029-08-12,lazer,Mercado,138.94
+2029-08-13,alimentacao,Farmácia,138.08
+2029-08-14,lazer,Taxi/Uber,253.74
+2029-08-15,saude,Farmácia,116.52
+2029-08-16,mercado,Assinatura mensal,423.73
+2029-08-17,mercado,Taxi/Uber,232.52
+2029-08-18,assinaturas,Restaurante,62.39
+2029-08-19,lazer,Mercado,129.42
+2029-08-20,mercado,Mercado,329.74
+2029-08-21,assinaturas,Taxi/Uber,11.08
+2029-08-22,assinaturas,Farmácia,422.33
+2029-08-23,saude,Taxi/Uber,203.1
+2029-08-24,assinaturas,Farmácia,236.88
+2029-08-25,alimentacao,Taxi/Uber,444.84
+2029-08-26,mercado,Farmácia,229.01
+2029-08-27,mercado,Compra,426.75
+2029-08-28,transporte,Taxi/Uber,412.28
+2029-08-29,alimentacao,Farmácia,423.89
+2029-08-30,mercado,Restaurante,366.51
+2029-08-31,saude,Assinatura mensal,136.9
+2029-09-01,mercado,Assinatura mensal,159.14
+2029-09-02,transporte,Taxi/Uber,167.42
+2029-09-03,lazer,Taxi/Uber,440.74
+2029-09-04,lazer,Mercado,165.54
+2029-09-05,alimentacao,Farmácia,53.37
+2029-09-06,assinaturas,Taxi/Uber,351.36
+2029-09-07,transporte,Assinatura mensal,167.9
+2029-09-08,transporte,Assinatura mensal,281.32
+2029-09-09,mercado,Assinatura mensal,416.34
+2029-09-10,saude,Farmácia,261.1
+2029-09-11,mercado,Compra,288.78
+2029-09-12,saude,Taxi/Uber,291.07
+2029-09-13,transporte,Compra,277.52
+2029-09-14,assinaturas,Farmácia,76.1
+2029-09-15,lazer,Restaurante,208.1
+2029-09-16,alimentacao,Taxi/Uber,8.41
+2029-09-17,saude,Mercado,283.69
+2029-09-18,lazer,Taxi/Uber,261.03
+2029-09-19,alimentacao,Taxi/Uber,146.57
+2029-09-20,assinaturas,Taxi/Uber,238.13
+2029-09-21,transporte,Taxi/Uber,224.41
+2029-09-22,assinaturas,Restaurante,116.66
+2029-09-23,saude,Taxi/Uber,135.51
+2029-09-24,transporte,Farmácia,344.33
+2029-09-25,mercado,Taxi/Uber,341.3
+2029-09-26,alimentacao,Restaurante,214.05
+2029-09-27,mercado,Farmácia,324.29
+2029-09-28,transporte,Taxi/Uber,205.61
+2029-09-29,alimentacao,Taxi/Uber,383.86
+2029-09-30,alimentacao,Farmácia,153.1
+2029-10-01,mercado,Taxi/Uber,417.65
+2029-10-02,alimentacao,Restaurante,246.32
+2029-10-03,transporte,Assinatura mensal,243.38
+2029-10-04,saude,Taxi/Uber,303.51
+2029-10-05,saude,Mercado,156.68
+2029-10-06,transporte,Farmácia,327.33
+2029-10-07,mercado,Restaurante,147.59
+2029-10-08,assinaturas,Taxi/Uber,181.9
+2029-10-09,transporte,Taxi/Uber,305.24
+2029-10-10,saude,Farmácia,173.41
+2029-10-11,transporte,Compra,93.99
+2029-10-12,alimentacao,Restaurante,393.0
+2029-10-13,alimentacao,Restaurante,415.36
+2029-10-14,transporte,Assinatura mensal,283.9
+2029-10-15,mercado,Assinatura mensal,365.96
+2029-10-16,assinaturas,Taxi/Uber,444.06
+2029-10-17,alimentacao,Farmácia,278.57
+2029-10-18,saude,Mercado,409.41
+2029-10-19,alimentacao,Taxi/Uber,164.87
+2029-10-20,saude,Assinatura mensal,316.71
+2029-10-21,assinaturas,Taxi/Uber,29.83
+2029-10-22,alimentacao,Farmácia,356.09
+2029-10-23,mercado,Restaurante,374.26
+2029-10-24,saude,Restaurante,183.52
+2029-10-25,alimentacao,Restaurante,289.33
+2029-10-26,alimentacao,Restaurante,386.97
+2029-10-27,transporte,Mercado,398.21
+2029-10-28,mercado,Compra,52.41
+2029-10-29,mercado,Mercado,373.23
+2029-10-30,transporte,Taxi/Uber,127.04
+2029-10-31,saude,Assinatura mensal,328.65
+2029-11-01,lazer,Farmácia,149.7
+2029-11-02,assinaturas,Taxi/Uber,30.07
+2029-11-03,mercado,Compra,98.39
+2029-11-04,lazer,Farmácia,186.86
+2029-11-05,saude,Farmácia,334.85
+2029-11-06,assinaturas,Farmácia,49.81
+2029-11-07,mercado,Taxi/Uber,366.76
+2029-11-08,alimentacao,Compra,448.64
+2029-11-09,mercado,Taxi/Uber,355.77
+2029-11-10,assinaturas,Farmácia,215.81
+2029-11-11,lazer,Farmácia,257.83
+2029-11-12,alimentacao,Assinatura mensal,7.74
+2029-11-13,assinaturas,Mercado,98.13
+2029-11-14,saude,Taxi/Uber,405.05
+2029-11-15,assinaturas,Compra,14.67
+2029-11-16,mercado,Farmácia,407.63
+2029-11-17,saude,Taxi/Uber,55.4
+2029-11-18,transporte,Mercado,64.22
+2029-11-19,transporte,Taxi/Uber,83.03
+2029-11-20,alimentacao,Mercado,360.73
+2029-11-21,assinaturas,Taxi/Uber,217.79
+2029-11-22,lazer,Assinatura mensal,69.61
+2029-11-23,alimentacao,Taxi/Uber,310.63
+2029-11-24,saude,Restaurante,423.61
+2029-11-25,alimentacao,Assinatura mensal,259.74
+2029-11-26,mercado,Mercado,48.92
+2029-11-27,saude,Farmácia,29.36
+2029-11-28,lazer,Farmácia,359.16
+2029-11-29,assinaturas,Taxi/Uber,283.61
+2029-11-30,saude,Compra,415.58
+2029-12-01,assinaturas,Taxi/Uber,248.53
+2029-12-02,assinaturas,Assinatura mensal,32.77
+2029-12-03,alimentacao,Assinatura mensal,184.64
+2029-12-04,mercado,Mercado,297.81
+2029-12-05,alimentacao,Taxi/Uber,176.27
+2029-12-06,transporte,Mercado,449.82
+2029-12-07,transporte,Compra,185.39
+2029-12-08,assinaturas,Farmácia,248.08
+2029-12-09,mercado,Farmácia,105.3
+2029-12-10,saude,Taxi/Uber,72.7
+2029-12-11,assinaturas,Mercado,292.16
+2029-12-12,saude,Mercado,266.93
+2029-12-13,assinaturas,Compra,6.93
+2029-12-14,alimentacao,Mercado,131.73
+2029-12-15,assinaturas,Restaurante,291.39
+2029-12-16,assinaturas,Restaurante,366.45
+2029-12-17,mercado,Assinatura mensal,144.0
+2029-12-18,mercado,Restaurante,293.11
+2029-12-19,saude,Restaurante,123.04
+2029-12-20,mercado,Assinatura mensal,312.22
+2029-12-21,assinaturas,Restaurante,315.59
+2029-12-22,mercado,Restaurante,62.95
+2029-12-23,mercado,Assinatura mensal,300.96
+2029-12-24,lazer,Taxi/Uber,153.44
+2029-12-25,lazer,Assinatura mensal,81.8
+2029-12-26,transporte,Assinatura mensal,227.66
+2029-12-27,alimentacao,Restaurante,206.27
+2029-12-28,alimentacao,Farmácia,349.37
+2029-12-29,mercado,Restaurante,42.61
+2029-12-30,transporte,Taxi/Uber,356.44
+2029-12-31,transporte,Assinatura mensal,52.21
+2030-01-01,saude,Compra,97.32
+2030-01-02,lazer,Assinatura mensal,234.57
+2030-01-03,transporte,Taxi/Uber,211.11
+2030-01-04,assinaturas,Mercado,445.04
+2030-01-05,saude,Restaurante,267.32
+2030-01-06,mercado,Farmácia,150.71
+2030-01-07,assinaturas,Farmácia,405.57
+2030-01-08,alimentacao,Restaurante,143.94
+2030-01-09,lazer,Restaurante,126.83
+2030-01-10,assinaturas,Taxi/Uber,225.0
+2030-01-11,mercado,Assinatura mensal,411.36
+2030-01-12,assinaturas,Compra,320.29
+2030-01-13,assinaturas,Assinatura mensal,306.48
+2030-01-14,transporte,Assinatura mensal,328.1
+2030-01-15,lazer,Compra,298.54
+2030-01-16,alimentacao,Farmácia,343.11
+2030-01-17,mercado,Assinatura mensal,90.78
+2030-01-18,saude,Mercado,83.88
+2030-01-19,saude,Mercado,166.16
+2030-01-20,mercado,Taxi/Uber,383.68
+2030-01-21,alimentacao,Taxi/Uber,322.93
+2030-01-22,mercado,Compra,257.08
+2030-01-23,transporte,Compra,13.65
+2030-01-24,saude,Taxi/Uber,109.93
+2030-01-25,saude,Restaurante,362.56
+2030-01-26,assinaturas,Assinatura mensal,112.91
+2030-01-27,transporte,Restaurante,329.98
+2030-01-28,saude,Farmácia,87.16
+2030-01-29,transporte,Mercado,274.83
+2030-01-30,transporte,Compra,284.55
+2030-01-31,alimentacao,Taxi/Uber,339.62
+2030-02-01,saude,Mercado,200.06
+2030-02-02,lazer,Restaurante,286.54
+2030-02-03,alimentacao,Compra,221.7
+2030-02-04,alimentacao,Compra,426.57
+2030-02-05,transporte,Assinatura mensal,237.24
+2030-02-06,lazer,Compra,98.27
+2030-02-07,alimentacao,Farmácia,302.21
+2030-02-08,lazer,Compra,249.07
+2030-02-09,saude,Farmácia,362.7
+2030-02-10,transporte,Restaurante,83.73
+2030-02-11,alimentacao,Assinatura mensal,121.12
+2030-02-12,lazer,Farmácia,415.12
+2030-02-13,mercado,Restaurante,418.86
+2030-02-14,alimentacao,Mercado,201.8
+2030-02-15,alimentacao,Compra,26.25
+2030-02-16,alimentacao,Taxi/Uber,141.42
+2030-02-17,lazer,Taxi/Uber,114.97
+2030-02-18,assinaturas,Farmácia,189.53
+2030-02-19,saude,Assinatura mensal,146.42
+2030-02-20,alimentacao,Farmácia,373.9
+2030-02-21,mercado,Restaurante,6.35
+2030-02-22,mercado,Restaurante,291.86
+2030-02-23,transporte,Farmácia,300.6
+2030-02-24,assinaturas,Farmácia,298.98
+2030-02-25,assinaturas,Mercado,236.66
+2030-02-26,lazer,Restaurante,276.94
+2030-02-27,transporte,Mercado,365.67
+2030-02-28,lazer,Farmácia,353.97
+2030-03-01,transporte,Assinatura mensal,20.41
+2030-03-02,saude,Compra,18.54
+2030-03-03,assinaturas,Restaurante,378.33
+2030-03-04,saude,Taxi/Uber,260.75
+2030-03-05,lazer,Mercado,431.06
+2030-03-06,transporte,Restaurante,197.06
+2030-03-07,assinaturas,Compra,83.65
+2030-03-08,assinaturas,Mercado,215.59
+2030-03-09,alimentacao,Restaurante,199.26
+2030-03-10,lazer,Mercado,235.14
+2030-03-11,alimentacao,Mercado,364.54
+2030-03-12,assinaturas,Farmácia,296.73
+2030-03-13,lazer,Farmácia,87.45
+2030-03-14,lazer,Mercado,331.84
+2030-03-15,saude,Mercado,268.39
+2030-03-16,mercado,Taxi/Uber,262.35
+2030-03-17,transporte,Compra,306.82
+2030-03-18,mercado,Compra,255.96
+2030-03-19,mercado,Assinatura mensal,208.59
+2030-03-20,assinaturas,Assinatura mensal,289.97
+2030-03-21,saude,Assinatura mensal,327.06
+2030-03-22,transporte,Farmácia,105.47
+2030-03-23,mercado,Farmácia,226.19
+2030-03-24,mercado,Taxi/Uber,208.89
+2030-03-25,lazer,Farmácia,22.76
+2030-03-26,assinaturas,Assinatura mensal,376.33
+2030-03-27,mercado,Restaurante,172.94
+2030-03-28,transporte,Mercado,37.35
+2030-03-29,alimentacao,Assinatura mensal,208.77
+2030-03-30,alimentacao,Taxi/Uber,76.86
+2030-03-31,assinaturas,Mercado,318.46
+2030-04-01,alimentacao,Farmácia,259.44
+2030-04-02,lazer,Mercado,125.2
+2030-04-03,lazer,Restaurante,427.96
+2030-04-04,transporte,Taxi/Uber,134.83
+2030-04-05,saude,Farmácia,251.97
+2030-04-06,assinaturas,Compra,361.7
+2030-04-07,assinaturas,Assinatura mensal,233.68
+2030-04-08,alimentacao,Restaurante,432.58
+2030-04-09,mercado,Restaurante,380.52
+2030-04-10,mercado,Assinatura mensal,414.85
+2030-04-11,saude,Taxi/Uber,170.85
+2030-04-12,mercado,Taxi/Uber,249.02
+2030-04-13,saude,Restaurante,378.87
+2030-04-14,transporte,Assinatura mensal,407.06
+2030-04-15,assinaturas,Mercado,425.24
+2030-04-16,alimentacao,Compra,396.22
+2030-04-17,transporte,Compra,330.19
+2030-04-18,lazer,Taxi/Uber,15.78
+2030-04-19,lazer,Taxi/Uber,145.15
+2030-04-20,lazer,Mercado,62.38
+2030-04-21,saude,Taxi/Uber,73.87
+2030-04-22,saude,Compra,134.45
+2030-04-23,assinaturas,Assinatura mensal,38.26
+2030-04-24,lazer,Restaurante,113.15
+2030-04-25,saude,Compra,430.86
+2030-04-26,saude,Mercado,143.81
+2030-04-27,mercado,Assinatura mensal,76.07
+2030-04-28,saude,Assinatura mensal,324.64
+2030-04-29,lazer,Restaurante,373.68
+2030-04-30,transporte,Compra,144.75
+2030-05-01,lazer,Assinatura mensal,128.93
+2030-05-02,mercado,Assinatura mensal,112.58
+2030-05-03,lazer,Taxi/Uber,180.0
+2030-05-04,alimentacao,Assinatura mensal,43.82
+2030-05-05,mercado,Mercado,302.76
+2030-05-06,assinaturas,Assinatura mensal,370.89
+2030-05-07,lazer,Taxi/Uber,300.34
+2030-05-08,saude,Farmácia,192.43
+2030-05-09,transporte,Farmácia,133.59
+2030-05-10,lazer,Mercado,187.2
+2030-05-11,transporte,Restaurante,193.61
+2030-05-12,alimentacao,Restaurante,301.38
+2030-05-13,assinaturas,Mercado,417.99
+2030-05-14,saude,Assinatura mensal,36.41
+2030-05-15,mercado,Assinatura mensal,429.24
+2030-05-16,mercado,Farmácia,410.04
+2030-05-17,assinaturas,Farmácia,57.39
+2030-05-18,alimentacao,Compra,86.7
+2030-05-19,alimentacao,Farmácia,143.66
+2030-05-20,lazer,Farmácia,254.05
+2030-05-21,alimentacao,Mercado,64.84
+2030-05-22,lazer,Compra,94.15
+2030-05-23,transporte,Restaurante,406.69
+2030-05-24,assinaturas,Compra,53.64
+2030-05-25,transporte,Assinatura mensal,182.5
+2030-05-26,transporte,Assinatura mensal,344.54
+2030-05-27,transporte,Compra,400.42
+2030-05-28,transporte,Compra,154.54
+2030-05-29,mercado,Assinatura mensal,78.17
+2030-05-30,alimentacao,Mercado,332.97
+2030-05-31,assinaturas,Mercado,348.79
+2030-06-01,assinaturas,Mercado,441.11
+2030-06-02,saude,Mercado,67.1
+2030-06-03,transporte,Assinatura mensal,320.69
+2030-06-04,assinaturas,Taxi/Uber,190.7
+2030-06-05,lazer,Farmácia,412.01
+2030-06-06,assinaturas,Farmácia,186.48
+2030-06-07,transporte,Farmácia,203.45
+2030-06-08,assinaturas,Farmácia,61.42
+2030-06-09,alimentacao,Assinatura mensal,147.82
+2030-06-10,transporte,Taxi/Uber,183.37
+2030-06-11,mercado,Assinatura mensal,12.79
+2030-06-12,alimentacao,Taxi/Uber,199.72
+2030-06-13,assinaturas,Assinatura mensal,154.66
+2030-06-14,mercado,Compra,362.71
+2030-06-15,saude,Taxi/Uber,52.67
+2030-06-16,alimentacao,Farmácia,343.29
+2030-06-17,saude,Taxi/Uber,322.74
+2030-06-18,lazer,Restaurante,112.59
+2030-06-19,alimentacao,Mercado,42.06
+2030-06-20,mercado,Taxi/Uber,379.62
+2030-06-21,saude,Restaurante,116.0
+2030-06-22,lazer,Mercado,69.77
+2030-06-23,saude,Restaurante,164.77
+2030-06-24,assinaturas,Mercado,183.39
+2030-06-25,transporte,Compra,150.11
+2030-06-26,saude,Taxi/Uber,439.53
+2030-06-27,assinaturas,Restaurante,396.97
+2030-06-28,transporte,Compra,393.47
+2030-06-29,transporte,Farmácia,182.45
+2030-06-30,mercado,Taxi/Uber,433.48
+2030-07-01,lazer,Assinatura mensal,309.39
+2030-07-02,lazer,Assinatura mensal,375.24
+2030-07-03,alimentacao,Assinatura mensal,227.89
+2030-07-04,assinaturas,Restaurante,76.47
+2030-07-05,mercado,Restaurante,399.66
+2030-07-06,saude,Mercado,221.46
+2030-07-07,assinaturas,Assinatura mensal,436.01
+2030-07-08,saude,Farmácia,118.41
+2030-07-09,saude,Restaurante,446.61
+2030-07-10,saude,Taxi/Uber,103.98
+2030-07-11,alimentacao,Restaurante,168.83
+2030-07-12,alimentacao,Taxi/Uber,269.34
+2030-07-13,mercado,Restaurante,313.53
+2030-07-14,alimentacao,Mercado,325.53
+2030-07-15,mercado,Mercado,216.93
+2030-07-16,alimentacao,Mercado,39.19
+2030-07-17,lazer,Farmácia,225.74
+2030-07-18,mercado,Restaurante,153.94
+2030-07-19,lazer,Taxi/Uber,297.66
+2030-07-20,lazer,Restaurante,86.11
+2030-07-21,mercado,Compra,180.29
+2030-07-22,assinaturas,Mercado,434.92
+2030-07-23,transporte,Assinatura mensal,44.55
+2030-07-24,alimentacao,Compra,273.04
+2030-07-25,saude,Compra,45.34
+2030-07-26,alimentacao,Mercado,74.86
+2030-07-27,saude,Assinatura mensal,274.2
+2030-07-28,assinaturas,Mercado,202.58
+2030-07-29,transporte,Mercado,249.08
+2030-07-30,assinaturas,Assinatura mensal,396.54
+2030-07-31,transporte,Compra,368.67
+2030-08-01,mercado,Compra,400.15
+2030-08-02,mercado,Restaurante,279.23
+2030-08-03,saude,Assinatura mensal,222.89
+2030-08-04,lazer,Compra,209.34
+2030-08-05,lazer,Farmácia,334.21
+2030-08-06,saude,Mercado,236.98
+2030-08-07,mercado,Farmácia,52.07
+2030-08-08,saude,Farmácia,68.16
+2030-08-09,lazer,Restaurante,163.9
+2030-08-10,saude,Restaurante,35.18
+2030-08-11,mercado,Restaurante,111.46
+2030-08-12,assinaturas,Farmácia,297.1
+2030-08-13,alimentacao,Taxi/Uber,10.53
+2030-08-14,mercado,Taxi/Uber,273.82
+2030-08-15,saude,Farmácia,348.7
+2030-08-16,mercado,Mercado,80.72
+2030-08-17,mercado,Farmácia,85.53
+2030-08-18,lazer,Farmácia,17.84
+2030-08-19,saude,Restaurante,233.04
+2030-08-20,lazer,Restaurante,296.29
+2030-08-21,saude,Restaurante,208.32
+2030-08-22,lazer,Taxi/Uber,178.3
+2030-08-23,lazer,Farmácia,207.21
+2030-08-24,assinaturas,Mercado,352.78
+2030-08-25,mercado,Mercado,19.91
+2030-08-26,assinaturas,Restaurante,353.8
+2030-08-27,lazer,Restaurante,301.52
+2030-08-28,assinaturas,Farmácia,112.43
+2030-08-29,mercado,Mercado,238.51
+2030-08-30,mercado,Farmácia,26.93
+2030-08-31,lazer,Taxi/Uber,173.92
+2030-09-01,mercado,Farmácia,82.45
+2030-09-02,assinaturas,Restaurante,14.92
+2030-09-03,transporte,Compra,163.9
+2030-09-04,mercado,Taxi/Uber,328.12
+2030-09-05,assinaturas,Mercado,414.85
+2030-09-06,assinaturas,Mercado,299.71
+2030-09-07,assinaturas,Restaurante,183.88
+2030-09-08,mercado,Restaurante,449.78
+2030-09-09,transporte,Taxi/Uber,130.91
+2030-09-10,lazer,Restaurante,88.27
+2030-09-11,lazer,Compra,211.34
+2030-09-12,mercado,Taxi/Uber,229.69
+2030-09-13,mercado,Restaurante,162.9
+2030-09-14,alimentacao,Assinatura mensal,314.5
+2030-09-15,saude,Compra,86.82
+2030-09-16,transporte,Taxi/Uber,232.1
+2030-09-17,assinaturas,Assinatura mensal,227.56
+2030-09-18,saude,Farmácia,371.58
+2030-09-19,assinaturas,Compra,417.5
+2030-09-20,saude,Farmácia,300.15
+2030-09-21,lazer,Assinatura mensal,140.89
+2030-09-22,saude,Mercado,311.88
+2030-09-23,mercado,Mercado,116.86
+2030-09-24,transporte,Restaurante,435.11
+2030-09-25,lazer,Mercado,370.95
+2030-09-26,saude,Farmácia,196.88
+2030-09-27,transporte,Compra,354.03
+2030-09-28,mercado,Farmácia,186.85
+2030-09-29,assinaturas,Farmácia,38.2
+2030-09-30,alimentacao,Mercado,319.51
+2030-10-01,transporte,Farmácia,185.05
+2030-10-02,assinaturas,Assinatura mensal,418.99
+2030-10-03,transporte,Taxi/Uber,141.42
+2030-10-04,transporte,Taxi/Uber,380.28
+2030-10-05,transporte,Taxi/Uber,307.79
+2030-10-06,mercado,Restaurante,384.73
+2030-10-07,lazer,Mercado,134.89
+2030-10-08,transporte,Mercado,210.3
+2030-10-09,mercado,Taxi/Uber,371.29
+2030-10-10,alimentacao,Compra,291.5
+2030-10-11,lazer,Restaurante,165.17
+2030-10-12,mercado,Taxi/Uber,232.84
+2030-10-13,alimentacao,Farmácia,448.26
+2030-10-14,lazer,Taxi/Uber,335.12
+2030-10-15,mercado,Taxi/Uber,278.46
+2030-10-16,alimentacao,Compra,373.42
+2030-10-17,mercado,Mercado,201.7
+2030-10-18,alimentacao,Mercado,427.78
+2030-10-19,transporte,Farmácia,250.65
+2030-10-20,transporte,Taxi/Uber,150.46
+2030-10-21,lazer,Assinatura mensal,43.28
+2030-10-22,alimentacao,Farmácia,172.18
+2030-10-23,transporte,Mercado,258.04
+2030-10-24,lazer,Compra,317.95
+2030-10-25,assinaturas,Mercado,394.43
+2030-10-26,transporte,Mercado,425.06
+2030-10-27,transporte,Compra,50.59
+2030-10-28,saude,Taxi/Uber,272.4
+2030-10-29,mercado,Taxi/Uber,301.63
+2030-10-30,assinaturas,Mercado,81.57
+2030-10-31,alimentacao,Farmácia,247.79
+2030-11-01,lazer,Assinatura mensal,154.0
+2030-11-02,assinaturas,Farmácia,39.45
+2030-11-03,alimentacao,Restaurante,34.31
+2030-11-04,transporte,Farmácia,342.85
+2030-11-05,saude,Mercado,278.88
+2030-11-06,lazer,Mercado,323.23
+2030-11-07,lazer,Assinatura mensal,309.95
+2030-11-08,assinaturas,Assinatura mensal,64.77
+2030-11-09,mercado,Assinatura mensal,72.45
+2030-11-10,alimentacao,Mercado,117.36
+2030-11-11,saude,Mercado,182.6
+2030-11-12,saude,Farmácia,422.93
+2030-11-13,assinaturas,Mercado,304.88
+2030-11-14,mercado,Restaurante,118.55
+2030-11-15,mercado,Taxi/Uber,29.91
+2030-11-16,mercado,Taxi/Uber,309.48
+2030-11-17,lazer,Assinatura mensal,283.27
+2030-11-18,alimentacao,Mercado,305.71
+2030-11-19,alimentacao,Restaurante,121.22
+2030-11-20,assinaturas,Taxi/Uber,235.05
+2030-11-21,transporte,Farmácia,165.96
+2030-11-22,assinaturas,Compra,368.88
+2030-11-23,alimentacao,Farmácia,35.88
+2030-11-24,lazer,Compra,127.57
+2030-11-25,assinaturas,Restaurante,273.31
+2030-11-26,transporte,Farmácia,96.32
+2030-11-27,saude,Taxi/Uber,304.36
+2030-11-28,assinaturas,Mercado,65.86
+2030-11-29,mercado,Compra,15.15
+2030-11-30,transporte,Mercado,389.26
+2030-12-01,mercado,Restaurante,153.38
+2030-12-02,lazer,Mercado,74.8
+2030-12-03,alimentacao,Taxi/Uber,81.86
+2030-12-04,assinaturas,Restaurante,399.22
+2030-12-05,assinaturas,Assinatura mensal,296.22
+2030-12-06,mercado,Assinatura mensal,430.57
+2030-12-07,mercado,Compra,361.02
+2030-12-08,alimentacao,Taxi/Uber,346.56
+2030-12-09,assinaturas,Mercado,227.42
+2030-12-10,alimentacao,Farmácia,370.26
+2030-12-11,mercado,Farmácia,188.63
+2030-12-12,saude,Restaurante,373.02
+2030-12-13,mercado,Compra,342.19
+2030-12-14,transporte,Compra,306.91
+2030-12-15,mercado,Compra,151.72
+2030-12-16,mercado,Taxi/Uber,285.67
+2030-12-17,saude,Farmácia,230.52
+2030-12-18,alimentacao,Restaurante,210.39
+2030-12-19,transporte,Taxi/Uber,445.66
+2030-12-20,transporte,Restaurante,229.46
+2030-12-21,assinaturas,Taxi/Uber,19.23
+2030-12-22,saude,Mercado,283.78
+2030-12-23,lazer,Taxi/Uber,328.96
+2030-12-24,assinaturas,Taxi/Uber,398.91
+2030-12-25,assinaturas,Mercado,286.54
+2030-12-26,assinaturas,Assinatura mensal,13.66
+2030-12-27,transporte,Mercado,58.29
+2030-12-28,alimentacao,Compra,76.75
+2030-12-29,mercado,Assinatura mensal,99.01
+2030-12-30,transporte,Farmácia,360.9
+2030-12-31,mercado,Restaurante,142.84
+2031-01-01,mercado,Taxi/Uber,144.0
+2031-01-02,lazer,Assinatura mensal,341.24
+2031-01-03,assinaturas,Farmácia,188.53
+2031-01-04,lazer,Mercado,33.76
+2031-01-05,assinaturas,Mercado,265.38
+2031-01-06,transporte,Compra,62.88
+2031-01-07,mercado,Compra,259.39
+2031-01-08,lazer,Assinatura mensal,351.94
+2031-01-09,saude,Restaurante,418.62
+2031-01-10,transporte,Taxi/Uber,34.84
+2031-01-11,transporte,Mercado,140.27
+2031-01-12,saude,Assinatura mensal,295.35
+2031-01-13,assinaturas,Assinatura mensal,145.38
+2031-01-14,mercado,Restaurante,205.71
+2031-01-15,assinaturas,Assinatura mensal,13.94
+2031-01-16,assinaturas,Compra,313.61
+2031-01-17,transporte,Restaurante,398.06
+2031-01-18,assinaturas,Mercado,439.7
+2031-01-19,alimentacao,Compra,374.59
+2031-01-20,saude,Compra,19.14
+2031-01-21,saude,Restaurante,295.08
+2031-01-22,mercado,Restaurante,225.57
+2031-01-23,saude,Assinatura mensal,422.36
+2031-01-24,assinaturas,Farmácia,406.45
+2031-01-25,assinaturas,Farmácia,444.68
+2031-01-26,lazer,Farmácia,388.56
+2031-01-27,mercado,Assinatura mensal,248.37
+2031-01-28,mercado,Taxi/Uber,323.13
+2031-01-29,saude,Mercado,434.28
+2031-01-30,assinaturas,Assinatura mensal,262.26
+2031-01-31,alimentacao,Assinatura mensal,378.79
+2031-02-01,lazer,Compra,424.28
+2031-02-02,alimentacao,Farmácia,258.89
+2031-02-03,assinaturas,Restaurante,75.82
+2031-02-04,mercado,Assinatura mensal,74.23
+2031-02-05,mercado,Taxi/Uber,56.32
+2031-02-06,alimentacao,Mercado,216.96
+2031-02-07,transporte,Taxi/Uber,218.66
+2031-02-08,assinaturas,Assinatura mensal,279.73
+2031-02-09,mercado,Assinatura mensal,219.88
+2031-02-10,saude,Compra,438.01
+2031-02-11,transporte,Taxi/Uber,134.63
+2031-02-12,mercado,Compra,393.85
+2031-02-13,saude,Restaurante,49.65
+2031-02-14,mercado,Taxi/Uber,272.85
+2031-02-15,transporte,Farmácia,293.5
+2031-02-16,alimentacao,Restaurante,348.64
+2031-02-17,assinaturas,Farmácia,228.84
+2031-02-18,transporte,Taxi/Uber,92.77
+2031-02-19,transporte,Compra,169.2
+2031-02-20,mercado,Farmácia,126.11
+2031-02-21,saude,Assinatura mensal,191.5
+2031-02-22,transporte,Mercado,240.84
+2031-02-23,assinaturas,Compra,283.16
+2031-02-24,alimentacao,Restaurante,381.08
+2031-02-25,saude,Restaurante,409.95
+2031-02-26,alimentacao,Taxi/Uber,210.85
+2031-02-27,alimentacao,Restaurante,44.46
+2031-02-28,assinaturas,Mercado,359.69
+2031-03-01,mercado,Mercado,217.34
+2031-03-02,saude,Assinatura mensal,248.17
+2031-03-03,saude,Restaurante,270.13
+2031-03-04,assinaturas,Compra,302.2
+2031-03-05,saude,Mercado,401.09
+2031-03-06,transporte,Compra,428.71
+2031-03-07,lazer,Assinatura mensal,423.38
+2031-03-08,lazer,Taxi/Uber,365.21
+2031-03-09,lazer,Mercado,400.71
+2031-03-10,alimentacao,Mercado,27.1
+2031-03-11,saude,Mercado,382.86
+2031-03-12,assinaturas,Restaurante,37.16
+2031-03-13,saude,Compra,337.06
+2031-03-14,assinaturas,Mercado,80.37
+2031-03-15,saude,Compra,165.25
+2031-03-16,alimentacao,Restaurante,86.96
+2031-03-17,transporte,Farmácia,202.34
+2031-03-18,lazer,Farmácia,188.23
+2031-03-19,lazer,Compra,26.39
+2031-03-20,saude,Restaurante,374.57
+2031-03-21,alimentacao,Farmácia,385.11
+2031-03-22,lazer,Assinatura mensal,355.44
+2031-03-23,saude,Assinatura mensal,382.18
+2031-03-24,mercado,Farmácia,339.14
+2031-03-25,saude,Taxi/Uber,422.18
+2031-03-26,assinaturas,Compra,261.49
+2031-03-27,lazer,Farmácia,264.28
+2031-03-28,lazer,Compra,387.66
+2031-03-29,mercado,Restaurante,160.49
+2031-03-30,transporte,Farmácia,27.29
+2031-03-31,saude,Assinatura mensal,338.69
+2031-04-01,transporte,Restaurante,118.29
+2031-04-02,saude,Taxi/Uber,216.03
+2031-04-03,mercado,Compra,112.0
+2031-04-04,transporte,Taxi/Uber,373.06
+2031-04-05,alimentacao,Assinatura mensal,431.44
+2031-04-06,mercado,Mercado,29.49
+2031-04-07,saude,Mercado,108.85
+2031-04-08,assinaturas,Compra,89.36
+2031-04-09,assinaturas,Restaurante,304.58
+2031-04-10,assinaturas,Assinatura mensal,195.76
+2031-04-11,saude,Compra,208.04
+2031-04-12,lazer,Restaurante,74.9
+2031-04-13,mercado,Compra,189.56
+2031-04-14,mercado,Compra,139.94
+2031-04-15,transporte,Taxi/Uber,276.98
+2031-04-16,mercado,Farmácia,101.67
+2031-04-17,mercado,Assinatura mensal,278.59
+2031-04-18,transporte,Taxi/Uber,173.1
+2031-04-19,mercado,Restaurante,159.1
+2031-04-20,mercado,Farmácia,140.97
+2031-04-21,alimentacao,Compra,304.86
+2031-04-22,saude,Mercado,255.28
+2031-04-23,transporte,Taxi/Uber,384.02
+2031-04-24,alimentacao,Assinatura mensal,112.52
+2031-04-25,lazer,Assinatura mensal,22.85
+2031-04-26,transporte,Farmácia,86.0
+2031-04-27,saude,Taxi/Uber,157.79
+2031-04-28,mercado,Compra,84.95
+2031-04-29,mercado,Farmácia,42.16
+2031-04-30,alimentacao,Restaurante,203.18
+2031-05-01,alimentacao,Assinatura mensal,306.24
+2031-05-02,lazer,Restaurante,339.45
+2031-05-03,lazer,Taxi/Uber,182.43
+2031-05-04,saude,Mercado,217.73
+2031-05-05,mercado,Restaurante,341.18
+2031-05-06,assinaturas,Compra,161.95
+2031-05-07,lazer,Assinatura mensal,354.22
+2031-05-08,mercado,Taxi/Uber,435.48
+2031-05-09,lazer,Mercado,396.81
+2031-05-10,transporte,Assinatura mensal,206.85
+2031-05-11,alimentacao,Mercado,262.89
+2031-05-12,mercado,Assinatura mensal,323.81
+2031-05-13,lazer,Farmácia,160.44
+2031-05-14,alimentacao,Farmácia,360.66
+2031-05-15,assinaturas,Farmácia,199.43
+2031-05-16,lazer,Taxi/Uber,381.84
+2031-05-17,mercado,Farmácia,118.36
+2031-05-18,transporte,Taxi/Uber,10.06
+2031-05-19,alimentacao,Compra,286.55
+2031-05-20,alimentacao,Farmácia,206.09
+2031-05-21,transporte,Taxi/Uber,31.62
+2031-05-22,mercado,Assinatura mensal,221.99
+2031-05-23,saude,Taxi/Uber,80.01
+2031-05-24,assinaturas,Restaurante,285.24
+2031-05-25,saude,Taxi/Uber,203.05
+2031-05-26,transporte,Restaurante,81.15
+2031-05-27,assinaturas,Assinatura mensal,188.31
+2031-05-28,mercado,Taxi/Uber,108.56
+2031-05-29,lazer,Assinatura mensal,295.63
+2031-05-30,lazer,Restaurante,136.34
+2031-05-31,saude,Mercado,370.8
+2031-06-01,mercado,Farmácia,11.3
+2031-06-02,assinaturas,Restaurante,184.52
+2031-06-03,saude,Compra,279.6
+2031-06-04,transporte,Taxi/Uber,15.06
+2031-06-05,saude,Assinatura mensal,101.05
+2031-06-06,mercado,Farmácia,150.7
+2031-06-07,mercado,Taxi/Uber,14.72
+2031-06-08,lazer,Farmácia,248.28
+2031-06-09,transporte,Mercado,285.74
+2031-06-10,lazer,Taxi/Uber,106.25
+2031-06-11,assinaturas,Assinatura mensal,246.85
+2031-06-12,assinaturas,Mercado,449.61
+2031-06-13,alimentacao,Taxi/Uber,399.68
+2031-06-14,mercado,Farmácia,31.1
+2031-06-15,transporte,Mercado,61.91
+2031-06-16,transporte,Assinatura mensal,225.01
+2031-06-17,lazer,Taxi/Uber,114.11
+2031-06-18,saude,Farmácia,41.03
+2031-06-19,saude,Farmácia,118.28
+2031-06-20,lazer,Restaurante,32.22
+2031-06-21,saude,Mercado,240.81
+2031-06-22,transporte,Taxi/Uber,223.16
+2031-06-23,lazer,Restaurante,7.82
+2031-06-24,saude,Farmácia,219.72
+2031-06-25,alimentacao,Mercado,236.31
+2031-06-26,mercado,Compra,274.54
+2031-06-27,alimentacao,Farmácia,436.69
+2031-06-28,saude,Mercado,442.3
+2031-06-29,assinaturas,Compra,239.48
+2031-06-30,transporte,Mercado,381.11
+2031-07-01,alimentacao,Farmácia,42.9
+2031-07-02,alimentacao,Compra,241.36
+2031-07-03,lazer,Mercado,307.11
+2031-07-04,lazer,Taxi/Uber,256.3
+2031-07-05,lazer,Compra,107.67
+2031-07-06,saude,Mercado,32.88
+2031-07-07,assinaturas,Taxi/Uber,177.07
+2031-07-08,alimentacao,Compra,293.2
+2031-07-09,mercado,Mercado,446.31
+2031-07-10,lazer,Farmácia,110.26
+2031-07-11,assinaturas,Compra,413.42
+2031-07-12,saude,Compra,35.38
+2031-07-13,assinaturas,Taxi/Uber,419.29
+2031-07-14,lazer,Restaurante,375.4
+2031-07-15,transporte,Restaurante,14.32
+2031-07-16,alimentacao,Mercado,137.69
+2031-07-17,lazer,Farmácia,27.68
+2031-07-18,mercado,Taxi/Uber,448.0
+2031-07-19,alimentacao,Compra,195.39
+2031-07-20,assinaturas,Restaurante,299.67
+2031-07-21,mercado,Taxi/Uber,109.21
+2031-07-22,alimentacao,Taxi/Uber,420.51
+2031-07-23,mercado,Taxi/Uber,127.01
+2031-07-24,assinaturas,Compra,120.8
+2031-07-25,lazer,Assinatura mensal,145.0
+2031-07-26,mercado,Taxi/Uber,210.81
+2031-07-27,lazer,Assinatura mensal,13.25
+2031-07-28,assinaturas,Restaurante,271.04
+2031-07-29,assinaturas,Farmácia,19.09
+2031-07-30,mercado,Restaurante,244.95
+2031-07-31,mercado,Farmácia,208.76
+2031-08-01,assinaturas,Farmácia,112.93
+2031-08-02,mercado,Restaurante,151.75
+2031-08-03,mercado,Mercado,319.02
+2031-08-04,mercado,Compra,9.27
+2031-08-05,saude,Assinatura mensal,145.91
+2031-08-06,mercado,Mercado,307.73
+2031-08-07,alimentacao,Assinatura mensal,72.76
+2031-08-08,assinaturas,Compra,254.37
+2031-08-09,assinaturas,Taxi/Uber,80.18
+2031-08-10,transporte,Restaurante,73.87
+2031-08-11,lazer,Mercado,348.66
+2031-08-12,transporte,Compra,123.6
+2031-08-13,mercado,Restaurante,172.22
+2031-08-14,mercado,Mercado,329.86
+2031-08-15,alimentacao,Farmácia,84.89
+2031-08-16,alimentacao,Mercado,241.62
+2031-08-17,alimentacao,Taxi/Uber,413.43
+2031-08-18,alimentacao,Taxi/Uber,251.45
+2031-08-19,alimentacao,Assinatura mensal,26.74
+2031-08-20,alimentacao,Mercado,267.42
+2031-08-21,alimentacao,Farmácia,45.12
+2031-08-22,alimentacao,Taxi/Uber,130.55
+2031-08-23,saude,Assinatura mensal,383.11
+2031-08-24,alimentacao,Farmácia,9.93
+2031-08-25,assinaturas,Farmácia,39.27
+2031-08-26,alimentacao,Farmácia,166.7
+2031-08-27,lazer,Compra,449.73
+2031-08-28,alimentacao,Taxi/Uber,134.88
+2031-08-29,saude,Compra,74.99
+2031-08-30,mercado,Compra,249.49
+2031-08-31,saude,Taxi/Uber,236.07
+2031-09-01,saude,Mercado,205.08
+2031-09-02,mercado,Restaurante,426.26
+2031-09-03,alimentacao,Assinatura mensal,129.67
+2031-09-04,alimentacao,Restaurante,135.53
+2031-09-05,mercado,Restaurante,67.41
+2031-09-06,lazer,Restaurante,315.29
+2031-09-07,transporte,Restaurante,148.01
+2031-09-08,assinaturas,Taxi/Uber,362.22
+2031-09-09,mercado,Restaurante,437.43
+2031-09-10,alimentacao,Assinatura mensal,24.44
+2031-09-11,assinaturas,Mercado,446.94
+2031-09-12,alimentacao,Taxi/Uber,118.08
+2031-09-13,transporte,Restaurante,191.95
+2031-09-14,transporte,Farmácia,351.1
+2031-09-15,mercado,Taxi/Uber,301.07
+2031-09-16,assinaturas,Mercado,351.4
+2031-09-17,saude,Restaurante,212.52
+2031-09-18,assinaturas,Compra,412.65
+2031-09-19,saude,Taxi/Uber,356.52
+2031-09-20,transporte,Farmácia,142.61
+2031-09-21,alimentacao,Taxi/Uber,427.07
+2031-09-22,saude,Compra,432.67
+2031-09-23,saude,Taxi/Uber,189.7
+2031-09-24,mercado,Farmácia,295.12
+2031-09-25,lazer,Mercado,367.57
+2031-09-26,transporte,Farmácia,368.7
+2031-09-27,saude,Mercado,11.28
+2031-09-28,transporte,Farmácia,284.91
+2031-09-29,mercado,Assinatura mensal,438.3
+2031-09-30,alimentacao,Taxi/Uber,107.95
+2031-10-01,assinaturas,Taxi/Uber,359.05
+2031-10-02,transporte,Compra,242.74
+2031-10-03,mercado,Assinatura mensal,103.55
+2031-10-04,mercado,Compra,27.71
+2031-10-05,mercado,Taxi/Uber,343.17
+2031-10-06,assinaturas,Compra,145.83
+2031-10-07,transporte,Mercado,172.14
+2031-10-08,saude,Assinatura mensal,220.93
+2031-10-09,mercado,Farmácia,230.7
+2031-10-10,assinaturas,Mercado,96.75
+2031-10-11,alimentacao,Restaurante,303.44
+2031-10-12,lazer,Farmácia,313.18
+2031-10-13,transporte,Compra,68.32
+2031-10-14,assinaturas,Taxi/Uber,242.14
+2031-10-15,lazer,Mercado,276.12
+2031-10-16,lazer,Assinatura mensal,87.88
+2031-10-17,assinaturas,Farmácia,403.04
+2031-10-18,saude,Restaurante,219.86
+2031-10-19,saude,Mercado,56.19
+2031-10-20,assinaturas,Taxi/Uber,153.81
+2031-10-21,assinaturas,Assinatura mensal,217.25
+2031-10-22,mercado,Assinatura mensal,9.51
+2031-10-23,alimentacao,Farmácia,19.2
+2031-10-24,saude,Mercado,29.71
+2031-10-25,mercado,Mercado,244.47
+2031-10-26,lazer,Assinatura mensal,154.56
+2031-10-27,lazer,Compra,402.43
+2031-10-28,lazer,Assinatura mensal,253.86
+2031-10-29,assinaturas,Taxi/Uber,343.15
+2031-10-30,transporte,Mercado,310.77
+2031-10-31,mercado,Farmácia,236.54
+2031-11-01,transporte,Mercado,336.4
+2031-11-02,alimentacao,Assinatura mensal,247.39
+2031-11-03,alimentacao,Taxi/Uber,176.53
+2031-11-04,mercado,Compra,198.93
+2031-11-05,lazer,Mercado,378.13
+2031-11-06,saude,Assinatura mensal,255.66
+2031-11-07,alimentacao,Restaurante,172.9
+2031-11-08,transporte,Assinatura mensal,84.99
+2031-11-09,transporte,Assinatura mensal,225.43
+2031-11-10,saude,Taxi/Uber,117.32
+2031-11-11,assinaturas,Assinatura mensal,430.23
+2031-11-12,lazer,Assinatura mensal,223.49
+2031-11-13,assinaturas,Assinatura mensal,8.98
+2031-11-14,mercado,Mercado,46.33
+2031-11-15,alimentacao,Assinatura mensal,131.52
+2031-11-16,saude,Taxi/Uber,46.01
+2031-11-17,saude,Restaurante,402.81
+2031-11-18,saude,Mercado,385.19
+2031-11-19,assinaturas,Restaurante,437.03
+2031-11-20,assinaturas,Assinatura mensal,319.38
+2031-11-21,mercado,Compra,292.23
+2031-11-22,transporte,Restaurante,415.96
+2031-11-23,transporte,Taxi/Uber,426.14
+2031-11-24,mercado,Compra,395.48
+2031-11-25,saude,Taxi/Uber,388.36
+2031-11-26,transporte,Compra,303.91
+2031-11-27,mercado,Assinatura mensal,5.71
+2031-11-28,transporte,Compra,196.14
+2031-11-29,mercado,Restaurante,287.87
+2031-11-30,transporte,Compra,248.47
+2031-12-01,saude,Taxi/Uber,370.4
+2031-12-02,assinaturas,Assinatura mensal,369.41
+2031-12-03,assinaturas,Taxi/Uber,271.41
+2031-12-04,saude,Assinatura mensal,14.79
+2031-12-05,transporte,Restaurante,169.35
+2031-12-06,saude,Farmácia,106.82
+2031-12-07,mercado,Mercado,155.76
+2031-12-08,assinaturas,Restaurante,279.7
+2031-12-09,alimentacao,Restaurante,34.58
+2031-12-10,transporte,Mercado,14.9
+2031-12-11,alimentacao,Taxi/Uber,199.41
+2031-12-12,alimentacao,Restaurante,358.14
+2031-12-13,lazer,Assinatura mensal,18.66
+2031-12-14,alimentacao,Compra,382.83
+2031-12-15,alimentacao,Restaurante,175.83
+2031-12-16,saude,Mercado,57.61
+2031-12-17,lazer,Restaurante,257.54
+2031-12-18,lazer,Taxi/Uber,428.8
+2031-12-19,lazer,Taxi/Uber,246.42
+2031-12-20,mercado,Taxi/Uber,310.55
+2031-12-21,lazer,Assinatura mensal,368.31
+2031-12-22,saude,Restaurante,360.71
+2031-12-23,mercado,Taxi/Uber,37.54
+2031-12-24,transporte,Farmácia,334.74
+2031-12-25,mercado,Compra,427.51
+2031-12-26,transporte,Taxi/Uber,316.79
+2031-12-27,lazer,Assinatura mensal,377.22
+2031-12-28,lazer,Compra,221.07
+2031-12-29,transporte,Compra,146.99
+2031-12-30,assinaturas,Mercado,305.93
+2031-12-31,saude,Taxi/Uber,224.03
+2032-01-01,mercado,Taxi/Uber,403.4
+2032-01-02,saude,Restaurante,438.6
+2032-01-03,saude,Assinatura mensal,369.81
+2032-01-04,alimentacao,Farmácia,446.74
+2032-01-05,lazer,Restaurante,160.02
+2032-01-06,mercado,Farmácia,403.61
+2032-01-07,saude,Mercado,151.82
+2032-01-08,mercado,Farmácia,57.53
+2032-01-09,saude,Assinatura mensal,281.51
+2032-01-10,lazer,Mercado,207.47
+2032-01-11,saude,Taxi/Uber,415.16
+2032-01-12,transporte,Farmácia,224.03
+2032-01-13,lazer,Assinatura mensal,417.8
+2032-01-14,mercado,Assinatura mensal,39.99
+2032-01-15,assinaturas,Taxi/Uber,374.58
+2032-01-16,saude,Assinatura mensal,342.81
+2032-01-17,transporte,Mercado,325.39
+2032-01-18,lazer,Mercado,163.04
+2032-01-19,alimentacao,Restaurante,353.77
+2032-01-20,lazer,Compra,220.07
+2032-01-21,mercado,Taxi/Uber,323.27
+2032-01-22,mercado,Assinatura mensal,250.74
+2032-01-23,alimentacao,Farmácia,75.06
+2032-01-24,transporte,Restaurante,33.73
+2032-01-25,mercado,Mercado,167.95
+2032-01-26,transporte,Taxi/Uber,420.09
+2032-01-27,transporte,Taxi/Uber,240.73
+2032-01-28,lazer,Mercado,361.98
+2032-01-29,transporte,Compra,261.3
+2032-01-30,saude,Taxi/Uber,431.27
+2032-01-31,mercado,Assinatura mensal,169.41
+2032-02-01,mercado,Farmácia,30.39
+2032-02-02,assinaturas,Farmácia,352.4
+2032-02-03,transporte,Mercado,318.93
+2032-02-04,assinaturas,Taxi/Uber,239.75
+2032-02-05,lazer,Farmácia,150.24
+2032-02-06,assinaturas,Taxi/Uber,88.78
+2032-02-07,transporte,Mercado,219.61
+2032-02-08,mercado,Compra,301.46
+2032-02-09,lazer,Farmácia,262.6
+2032-02-10,transporte,Assinatura mensal,199.68
+2032-02-11,lazer,Restaurante,245.16
+2032-02-12,alimentacao,Mercado,53.04
+2032-02-13,transporte,Restaurante,314.65
+2032-02-14,alimentacao,Compra,331.74
+2032-02-15,assinaturas,Assinatura mensal,10.1
+2032-02-16,transporte,Restaurante,125.38
+2032-02-17,alimentacao,Assinatura mensal,45.99
+2032-02-18,saude,Farmácia,449.21
+2032-02-19,mercado,Taxi/Uber,269.04
+2032-02-20,assinaturas,Mercado,212.25
+2032-02-21,transporte,Assinatura mensal,211.04
+2032-02-22,transporte,Farmácia,434.32
+2032-02-23,mercado,Compra,298.64
+2032-02-24,mercado,Assinatura mensal,80.05
+2032-02-25,alimentacao,Compra,204.43
+2032-02-26,alimentacao,Mercado,349.52
+2032-02-27,alimentacao,Farmácia,193.39
+2032-02-28,lazer,Compra,142.74
+2032-02-29,assinaturas,Taxi/Uber,446.09
+2032-03-01,transporte,Restaurante,421.36
+2032-03-02,assinaturas,Compra,423.99
+2032-03-03,mercado,Compra,63.59
+2032-03-04,saude,Farmácia,109.24
+2032-03-05,assinaturas,Farmácia,201.72
+2032-03-06,assinaturas,Assinatura mensal,375.3
+2032-03-07,alimentacao,Restaurante,332.89
+2032-03-08,mercado,Compra,383.1
+2032-03-09,assinaturas,Compra,414.74
+2032-03-10,transporte,Farmácia,352.44
+2032-03-11,alimentacao,Taxi/Uber,121.49
+2032-03-12,assinaturas,Farmácia,132.02
+2032-03-13,mercado,Taxi/Uber,161.86
+2032-03-14,saude,Restaurante,139.87
+2032-03-15,transporte,Farmácia,115.85
+2032-03-16,saude,Restaurante,339.86
+2032-03-17,mercado,Mercado,20.13
+2032-03-18,mercado,Compra,329.14
+2032-03-19,mercado,Restaurante,371.49
+2032-03-20,saude,Taxi/Uber,34.39
+2032-03-21,lazer,Mercado,32.52
+2032-03-22,transporte,Taxi/Uber,132.03
+2032-03-23,mercado,Assinatura mensal,97.7
+2032-03-24,lazer,Assinatura mensal,263.6
+2032-03-25,alimentacao,Compra,305.58
+2032-03-26,lazer,Mercado,287.19
+2032-03-27,alimentacao,Mercado,164.02
+2032-03-28,saude,Assinatura mensal,226.79
+2032-03-29,lazer,Compra,289.8
+2032-03-30,saude,Restaurante,58.14
+2032-03-31,mercado,Assinatura mensal,107.13
+2032-04-01,lazer,Mercado,401.27
+2032-04-02,lazer,Taxi/Uber,157.34
+2032-04-03,mercado,Mercado,361.51
+2032-04-04,alimentacao,Compra,116.69
+2032-04-05,mercado,Mercado,23.53
+2032-04-06,transporte,Farmácia,227.68
+2032-04-07,lazer,Mercado,402.15
+2032-04-08,transporte,Farmácia,369.58
+2032-04-09,mercado,Assinatura mensal,117.56
+2032-04-10,saude,Restaurante,409.92
+2032-04-11,mercado,Farmácia,218.47
+2032-04-12,assinaturas,Mercado,26.8
+2032-04-13,transporte,Restaurante,17.43
+2032-04-14,assinaturas,Restaurante,220.88
+2032-04-15,transporte,Mercado,248.11
+2032-04-16,saude,Mercado,40.56
+2032-04-17,assinaturas,Compra,415.4
+2032-04-18,assinaturas,Assinatura mensal,324.61
+2032-04-19,transporte,Farmácia,361.57
+2032-04-20,mercado,Taxi/Uber,264.89
+2032-04-21,alimentacao,Farmácia,300.28
+2032-04-22,mercado,Mercado,177.6
+2032-04-23,alimentacao,Taxi/Uber,307.29
+2032-04-24,transporte,Taxi/Uber,440.29
+2032-04-25,lazer,Farmácia,293.23
+2032-04-26,mercado,Farmácia,157.03
+2032-04-27,assinaturas,Farmácia,131.93
+2032-04-28,mercado,Farmácia,433.69
+2032-04-29,transporte,Assinatura mensal,87.33
+2032-04-30,lazer,Compra,363.76
+2032-05-01,lazer,Compra,212.04
+2032-05-02,mercado,Farmácia,202.47
+2032-05-03,mercado,Compra,337.65
+2032-05-04,saude,Farmácia,70.88
+2032-05-05,mercado,Farmácia,212.5
+2032-05-06,transporte,Farmácia,20.95
+2032-05-07,alimentacao,Restaurante,303.33
+2032-05-08,saude,Assinatura mensal,30.98
+2032-05-09,alimentacao,Mercado,43.84
+2032-05-10,assinaturas,Compra,380.95
+2032-05-11,transporte,Compra,202.12
+2032-05-12,saude,Assinatura mensal,94.43
+2032-05-13,lazer,Assinatura mensal,268.7
+2032-05-14,saude,Farmácia,236.08
+2032-05-15,assinaturas,Farmácia,187.85
+2032-05-16,lazer,Restaurante,407.91
+2032-05-17,saude,Restaurante,338.51
+2032-05-18,lazer,Mercado,72.46
+2032-05-19,mercado,Compra,258.99
+2032-05-20,lazer,Assinatura mensal,44.49
+2032-05-21,saude,Mercado,113.87
+2032-05-22,lazer,Compra,409.89
+2032-05-23,transporte,Mercado,210.63
+2032-05-24,mercado,Mercado,401.99
+2032-05-25,mercado,Farmácia,78.87
+2032-05-26,assinaturas,Mercado,96.38
+2032-05-27,mercado,Farmácia,162.01
+2032-05-28,alimentacao,Compra,168.01
+2032-05-29,transporte,Restaurante,336.65
+2032-05-30,assinaturas,Compra,271.74
+2032-05-31,alimentacao,Farmácia,251.2
+2032-06-01,lazer,Restaurante,273.06
+2032-06-02,alimentacao,Taxi/Uber,330.83
+2032-06-03,assinaturas,Restaurante,402.3
+2032-06-04,mercado,Mercado,189.56
+2032-06-05,transporte,Compra,362.3
+2032-06-06,assinaturas,Mercado,225.32
+2032-06-07,alimentacao,Restaurante,326.32
+2032-06-08,alimentacao,Taxi/Uber,394.3
+2032-06-09,assinaturas,Mercado,19.34
+2032-06-10,saude,Taxi/Uber,248.25
+2032-06-11,saude,Assinatura mensal,445.27
+2032-06-12,assinaturas,Taxi/Uber,225.82
+2032-06-13,saude,Compra,389.62
+2032-06-14,assinaturas,Restaurante,87.73
+2032-06-15,mercado,Farmácia,273.91
+2032-06-16,assinaturas,Farmácia,392.29
+2032-06-17,lazer,Mercado,197.03
+2032-06-18,transporte,Restaurante,221.59
+2032-06-19,transporte,Assinatura mensal,41.5
+2032-06-20,lazer,Mercado,23.77
+2032-06-21,alimentacao,Taxi/Uber,213.58
+2032-06-22,alimentacao,Farmácia,380.35
+2032-06-23,alimentacao,Taxi/Uber,419.44
+2032-06-24,alimentacao,Farmácia,298.1
+2032-06-25,mercado,Farmácia,372.75
+2032-06-26,lazer,Farmácia,332.01
+2032-06-27,transporte,Restaurante,317.16
+2032-06-28,lazer,Compra,347.22
+2032-06-29,transporte,Restaurante,229.86
+2032-06-30,alimentacao,Taxi/Uber,208.78
+2032-07-01,mercado,Restaurante,75.82
+2032-07-02,assinaturas,Mercado,380.5
+2032-07-03,assinaturas,Assinatura mensal,24.85
+2032-07-04,saude,Mercado,124.01
+2032-07-05,alimentacao,Restaurante,236.36
+2032-07-06,alimentacao,Taxi/Uber,437.36
+2032-07-07,lazer,Assinatura mensal,354.76
+2032-07-08,mercado,Mercado,169.06
+2032-07-09,mercado,Assinatura mensal,322.71
+2032-07-10,lazer,Taxi/Uber,419.46
+2032-07-11,mercado,Farmácia,244.8
+2032-07-12,mercado,Taxi/Uber,210.56
+2032-07-13,assinaturas,Compra,251.08
+2032-07-14,mercado,Assinatura mensal,143.63
+2032-07-15,alimentacao,Taxi/Uber,408.77
+2032-07-16,assinaturas,Farmácia,359.79
+2032-07-17,alimentacao,Farmácia,318.94
+2032-07-18,alimentacao,Taxi/Uber,267.15
+2032-07-19,lazer,Mercado,436.42
+2032-07-20,saude,Taxi/Uber,137.48
+2032-07-21,mercado,Farmácia,131.0
+2032-07-22,mercado,Taxi/Uber,112.75
+2032-07-23,mercado,Compra,335.09
+2032-07-24,mercado,Mercado,359.79
+2032-07-25,assinaturas,Taxi/Uber,270.72
+2032-07-26,transporte,Farmácia,295.13
+2032-07-27,alimentacao,Taxi/Uber,160.29
+2032-07-28,saude,Taxi/Uber,22.69
+2032-07-29,saude,Assinatura mensal,117.87
+2032-07-30,transporte,Taxi/Uber,265.01
+2032-07-31,transporte,Compra,366.76
+2032-08-01,transporte,Farmácia,350.85
+2032-08-02,assinaturas,Restaurante,84.87
+2032-08-03,transporte,Assinatura mensal,27.89
+2032-08-04,assinaturas,Restaurante,383.5
+2032-08-05,lazer,Taxi/Uber,38.64
+2032-08-06,lazer,Mercado,180.02
+2032-08-07,saude,Compra,46.93
+2032-08-08,lazer,Compra,256.0
+2032-08-09,assinaturas,Compra,166.68
+2032-08-10,assinaturas,Assinatura mensal,95.11
+2032-08-11,alimentacao,Taxi/Uber,269.85
+2032-08-12,transporte,Compra,166.71
+2032-08-13,mercado,Taxi/Uber,79.22
+2032-08-14,mercado,Mercado,316.54
+2032-08-15,transporte,Taxi/Uber,377.38
+2032-08-16,mercado,Restaurante,126.82
+2032-08-17,mercado,Taxi/Uber,87.96
+2032-08-18,mercado,Taxi/Uber,38.49
+2032-08-19,saude,Farmácia,239.92
+2032-08-20,assinaturas,Restaurante,374.93
+2032-08-21,assinaturas,Assinatura mensal,116.6
+2032-08-22,assinaturas,Taxi/Uber,209.98
+2032-08-23,transporte,Compra,76.56
+2032-08-24,lazer,Farmácia,184.87
+2032-08-25,saude,Taxi/Uber,11.87
+2032-08-26,saude,Farmácia,410.27
+2032-08-27,mercado,Assinatura mensal,306.07
+2032-08-28,alimentacao,Farmácia,153.1
+2032-08-29,assinaturas,Compra,397.13
+2032-08-30,saude,Taxi/Uber,86.4
+2032-08-31,saude,Compra,40.04
+2032-09-01,alimentacao,Mercado,424.47
+2032-09-02,mercado,Farmácia,142.51
+2032-09-03,saude,Farmácia,421.51
+2032-09-04,saude,Farmácia,288.74
+2032-09-05,lazer,Restaurante,441.12
+2032-09-06,alimentacao,Assinatura mensal,340.28
+2032-09-07,mercado,Restaurante,51.94
+2032-09-08,mercado,Compra,384.24
+2032-09-09,assinaturas,Mercado,70.81
+2032-09-10,lazer,Assinatura mensal,313.03
+2032-09-11,mercado,Assinatura mensal,227.68
+2032-09-12,lazer,Taxi/Uber,319.94
+2032-09-13,assinaturas,Mercado,345.42
+2032-09-14,alimentacao,Farmácia,362.63
+2032-09-15,saude,Restaurante,376.57
+2032-09-16,saude,Farmácia,382.01
+2032-09-17,transporte,Taxi/Uber,188.6
+2032-09-18,transporte,Restaurante,400.71
+2032-09-19,transporte,Farmácia,325.21
+2032-09-20,saude,Compra,378.34
+2032-09-21,lazer,Farmácia,445.19
+2032-09-22,transporte,Restaurante,56.8
+2032-09-23,alimentacao,Compra,169.91
+2032-09-24,mercado,Taxi/Uber,363.91
+2032-09-25,lazer,Taxi/Uber,43.41
+2032-09-26,saude,Compra,245.65
+2032-09-27,alimentacao,Restaurante,386.99
+2032-09-28,saude,Restaurante,13.45
+2032-09-29,lazer,Farmácia,423.09
+2032-09-30,lazer,Taxi/Uber,440.27
+2032-10-01,lazer,Taxi/Uber,148.42
+2032-10-02,assinaturas,Compra,346.22
+2032-10-03,mercado,Taxi/Uber,61.59
+2032-10-04,transporte,Farmácia,348.92
+2032-10-05,assinaturas,Taxi/Uber,219.28
+2032-10-06,mercado,Compra,387.82
+2032-10-07,saude,Farmácia,99.61
+2032-10-08,transporte,Mercado,304.33
+2032-10-09,assinaturas,Compra,354.82
+2032-10-10,assinaturas,Mercado,95.11
+2032-10-11,alimentacao,Taxi/Uber,369.14
+2032-10-12,assinaturas,Farmácia,431.3
+2032-10-13,lazer,Taxi/Uber,279.15
+2032-10-14,saude,Farmácia,354.26
+2032-10-15,assinaturas,Assinatura mensal,242.0
+2032-10-16,lazer,Taxi/Uber,271.16
+2032-10-17,mercado,Taxi/Uber,10.94
+2032-10-18,mercado,Taxi/Uber,238.31
+2032-10-19,lazer,Restaurante,261.13
+2032-10-20,alimentacao,Compra,303.17
+2032-10-21,alimentacao,Restaurante,80.38
+2032-10-22,mercado,Farmácia,112.41
+2032-10-23,saude,Farmácia,341.42
+2032-10-24,assinaturas,Farmácia,79.6
+2032-10-25,mercado,Compra,190.13
+2032-10-26,mercado,Farmácia,116.47
+2032-10-27,lazer,Restaurante,247.61
+2032-10-28,alimentacao,Restaurante,444.16
+2032-10-29,saude,Taxi/Uber,384.16
+2032-10-30,lazer,Mercado,124.92
+2032-10-31,mercado,Assinatura mensal,169.03
+2032-11-01,transporte,Farmácia,413.79
+2032-11-02,assinaturas,Compra,404.74
+2032-11-03,mercado,Compra,76.43
+2032-11-04,lazer,Farmácia,374.03
+2032-11-05,transporte,Mercado,137.44
+2032-11-06,transporte,Restaurante,246.99
+2032-11-07,mercado,Farmácia,7.27
+2032-11-08,saude,Compra,449.37
+2032-11-09,alimentacao,Assinatura mensal,343.69
+2032-11-10,transporte,Mercado,112.57
+2032-11-11,assinaturas,Farmácia,309.29
+2032-11-12,lazer,Assinatura mensal,135.52
+2032-11-13,lazer,Farmácia,44.81
+2032-11-14,lazer,Mercado,194.26
+2032-11-15,mercado,Compra,278.1
+2032-11-16,lazer,Restaurante,44.95
+2032-11-17,lazer,Restaurante,235.69
+2032-11-18,assinaturas,Mercado,234.11
+2032-11-19,alimentacao,Taxi/Uber,284.75
+2032-11-20,saude,Restaurante,113.87
+2032-11-21,mercado,Farmácia,14.19
+2032-11-22,mercado,Assinatura mensal,149.56
+2032-11-23,lazer,Assinatura mensal,182.37
+2032-11-24,assinaturas,Restaurante,287.9
+2032-11-25,transporte,Mercado,418.93
+2032-11-26,lazer,Mercado,95.51
+2032-11-27,lazer,Mercado,310.86
+2032-11-28,mercado,Assinatura mensal,48.34
+2032-11-29,mercado,Compra,89.83
+2032-11-30,lazer,Assinatura mensal,231.56
+2032-12-01,mercado,Compra,320.23
+2032-12-02,assinaturas,Mercado,387.06
+2032-12-03,transporte,Taxi/Uber,336.04
+2032-12-04,transporte,Assinatura mensal,11.83
+2032-12-05,transporte,Mercado,309.35
+2032-12-06,lazer,Assinatura mensal,371.97
+2032-12-07,saude,Mercado,238.86
+2032-12-08,lazer,Assinatura mensal,434.69
+2032-12-09,lazer,Farmácia,6.92
+2032-12-10,assinaturas,Assinatura mensal,369.3
+2032-12-11,transporte,Farmácia,153.99
+2032-12-12,mercado,Compra,294.45
+2032-12-13,mercado,Assinatura mensal,313.6
+2032-12-14,alimentacao,Compra,141.28
+2032-12-15,alimentacao,Taxi/Uber,447.96
+2032-12-16,saude,Restaurante,50.95
+2032-12-17,mercado,Restaurante,74.88
+2032-12-18,transporte,Farmácia,402.03
+2032-12-19,lazer,Assinatura mensal,58.04
+2032-12-20,mercado,Restaurante,174.67
+2032-12-21,saude,Compra,331.25
+2032-12-22,saude,Restaurante,357.21
+2032-12-23,mercado,Restaurante,429.83
+2032-12-24,alimentacao,Mercado,356.36
+2032-12-25,transporte,Restaurante,380.82
+2032-12-26,mercado,Compra,427.47
+2032-12-27,lazer,Restaurante,251.39
+2032-12-28,lazer,Assinatura mensal,157.83
+2032-12-29,assinaturas,Restaurante,343.92
+2032-12-30,lazer,Taxi/Uber,77.78
+2032-12-31,mercado,Restaurante,35.36
+2033-01-01,mercado,Farmácia,354.47
+2033-01-02,lazer,Mercado,428.05
+2033-01-03,alimentacao,Compra,201.89
+2033-01-04,transporte,Restaurante,76.7
+2033-01-05,saude,Restaurante,226.17
+2033-01-06,mercado,Assinatura mensal,180.03
+2033-01-07,lazer,Assinatura mensal,170.75
+2033-01-08,saude,Farmácia,284.5
+2033-01-09,lazer,Mercado,82.76
+2033-01-10,mercado,Compra,174.31
+2033-01-11,assinaturas,Compra,391.56
+2033-01-12,transporte,Compra,329.7
+2033-01-13,mercado,Farmácia,29.74
+2033-01-14,saude,Farmácia,233.69
+2033-01-15,lazer,Restaurante,45.63
+2033-01-16,assinaturas,Mercado,431.09
+2033-01-17,mercado,Compra,113.87
+2033-01-18,transporte,Compra,420.02
+2033-01-19,assinaturas,Restaurante,376.13
+2033-01-20,saude,Mercado,250.36
+2033-01-21,lazer,Mercado,154.66
+2033-01-22,alimentacao,Mercado,386.79
+2033-01-23,transporte,Assinatura mensal,72.99
+2033-01-24,assinaturas,Mercado,85.09
+2033-01-25,mercado,Taxi/Uber,105.0
+2033-01-26,mercado,Farmácia,270.98
+2033-01-27,assinaturas,Mercado,144.87
+2033-01-28,mercado,Assinatura mensal,445.19
+2033-01-29,assinaturas,Taxi/Uber,91.83
+2033-01-30,transporte,Assinatura mensal,363.5
+2033-01-31,mercado,Assinatura mensal,47.65
+2033-02-01,transporte,Restaurante,162.28
+2033-02-02,lazer,Assinatura mensal,113.47
+2033-02-03,lazer,Assinatura mensal,439.69
+2033-02-04,lazer,Compra,16.45
+2033-02-05,lazer,Farmácia,326.14
+2033-02-06,mercado,Restaurante,115.24
+2033-02-07,assinaturas,Restaurante,366.01
+2033-02-08,mercado,Compra,143.49
+2033-02-09,saude,Taxi/Uber,88.34
+2033-02-10,mercado,Compra,313.4
+2033-02-11,transporte,Restaurante,119.62
+2033-02-12,assinaturas,Taxi/Uber,221.07
+2033-02-13,alimentacao,Restaurante,63.53
+2033-02-14,alimentacao,Mercado,327.45
+2033-02-15,assinaturas,Taxi/Uber,186.04
+2033-02-16,alimentacao,Restaurante,67.56
+2033-02-17,assinaturas,Compra,335.01
+2033-02-18,transporte,Restaurante,51.0
+2033-02-19,transporte,Compra,260.8
+2033-02-20,mercado,Taxi/Uber,275.33
+2033-02-21,alimentacao,Compra,419.01
+2033-02-22,assinaturas,Taxi/Uber,72.19
+2033-02-23,transporte,Assinatura mensal,295.74
+2033-02-24,mercado,Farmácia,174.44
+2033-02-25,alimentacao,Taxi/Uber,183.36
+2033-02-26,alimentacao,Assinatura mensal,228.31
+2033-02-27,alimentacao,Assinatura mensal,109.03
+2033-02-28,transporte,Assinatura mensal,210.23
+2033-03-01,transporte,Assinatura mensal,310.65
+2033-03-02,alimentacao,Taxi/Uber,208.42
+2033-03-03,transporte,Compra,23.92
+2033-03-04,alimentacao,Assinatura mensal,119.73
+2033-03-05,lazer,Mercado,161.4
+2033-03-06,transporte,Assinatura mensal,162.85
+2033-03-07,assinaturas,Compra,41.05
+2033-03-08,transporte,Compra,205.06
+2033-03-09,alimentacao,Farmácia,312.92
+2033-03-10,assinaturas,Farmácia,26.66
+2033-03-11,mercado,Assinatura mensal,339.16
+2033-03-12,assinaturas,Assinatura mensal,430.02
+2033-03-13,assinaturas,Restaurante,9.16
+2033-03-14,transporte,Restaurante,91.19
+2033-03-15,saude,Farmácia,246.85
+2033-03-16,assinaturas,Assinatura mensal,102.03
+2033-03-17,assinaturas,Restaurante,345.26
+2033-03-18,alimentacao,Mercado,143.9
+2033-03-19,transporte,Taxi/Uber,135.66
+2033-03-20,alimentacao,Farmácia,5.41
+2033-03-21,transporte,Farmácia,125.21
+2033-03-22,mercado,Compra,101.86
+2033-03-23,saude,Assinatura mensal,157.74
+2033-03-24,assinaturas,Farmácia,70.71
+2033-03-25,transporte,Farmácia,269.62
+2033-03-26,assinaturas,Restaurante,111.24
+2033-03-27,assinaturas,Mercado,375.13
+2033-03-28,lazer,Assinatura mensal,131.63
+2033-03-29,alimentacao,Taxi/Uber,98.84
+2033-03-30,saude,Mercado,30.25
+2033-03-31,transporte,Taxi/Uber,334.26
+2033-04-01,mercado,Compra,231.15
+2033-04-02,saude,Farmácia,55.63
+2033-04-03,lazer,Restaurante,103.49
+2033-04-04,alimentacao,Mercado,449.43
+2033-04-05,mercado,Taxi/Uber,363.68
+2033-04-06,mercado,Assinatura mensal,160.69
+2033-04-07,assinaturas,Compra,246.44
+2033-04-08,alimentacao,Compra,190.13
+2033-04-09,lazer,Farmácia,21.19
+2033-04-10,transporte,Farmácia,351.51
+2033-04-11,transporte,Taxi/Uber,324.06
+2033-04-12,lazer,Taxi/Uber,186.92
+2033-04-13,assinaturas,Compra,381.42
+2033-04-14,assinaturas,Taxi/Uber,242.96
+2033-04-15,mercado,Farmácia,34.02
+2033-04-16,alimentacao,Compra,120.44
+2033-04-17,mercado,Compra,210.49
+2033-04-18,transporte,Assinatura mensal,51.03
+2033-04-19,lazer,Assinatura mensal,259.13
+2033-04-20,alimentacao,Taxi/Uber,58.65
+2033-04-21,lazer,Taxi/Uber,94.23
+2033-04-22,alimentacao,Farmácia,402.82
+2033-04-23,saude,Farmácia,449.92
+2033-04-24,transporte,Assinatura mensal,249.86
+2033-04-25,transporte,Compra,280.74
+2033-04-26,saude,Mercado,359.86
+2033-04-27,alimentacao,Restaurante,314.78
+2033-04-28,assinaturas,Restaurante,86.2
+2033-04-29,alimentacao,Mercado,188.19
+2033-04-30,transporte,Taxi/Uber,243.13
+2033-05-01,lazer,Restaurante,165.07
+2033-05-02,mercado,Restaurante,83.37
+2033-05-03,lazer,Mercado,332.57
+2033-05-04,transporte,Mercado,93.49
+2033-05-05,lazer,Assinatura mensal,120.92
+2033-05-06,assinaturas,Compra,132.5
+2033-05-07,assinaturas,Farmácia,76.99
+2033-05-08,alimentacao,Assinatura mensal,383.05
+2033-05-09,lazer,Restaurante,276.72
+2033-05-10,lazer,Farmácia,376.46
+2033-05-11,transporte,Assinatura mensal,224.71
+2033-05-12,alimentacao,Assinatura mensal,236.21
+2033-05-13,alimentacao,Mercado,279.18
+2033-05-14,lazer,Farmácia,170.06
+2033-05-15,mercado,Assinatura mensal,225.98
+2033-05-16,lazer,Mercado,248.38
+2033-05-17,lazer,Taxi/Uber,429.33
+2033-05-18,lazer,Farmácia,397.89
+2033-05-19,assinaturas,Assinatura mensal,62.51
+2033-05-20,saude,Restaurante,23.37
+2033-05-21,alimentacao,Taxi/Uber,307.75
+2033-05-22,saude,Mercado,26.89
+2033-05-23,assinaturas,Assinatura mensal,31.86
+2033-05-24,mercado,Restaurante,75.87
+2033-05-25,transporte,Mercado,161.51
+2033-05-26,mercado,Mercado,198.57
+2033-05-27,alimentacao,Restaurante,236.12
+2033-05-28,transporte,Mercado,446.57
+2033-05-29,saude,Farmácia,176.43
+2033-05-30,mercado,Taxi/Uber,113.03
+2033-05-31,alimentacao,Taxi/Uber,260.99
+2033-06-01,mercado,Compra,100.74
+2033-06-02,transporte,Assinatura mensal,423.54
+2033-06-03,transporte,Mercado,120.37
+2033-06-04,mercado,Assinatura mensal,445.52
+2033-06-05,assinaturas,Taxi/Uber,191.31
+2033-06-06,mercado,Taxi/Uber,366.65
+2033-06-07,saude,Mercado,293.48
+2033-06-08,mercado,Farmácia,420.4
+2033-06-09,mercado,Restaurante,283.31
+2033-06-10,assinaturas,Mercado,263.64
+2033-06-11,lazer,Mercado,295.52
+2033-06-12,transporte,Compra,354.98
+2033-06-13,saude,Restaurante,404.98
+2033-06-14,alimentacao,Farmácia,123.73
+2033-06-15,transporte,Assinatura mensal,94.39
+2033-06-16,transporte,Restaurante,20.29
+2033-06-17,lazer,Farmácia,169.69
+2033-06-18,transporte,Mercado,381.55
+2033-06-19,transporte,Mercado,36.09
+2033-06-20,assinaturas,Mercado,244.64
+2033-06-21,assinaturas,Mercado,314.18
+2033-06-22,assinaturas,Mercado,377.4
+2033-06-23,assinaturas,Restaurante,264.63
+2033-06-24,assinaturas,Restaurante,87.91
+2033-06-25,saude,Restaurante,434.22
+2033-06-26,alimentacao,Farmácia,47.12
+2033-06-27,lazer,Mercado,347.2
+2033-06-28,mercado,Taxi/Uber,43.52
+2033-06-29,saude,Restaurante,68.82
+2033-06-30,assinaturas,Taxi/Uber,404.71
+2033-07-01,lazer,Compra,340.12
+2033-07-02,mercado,Assinatura mensal,167.65
+2033-07-03,transporte,Restaurante,289.23
+2033-07-04,saude,Taxi/Uber,208.48
+2033-07-05,transporte,Compra,34.61
+2033-07-06,lazer,Farmácia,325.9
+2033-07-07,alimentacao,Assinatura mensal,344.65
+2033-07-08,alimentacao,Mercado,397.64
+2033-07-09,lazer,Restaurante,245.58
+2033-07-10,alimentacao,Restaurante,304.55
+2033-07-11,alimentacao,Mercado,199.93
+2033-07-12,transporte,Farmácia,146.91
+2033-07-13,alimentacao,Assinatura mensal,188.21
+2033-07-14,alimentacao,Restaurante,410.73
+2033-07-15,lazer,Taxi/Uber,78.06
+2033-07-16,alimentacao,Assinatura mensal,115.58
+2033-07-17,saude,Compra,274.75
+2033-07-18,assinaturas,Restaurante,56.75
+2033-07-19,assinaturas,Farmácia,401.88
+2033-07-20,lazer,Taxi/Uber,26.02
+2033-07-21,assinaturas,Assinatura mensal,341.11
+2033-07-22,transporte,Assinatura mensal,171.31
+2033-07-23,saude,Taxi/Uber,27.77
+2033-07-24,saude,Compra,380.1
+2033-07-25,lazer,Compra,290.0
+2033-07-26,alimentacao,Assinatura mensal,8.94
+2033-07-27,assinaturas,Mercado,124.05
+2033-07-28,transporte,Taxi/Uber,161.66
+2033-07-29,lazer,Restaurante,148.55
+2033-07-30,lazer,Compra,226.76
+2033-07-31,alimentacao,Restaurante,239.43
+2033-08-01,mercado,Compra,181.56
+2033-08-02,assinaturas,Compra,152.64
+2033-08-03,transporte,Farmácia,229.46
+2033-08-04,lazer,Restaurante,19.96
+2033-08-05,assinaturas,Mercado,292.11
+2033-08-06,transporte,Compra,274.66
+2033-08-07,saude,Mercado,129.25
+2033-08-08,saude,Assinatura mensal,84.88
+2033-08-09,transporte,Assinatura mensal,37.48
+2033-08-10,saude,Farmácia,266.37
+2033-08-11,lazer,Mercado,258.16
+2033-08-12,assinaturas,Taxi/Uber,242.33
+2033-08-13,transporte,Farmácia,443.6
+2033-08-14,lazer,Compra,241.54
+2033-08-15,assinaturas,Assinatura mensal,326.2
+2033-08-16,assinaturas,Assinatura mensal,55.25
+2033-08-17,lazer,Taxi/Uber,138.04
+2033-08-18,assinaturas,Farmácia,127.57
+2033-08-19,mercado,Mercado,261.31
+2033-08-20,transporte,Assinatura mensal,152.21
+2033-08-21,transporte,Compra,290.27
+2033-08-22,assinaturas,Taxi/Uber,312.09
+2033-08-23,lazer,Taxi/Uber,19.99
+2033-08-24,alimentacao,Restaurante,289.69
+2033-08-25,saude,Taxi/Uber,56.97
+2033-08-26,assinaturas,Compra,211.99
+2033-08-27,alimentacao,Taxi/Uber,328.33
+2033-08-28,assinaturas,Mercado,317.99
+2033-08-29,alimentacao,Restaurante,138.42
+2033-08-30,assinaturas,Mercado,126.2
+2033-08-31,lazer,Farmácia,200.9
+2033-09-01,saude,Farmácia,88.96
+2033-09-02,alimentacao,Mercado,438.74
+2033-09-03,mercado,Compra,158.49
+2033-09-04,lazer,Restaurante,415.73
+2033-09-05,saude,Farmácia,409.18
+2033-09-06,assinaturas,Taxi/Uber,167.36
+2033-09-07,alimentacao,Mercado,118.07
+2033-09-08,saude,Assinatura mensal,348.02
+2033-09-09,transporte,Compra,107.07
+2033-09-10,lazer,Compra,236.95
+2033-09-11,alimentacao,Mercado,54.26
+2033-09-12,lazer,Assinatura mensal,176.74
+2033-09-13,alimentacao,Compra,39.78
+2033-09-14,transporte,Restaurante,131.13
+2033-09-15,mercado,Farmácia,301.06
+2033-09-16,transporte,Restaurante,446.13
+2033-09-17,assinaturas,Assinatura mensal,118.39
+2033-09-18,lazer,Restaurante,215.63
+2033-09-19,mercado,Taxi/Uber,204.38
+2033-09-20,lazer,Farmácia,86.95
+2033-09-21,saude,Assinatura mensal,276.48
+2033-09-22,alimentacao,Mercado,327.49
+2033-09-23,assinaturas,Compra,70.51
+2033-09-24,assinaturas,Farmácia,341.92
+2033-09-25,lazer,Mercado,316.57
+2033-09-26,assinaturas,Assinatura mensal,92.82
+2033-09-27,lazer,Taxi/Uber,293.78
+2033-09-28,alimentacao,Compra,180.18
+2033-09-29,alimentacao,Compra,308.11
+2033-09-30,lazer,Farmácia,225.76
+2033-10-01,transporte,Mercado,26.42
+2033-10-02,transporte,Assinatura mensal,355.2
+2033-10-03,alimentacao,Assinatura mensal,252.24
+2033-10-04,mercado,Mercado,327.53
+2033-10-05,transporte,Compra,61.1
+2033-10-06,lazer,Mercado,325.97
+2033-10-07,alimentacao,Restaurante,189.08
+2033-10-08,assinaturas,Assinatura mensal,360.67
+2033-10-09,assinaturas,Mercado,271.63
+2033-10-10,transporte,Compra,162.93
+2033-10-11,mercado,Farmácia,94.85
+2033-10-12,saude,Restaurante,368.09
+2033-10-13,transporte,Compra,254.29
+2033-10-14,mercado,Taxi/Uber,444.42
+2033-10-15,transporte,Taxi/Uber,171.2
+2033-10-16,assinaturas,Mercado,310.15
+2033-10-17,mercado,Compra,282.16
+2033-10-18,assinaturas,Compra,288.72
+2033-10-19,lazer,Assinatura mensal,332.96
+2033-10-20,lazer,Farmácia,66.9
+2033-10-21,alimentacao,Restaurante,249.59
+2033-10-22,assinaturas,Compra,231.56
+2033-10-23,assinaturas,Restaurante,157.43
+2033-10-24,alimentacao,Mercado,199.09
+2033-10-25,lazer,Assinatura mensal,235.87
+2033-10-26,lazer,Restaurante,147.81
+2033-10-27,mercado,Restaurante,135.46
+2033-10-28,mercado,Restaurante,333.53
+2033-10-29,saude,Restaurante,34.78
+2033-10-30,lazer,Restaurante,144.27
+2033-10-31,saude,Assinatura mensal,295.9
+2033-11-01,transporte,Mercado,97.9
+2033-11-02,assinaturas,Restaurante,259.66
+2033-11-03,mercado,Restaurante,139.46
+2033-11-04,transporte,Mercado,380.27
+2033-11-05,mercado,Compra,160.75
+2033-11-06,alimentacao,Compra,107.13
+2033-11-07,assinaturas,Assinatura mensal,240.9
+2033-11-08,saude,Assinatura mensal,65.37
+2033-11-09,saude,Farmácia,359.88
+2033-11-10,mercado,Assinatura mensal,307.61
+2033-11-11,lazer,Mercado,347.88
+2033-11-12,saude,Restaurante,182.5
+2033-11-13,alimentacao,Mercado,376.58
+2033-11-14,alimentacao,Farmácia,224.63
+2033-11-15,lazer,Taxi/Uber,47.14
+2033-11-16,alimentacao,Taxi/Uber,104.69
+2033-11-17,assinaturas,Mercado,321.42
+2033-11-18,mercado,Taxi/Uber,403.91
+2033-11-19,alimentacao,Taxi/Uber,47.36
+2033-11-20,assinaturas,Farmácia,389.58
+2033-11-21,lazer,Restaurante,360.59
+2033-11-22,mercado,Assinatura mensal,163.67
+2033-11-23,lazer,Assinatura mensal,311.73
+2033-11-24,mercado,Taxi/Uber,88.19
+2033-11-25,alimentacao,Compra,366.96
+2033-11-26,alimentacao,Farmácia,297.52
+2033-11-27,mercado,Restaurante,200.28
+2033-11-28,assinaturas,Restaurante,389.71
+2033-11-29,assinaturas,Taxi/Uber,66.96
+2033-11-30,assinaturas,Compra,381.37
+2033-12-01,transporte,Compra,15.63
+2033-12-02,saude,Restaurante,340.17
+2033-12-03,saude,Farmácia,260.15
+2033-12-04,saude,Assinatura mensal,315.04
+2033-12-05,assinaturas,Restaurante,188.49
+2033-12-06,alimentacao,Restaurante,389.68
+2033-12-07,transporte,Mercado,144.35
+2033-12-08,assinaturas,Compra,127.36
+2033-12-09,alimentacao,Mercado,139.28
+2033-12-10,transporte,Mercado,349.59
+2033-12-11,alimentacao,Farmácia,225.4
+2033-12-12,mercado,Restaurante,244.0
+2033-12-13,alimentacao,Assinatura mensal,375.09
+2033-12-14,transporte,Farmácia,375.85
+2033-12-15,assinaturas,Compra,76.97
+2033-12-16,saude,Assinatura mensal,249.65
+2033-12-17,transporte,Restaurante,61.08
+2033-12-18,assinaturas,Taxi/Uber,391.5
+2033-12-19,assinaturas,Assinatura mensal,377.47
+2033-12-20,lazer,Farmácia,382.96
+2033-12-21,mercado,Farmácia,318.66
+2033-12-22,lazer,Mercado,212.76
+2033-12-23,saude,Restaurante,185.1
+2033-12-24,transporte,Taxi/Uber,180.87
+2033-12-25,lazer,Restaurante,34.46
+2033-12-26,saude,Assinatura mensal,427.25
+2033-12-27,assinaturas,Taxi/Uber,205.37
+2033-12-28,transporte,Restaurante,418.9
+2033-12-29,lazer,Mercado,396.27
+2033-12-30,alimentacao,Taxi/Uber,373.73
+2033-12-31,saude,Taxi/Uber,266.8
+2034-01-01,saude,Assinatura mensal,50.19
+2034-01-02,mercado,Taxi/Uber,149.14
+2034-01-03,alimentacao,Mercado,273.6
+2034-01-04,transporte,Compra,10.99
+2034-01-05,lazer,Compra,23.97
+2034-01-06,assinaturas,Farmácia,306.56
+2034-01-07,lazer,Compra,400.25
+2034-01-08,transporte,Assinatura mensal,385.55
+2034-01-09,transporte,Farmácia,79.82
+2034-01-10,transporte,Compra,410.5
+2034-01-11,transporte,Compra,314.85
+2034-01-12,saude,Farmácia,323.77
+2034-01-13,lazer,Assinatura mensal,140.3
+2034-01-14,alimentacao,Farmácia,323.62
+2034-01-15,assinaturas,Assinatura mensal,320.85
+2034-01-16,assinaturas,Assinatura mensal,269.63
+2034-01-17,mercado,Restaurante,163.99
+2034-01-18,saude,Mercado,365.9
+2034-01-19,transporte,Compra,422.2
+2034-01-20,transporte,Restaurante,392.1
+2034-01-21,transporte,Compra,113.13
+2034-01-22,saude,Restaurante,203.32
+2034-01-23,alimentacao,Taxi/Uber,157.37
+2034-01-24,transporte,Farmácia,319.83
+2034-01-25,mercado,Restaurante,375.01
+2034-01-26,mercado,Mercado,101.03
+2034-01-27,alimentacao,Compra,426.54
+2034-01-28,saude,Taxi/Uber,306.41
+2034-01-29,transporte,Mercado,102.21
+2034-01-30,lazer,Assinatura mensal,170.14
+2034-01-31,lazer,Compra,51.55
+2034-02-01,assinaturas,Restaurante,270.7
+2034-02-02,alimentacao,Farmácia,80.29
+2034-02-03,lazer,Mercado,313.43
+2034-02-04,assinaturas,Taxi/Uber,333.07
+2034-02-05,mercado,Farmácia,218.3
+2034-02-06,assinaturas,Assinatura mensal,46.75
+2034-02-07,transporte,Farmácia,276.84
+2034-02-08,transporte,Taxi/Uber,170.63
+2034-02-09,mercado,Assinatura mensal,427.59
+2034-02-10,alimentacao,Taxi/Uber,233.38
+2034-02-11,saude,Compra,37.16
+2034-02-12,transporte,Taxi/Uber,288.04
+2034-02-13,transporte,Farmácia,351.81
+2034-02-14,assinaturas,Compra,76.42
+2034-02-15,assinaturas,Compra,204.83
+2034-02-16,assinaturas,Mercado,335.72
+2034-02-17,lazer,Farmácia,14.12
+2034-02-18,mercado,Farmácia,17.89
+2034-02-19,alimentacao,Assinatura mensal,306.23
+2034-02-20,assinaturas,Taxi/Uber,327.68
+2034-02-21,alimentacao,Restaurante,381.41
+2034-02-22,assinaturas,Taxi/Uber,182.82
+2034-02-23,transporte,Farmácia,178.45
+2034-02-24,alimentacao,Taxi/Uber,250.8
+2034-02-25,lazer,Farmácia,342.01
+2034-02-26,assinaturas,Compra,290.24
+2034-02-27,saude,Taxi/Uber,150.66
+2034-02-28,mercado,Taxi/Uber,159.21
+2034-03-01,transporte,Farmácia,344.54
+2034-03-02,assinaturas,Farmácia,242.92
+2034-03-03,alimentacao,Assinatura mensal,48.6
+2034-03-04,assinaturas,Taxi/Uber,73.08
+2034-03-05,transporte,Mercado,383.78
+2034-03-06,mercado,Farmácia,449.47
+2034-03-07,mercado,Mercado,154.38
+2034-03-08,mercado,Compra,177.08
+2034-03-09,saude,Compra,73.75
+2034-03-10,transporte,Mercado,109.89
+2034-03-11,saude,Restaurante,193.96
+2034-03-12,saude,Compra,131.55
+2034-03-13,assinaturas,Mercado,317.13
+2034-03-14,transporte,Assinatura mensal,244.34
+2034-03-15,transporte,Assinatura mensal,370.92
+2034-03-16,assinaturas,Compra,327.41
+2034-03-17,lazer,Mercado,62.0
+2034-03-18,saude,Mercado,59.91
+2034-03-19,mercado,Mercado,403.56
+2034-03-20,alimentacao,Restaurante,369.68
+2034-03-21,saude,Compra,213.22
+2034-03-22,alimentacao,Restaurante,63.01
+2034-03-23,assinaturas,Mercado,404.87
+2034-03-24,alimentacao,Farmácia,107.66
+2034-03-25,lazer,Mercado,20.81
+2034-03-26,transporte,Farmácia,416.29
+2034-03-27,mercado,Assinatura mensal,364.98
+2034-03-28,alimentacao,Farmácia,313.6
+2034-03-29,alimentacao,Assinatura mensal,20.14
+2034-03-30,assinaturas,Compra,240.15
+2034-03-31,assinaturas,Restaurante,295.87
+2034-04-01,transporte,Restaurante,342.91
+2034-04-02,mercado,Assinatura mensal,214.63
+2034-04-03,alimentacao,Assinatura mensal,429.24
+2034-04-04,transporte,Mercado,113.93
+2034-04-05,mercado,Taxi/Uber,36.03
+2034-04-06,transporte,Assinatura mensal,153.08
+2034-04-07,alimentacao,Farmácia,299.5
+2034-04-08,assinaturas,Compra,333.03
+2034-04-09,assinaturas,Restaurante,333.63
+2034-04-10,assinaturas,Farmácia,54.25
+2034-04-11,lazer,Restaurante,398.86
+2034-04-12,transporte,Compra,129.97
+2034-04-13,alimentacao,Farmácia,98.41
+2034-04-14,transporte,Restaurante,278.43
+2034-04-15,assinaturas,Assinatura mensal,99.27
+2034-04-16,saude,Taxi/Uber,231.08
+2034-04-17,saude,Assinatura mensal,186.13
+2034-04-18,transporte,Restaurante,108.26
+2034-04-19,mercado,Mercado,134.97
+2034-04-20,saude,Farmácia,195.2
+2034-04-21,saude,Taxi/Uber,159.04
+2034-04-22,transporte,Farmácia,174.8
+2034-04-23,lazer,Mercado,332.27
+2034-04-24,lazer,Mercado,79.93
+2034-04-25,assinaturas,Mercado,284.29
+2034-04-26,alimentacao,Restaurante,306.78
+2034-04-27,mercado,Assinatura mensal,361.93
+2034-04-28,alimentacao,Restaurante,382.06
+2034-04-29,alimentacao,Assinatura mensal,75.61
+2034-04-30,mercado,Taxi/Uber,66.53
+2034-05-01,lazer,Mercado,278.57
+2034-05-02,saude,Assinatura mensal,341.83
+2034-05-03,assinaturas,Compra,126.19
+2034-05-04,transporte,Compra,239.0
+2034-05-05,lazer,Assinatura mensal,348.65
+2034-05-06,assinaturas,Taxi/Uber,346.54
+2034-05-07,saude,Farmácia,295.95
+2034-05-08,lazer,Restaurante,40.06
+2034-05-09,mercado,Mercado,27.54
+2034-05-10,alimentacao,Assinatura mensal,177.86
+2034-05-11,mercado,Taxi/Uber,16.88
+2034-05-12,saude,Restaurante,407.34
+2034-05-13,transporte,Farmácia,13.96
+2034-05-14,mercado,Taxi/Uber,18.18
+2034-05-15,saude,Farmácia,78.57
+2034-05-16,alimentacao,Compra,284.02
+2034-05-17,lazer,Restaurante,245.99
+2034-05-18,assinaturas,Restaurante,298.47
+2034-05-19,saude,Farmácia,402.63
+2034-05-20,saude,Compra,207.45
+2034-05-21,transporte,Mercado,24.52
+2034-05-22,lazer,Assinatura mensal,344.76
+2034-05-23,saude,Compra,366.32
+2034-05-24,saude,Taxi/Uber,27.2
+2034-05-25,assinaturas,Farmácia,113.07
+2034-05-26,alimentacao,Restaurante,347.92
+2034-05-27,mercado,Taxi/Uber,172.39
+2034-05-28,lazer,Restaurante,215.33
+2034-05-29,assinaturas,Compra,371.31
+2034-05-30,assinaturas,Restaurante,47.11
+2034-05-31,mercado,Restaurante,306.39
+2034-06-01,lazer,Restaurante,100.67
+2034-06-02,lazer,Restaurante,32.88
+2034-06-03,alimentacao,Taxi/Uber,299.81
+2034-06-04,lazer,Farmácia,59.03
+2034-06-05,saude,Assinatura mensal,337.42
+2034-06-06,mercado,Taxi/Uber,95.2
+2034-06-07,lazer,Mercado,26.59
+2034-06-08,alimentacao,Farmácia,49.19
+2034-06-09,assinaturas,Farmácia,379.37
+2034-06-10,saude,Mercado,170.08
+2034-06-11,lazer,Compra,139.51
+2034-06-12,mercado,Mercado,223.58
+2034-06-13,lazer,Compra,286.65
+2034-06-14,transporte,Assinatura mensal,21.51
+2034-06-15,alimentacao,Compra,404.69
+2034-06-16,assinaturas,Assinatura mensal,431.52
+2034-06-17,transporte,Assinatura mensal,190.7
+2034-06-18,mercado,Restaurante,188.62
+2034-06-19,lazer,Restaurante,395.96
+2034-06-20,alimentacao,Mercado,196.04
+2034-06-21,saude,Assinatura mensal,386.0
+2034-06-22,lazer,Compra,17.61
+2034-06-23,lazer,Taxi/Uber,222.89
+2034-06-24,lazer,Restaurante,428.83
+2034-06-25,saude,Farmácia,117.5
+2034-06-26,lazer,Farmácia,123.44
+2034-06-27,alimentacao,Compra,285.4
+2034-06-28,saude,Restaurante,417.15
+2034-06-29,saude,Taxi/Uber,93.44
+2034-06-30,transporte,Assinatura mensal,415.13
+2034-07-01,mercado,Restaurante,300.04
+2034-07-02,saude,Compra,446.91
+2034-07-03,transporte,Assinatura mensal,332.72
+2034-07-04,alimentacao,Restaurante,302.17
+2034-07-05,mercado,Mercado,367.63
+2034-07-06,saude,Taxi/Uber,82.94
+2034-07-07,assinaturas,Farmácia,425.96
+2034-07-08,transporte,Compra,78.69
+2034-07-09,alimentacao,Farmácia,16.42
+2034-07-10,alimentacao,Assinatura mensal,315.55
+2034-07-11,alimentacao,Assinatura mensal,87.14
+2034-07-12,mercado,Mercado,342.65
+2034-07-13,lazer,Assinatura mensal,358.79
+2034-07-14,assinaturas,Assinatura mensal,110.33
+2034-07-15,mercado,Farmácia,43.59
+2034-07-16,mercado,Farmácia,227.87
+2034-07-17,saude,Compra,401.15
+2034-07-18,transporte,Compra,382.04
+2034-07-19,assinaturas,Assinatura mensal,57.1
+2034-07-20,alimentacao,Restaurante,434.33
+2034-07-21,mercado,Taxi/Uber,122.46
+2034-07-22,assinaturas,Compra,160.48
+2034-07-23,transporte,Assinatura mensal,71.33
+2034-07-24,lazer,Restaurante,173.12
+2034-07-25,assinaturas,Restaurante,287.86
+2034-07-26,alimentacao,Farmácia,230.2
+2034-07-27,mercado,Restaurante,373.26
+2034-07-28,lazer,Mercado,290.38
+2034-07-29,transporte,Farmácia,122.28
+2034-07-30,alimentacao,Farmácia,253.06
+2034-07-31,lazer,Mercado,33.57
+2034-08-01,saude,Farmácia,263.45
+2034-08-02,saude,Compra,178.4
+2034-08-03,transporte,Farmácia,48.79
+2034-08-04,alimentacao,Mercado,141.82
+2034-08-05,mercado,Assinatura mensal,404.65
+2034-08-06,transporte,Assinatura mensal,265.79
+2034-08-07,lazer,Assinatura mensal,406.95
+2034-08-08,alimentacao,Mercado,187.81
+2034-08-09,saude,Mercado,440.61
+2034-08-10,saude,Compra,165.21
+2034-08-11,assinaturas,Mercado,341.78
+2034-08-12,alimentacao,Restaurante,140.9
+2034-08-13,lazer,Assinatura mensal,52.17
+2034-08-14,lazer,Mercado,375.71
+2034-08-15,assinaturas,Taxi/Uber,344.35
+2034-08-16,lazer,Farmácia,370.18
+2034-08-17,alimentacao,Compra,138.36
+2034-08-18,saude,Assinatura mensal,318.13
+2034-08-19,transporte,Restaurante,102.87
+2034-08-20,saude,Restaurante,10.03
+2034-08-21,saude,Assinatura mensal,390.59
+2034-08-22,alimentacao,Restaurante,237.97
+2034-08-23,lazer,Taxi/Uber,442.73
+2034-08-24,assinaturas,Compra,176.34
+2034-08-25,assinaturas,Farmácia,430.81
+2034-08-26,mercado,Compra,278.7
+2034-08-27,assinaturas,Compra,232.93
+2034-08-28,assinaturas,Assinatura mensal,139.75
+2034-08-29,lazer,Mercado,372.25
+2034-08-30,transporte,Farmácia,373.81
+2034-08-31,transporte,Compra,190.53
+2034-09-01,lazer,Taxi/Uber,328.65
+2034-09-02,assinaturas,Assinatura mensal,204.02
+2034-09-03,alimentacao,Mercado,334.15
+2034-09-04,saude,Mercado,447.41
+2034-09-05,saude,Assinatura mensal,121.81
+2034-09-06,transporte,Compra,287.15
+2034-09-07,lazer,Restaurante,174.05
+2034-09-08,alimentacao,Assinatura mensal,249.03
+2034-09-09,assinaturas,Restaurante,394.0
+2034-09-10,lazer,Mercado,159.67
+2034-09-11,transporte,Mercado,37.21
+2034-09-12,alimentacao,Taxi/Uber,360.53
+2034-09-13,alimentacao,Taxi/Uber,251.99
+2034-09-14,transporte,Mercado,204.98
+2034-09-15,alimentacao,Taxi/Uber,86.58
+2034-09-16,saude,Taxi/Uber,46.32
+2034-09-17,transporte,Taxi/Uber,129.04
+2034-09-18,saude,Mercado,324.91
+2034-09-19,lazer,Compra,188.24
+2034-09-20,mercado,Compra,258.75
+2034-09-21,assinaturas,Farmácia,41.51
+2034-09-22,lazer,Taxi/Uber,59.84
+2034-09-23,saude,Compra,10.03
+2034-09-24,assinaturas,Farmácia,304.61
+2034-09-25,assinaturas,Assinatura mensal,122.68
+2034-09-26,saude,Taxi/Uber,435.28
+2034-09-27,saude,Compra,142.26
+2034-09-28,transporte,Compra,166.81
+2034-09-29,mercado,Restaurante,213.92
+2034-09-30,saude,Compra,147.02
+2034-10-01,assinaturas,Restaurante,368.76
+2034-10-02,assinaturas,Farmácia,394.91
+2034-10-03,lazer,Restaurante,9.91
+2034-10-04,mercado,Assinatura mensal,296.32
+2034-10-05,mercado,Taxi/Uber,310.31
+2034-10-06,assinaturas,Compra,432.83
+2034-10-07,mercado,Mercado,169.83
+2034-10-08,lazer,Taxi/Uber,91.9
+2034-10-09,transporte,Mercado,236.66
+2034-10-10,assinaturas,Farmácia,204.16
+2034-10-11,alimentacao,Compra,357.32
+2034-10-12,assinaturas,Taxi/Uber,407.27
+2034-10-13,assinaturas,Taxi/Uber,43.59
+2034-10-14,transporte,Compra,381.73
+2034-10-15,saude,Assinatura mensal,409.49
+2034-10-16,saude,Farmácia,416.24
+2034-10-17,alimentacao,Compra,345.12
+2034-10-18,alimentacao,Restaurante,335.23
+2034-10-19,alimentacao,Taxi/Uber,11.63
+2034-10-20,saude,Assinatura mensal,414.49
+2034-10-21,transporte,Taxi/Uber,161.42
+2034-10-22,mercado,Mercado,23.3
+2034-10-23,alimentacao,Taxi/Uber,188.78
+2034-10-24,mercado,Farmácia,331.12
+2034-10-25,lazer,Compra,201.67
+2034-10-26,transporte,Taxi/Uber,342.31
+2034-10-27,mercado,Restaurante,231.69
+2034-10-28,saude,Mercado,138.25
+2034-10-29,saude,Mercado,95.3
+2034-10-30,alimentacao,Compra,192.39
+2034-10-31,alimentacao,Mercado,20.93
+2034-11-01,mercado,Compra,193.03
+2034-11-02,saude,Farmácia,35.54
+2034-11-03,mercado,Compra,395.27
+2034-11-04,lazer,Assinatura mensal,261.09
+2034-11-05,transporte,Mercado,292.49
+2034-11-06,saude,Mercado,133.54
+2034-11-07,assinaturas,Restaurante,105.49
+2034-11-08,saude,Taxi/Uber,320.02
+2034-11-09,lazer,Assinatura mensal,303.85
+2034-11-10,saude,Taxi/Uber,59.59
+2034-11-11,lazer,Compra,111.2
+2034-11-12,saude,Farmácia,426.23
+2034-11-13,lazer,Restaurante,140.36
+2034-11-14,alimentacao,Mercado,16.5
+2034-11-15,mercado,Farmácia,33.38
+2034-11-16,saude,Compra,350.1
+2034-11-17,transporte,Compra,341.93
+2034-11-18,alimentacao,Assinatura mensal,174.91
+2034-11-19,lazer,Taxi/Uber,73.17
+2034-11-20,transporte,Mercado,226.66
+2034-11-21,alimentacao,Mercado,152.69
+2034-11-22,assinaturas,Farmácia,171.42
+2034-11-23,saude,Assinatura mensal,121.14
+2034-11-24,saude,Restaurante,32.97
+2034-11-25,lazer,Compra,357.07
+2034-11-26,alimentacao,Assinatura mensal,280.11
+2034-11-27,alimentacao,Mercado,376.41
+2034-11-28,lazer,Restaurante,228.92
+2034-11-29,assinaturas,Taxi/Uber,443.32
+2034-11-30,saude,Farmácia,433.32
+2034-12-01,mercado,Compra,125.94
+2034-12-02,assinaturas,Compra,177.2
+2034-12-03,lazer,Compra,339.96
+2034-12-04,mercado,Taxi/Uber,350.59
+2034-12-05,alimentacao,Mercado,410.26
+2034-12-06,assinaturas,Mercado,295.42
+2034-12-07,assinaturas,Assinatura mensal,216.43
+2034-12-08,saude,Restaurante,173.05
+2034-12-09,saude,Assinatura mensal,191.53
+2034-12-10,mercado,Mercado,383.43
+2034-12-11,alimentacao,Compra,441.1
+2034-12-12,assinaturas,Taxi/Uber,28.1
+2034-12-13,mercado,Mercado,263.21
+2034-12-14,assinaturas,Taxi/Uber,236.42
+2034-12-15,saude,Farmácia,172.38
+2034-12-16,alimentacao,Compra,383.95
+2034-12-17,alimentacao,Farmácia,261.21
+2034-12-18,transporte,Mercado,144.34
+2034-12-19,mercado,Assinatura mensal,202.63
+2034-12-20,saude,Mercado,163.78
+2034-12-21,saude,Farmácia,196.39
+2034-12-22,saude,Taxi/Uber,36.71
+2034-12-23,lazer,Restaurante,54.8
+2034-12-24,assinaturas,Restaurante,282.54
+2034-12-25,alimentacao,Mercado,309.41
+2034-12-26,assinaturas,Assinatura mensal,288.3
+2034-12-27,assinaturas,Farmácia,344.57
+2034-12-28,lazer,Mercado,424.87
+2034-12-29,alimentacao,Farmácia,387.98
+2034-12-30,transporte,Farmácia,191.24
+2034-12-31,saude,Compra,101.81
+2035-01-01,mercado,Restaurante,143.77
+2035-01-02,assinaturas,Restaurante,266.54
+2035-01-03,lazer,Taxi/Uber,386.01
+2035-01-04,lazer,Compra,317.27
+2035-01-05,mercado,Restaurante,246.64
+2035-01-06,mercado,Farmácia,272.84
+2035-01-07,alimentacao,Assinatura mensal,240.08
+2035-01-08,assinaturas,Assinatura mensal,437.37
+2035-01-09,assinaturas,Compra,368.16
+2035-01-10,mercado,Assinatura mensal,352.67
+2035-01-11,saude,Farmácia,235.21
+2035-01-12,transporte,Mercado,152.66
+2035-01-13,assinaturas,Farmácia,13.68
+2035-01-14,lazer,Restaurante,24.33
+2035-01-15,saude,Mercado,18.46
+2035-01-16,mercado,Assinatura mensal,441.31
+2035-01-17,assinaturas,Taxi/Uber,55.94
+2035-01-18,alimentacao,Taxi/Uber,68.24
+2035-01-19,mercado,Farmácia,220.45
+2035-01-20,lazer,Farmácia,219.22
+2035-01-21,alimentacao,Assinatura mensal,414.39
+2035-01-22,mercado,Taxi/Uber,37.72
+2035-01-23,mercado,Taxi/Uber,430.97
+2035-01-24,assinaturas,Farmácia,101.29
+2035-01-25,alimentacao,Restaurante,436.72
+2035-01-26,mercado,Taxi/Uber,245.89
+2035-01-27,saude,Farmácia,295.15
+2035-01-28,lazer,Compra,145.5
+2035-01-29,alimentacao,Taxi/Uber,277.26
+2035-01-30,saude,Mercado,321.32
+2035-01-31,assinaturas,Assinatura mensal,9.61
+2035-02-01,transporte,Farmácia,20.23
+2035-02-02,mercado,Taxi/Uber,443.98
+2035-02-03,transporte,Taxi/Uber,208.61
+2035-02-04,mercado,Restaurante,421.44
+2035-02-05,saude,Farmácia,329.8
+2035-02-06,assinaturas,Mercado,170.97
+2035-02-07,assinaturas,Taxi/Uber,72.12
+2035-02-08,assinaturas,Compra,440.28
+2035-02-09,assinaturas,Assinatura mensal,265.1
+2035-02-10,alimentacao,Farmácia,90.6
+2035-02-11,alimentacao,Taxi/Uber,308.34
+2035-02-12,mercado,Restaurante,45.96
+2035-02-13,alimentacao,Restaurante,391.28
+2035-02-14,mercado,Assinatura mensal,45.11
+2035-02-15,alimentacao,Farmácia,110.11
+2035-02-16,alimentacao,Farmácia,45.69
+2035-02-17,alimentacao,Farmácia,51.19
+2035-02-18,lazer,Mercado,238.11
+2035-02-19,assinaturas,Compra,310.71
+2035-02-20,lazer,Restaurante,355.87
+2035-02-21,alimentacao,Farmácia,314.3
+2035-02-22,alimentacao,Mercado,166.75
+2035-02-23,lazer,Farmácia,252.99
+2035-02-24,saude,Farmácia,417.81
+2035-02-25,mercado,Mercado,177.47
+2035-02-26,assinaturas,Compra,117.32
+2035-02-27,mercado,Assinatura mensal,236.1
+2035-02-28,saude,Restaurante,137.31
+2035-03-01,assinaturas,Taxi/Uber,121.51
+2035-03-02,transporte,Farmácia,351.57
+2035-03-03,assinaturas,Compra,401.42
+2035-03-04,mercado,Restaurante,228.53
+2035-03-05,assinaturas,Taxi/Uber,352.0
+2035-03-06,transporte,Farmácia,88.25
+2035-03-07,transporte,Taxi/Uber,248.7
+2035-03-08,alimentacao,Mercado,288.11
+2035-03-09,transporte,Restaurante,223.35
+2035-03-10,lazer,Compra,57.01
+2035-03-11,mercado,Compra,331.67
+2035-03-12,lazer,Restaurante,378.39
+2035-03-13,saude,Assinatura mensal,287.68
+2035-03-14,lazer,Assinatura mensal,80.28
+2035-03-15,mercado,Taxi/Uber,38.18
+2035-03-16,saude,Mercado,139.21
+2035-03-17,lazer,Taxi/Uber,21.46
+2035-03-18,lazer,Farmácia,378.45
+2035-03-19,saude,Compra,317.86
+2035-03-20,lazer,Taxi/Uber,255.84
+2035-03-21,transporte,Taxi/Uber,400.89
+2035-03-22,mercado,Restaurante,53.99
+2035-03-23,mercado,Compra,322.93
+2035-03-24,mercado,Compra,70.25
+2035-03-25,lazer,Assinatura mensal,32.11
+2035-03-26,transporte,Assinatura mensal,64.14
+2035-03-27,mercado,Compra,428.17
+2035-03-28,assinaturas,Taxi/Uber,200.99
+2035-03-29,mercado,Farmácia,26.8
+2035-03-30,alimentacao,Taxi/Uber,264.72
+2035-03-31,assinaturas,Farmácia,93.87
+2035-04-01,mercado,Compra,8.04
+2035-04-02,lazer,Restaurante,342.48
+2035-04-03,mercado,Farmácia,73.91
+2035-04-04,transporte,Assinatura mensal,424.41
+2035-04-05,transporte,Restaurante,268.8
+2035-04-06,mercado,Compra,43.71
+2035-04-07,lazer,Mercado,101.93
+2035-04-08,lazer,Farmácia,276.83
+2035-04-09,lazer,Farmácia,155.46
+2035-04-10,mercado,Restaurante,241.8
+2035-04-11,mercado,Mercado,360.78
+2035-04-12,alimentacao,Mercado,357.71
+2035-04-13,transporte,Compra,315.6
+2035-04-14,assinaturas,Restaurante,399.29
+2035-04-15,assinaturas,Taxi/Uber,93.72
+2035-04-16,transporte,Mercado,83.87
+2035-04-17,saude,Farmácia,360.71
+2035-04-18,alimentacao,Mercado,147.8
+2035-04-19,transporte,Compra,232.92
+2035-04-20,alimentacao,Compra,336.06
+2035-04-21,saude,Farmácia,181.19
+2035-04-22,alimentacao,Farmácia,62.92
+2035-04-23,lazer,Farmácia,307.36
+2035-04-24,transporte,Taxi/Uber,368.64
+2035-04-25,assinaturas,Farmácia,10.69
+2035-04-26,mercado,Restaurante,255.34
+2035-04-27,saude,Compra,213.89
+2035-04-28,saude,Compra,120.52
+2035-04-29,mercado,Mercado,76.66
+2035-04-30,transporte,Farmácia,88.68
+2035-05-01,mercado,Taxi/Uber,327.61
+2035-05-02,alimentacao,Restaurante,243.61
+2035-05-03,mercado,Assinatura mensal,441.61
+2035-05-04,alimentacao,Mercado,113.24
+2035-05-05,alimentacao,Restaurante,430.82
+2035-05-06,assinaturas,Taxi/Uber,234.22
+2035-05-07,mercado,Farmácia,69.98
+2035-05-08,assinaturas,Taxi/Uber,70.94
+2035-05-09,mercado,Assinatura mensal,275.81
+2035-05-10,alimentacao,Restaurante,374.98
+2035-05-11,mercado,Taxi/Uber,337.73
+2035-05-12,saude,Assinatura mensal,296.75
+2035-05-13,saude,Assinatura mensal,81.59
+2035-05-14,assinaturas,Restaurante,53.21
+2035-05-15,lazer,Assinatura mensal,5.11
+2035-05-16,saude,Restaurante,50.3
+2035-05-17,assinaturas,Taxi/Uber,346.03
+2035-05-18,lazer,Farmácia,403.39
+2035-05-19,transporte,Compra,111.96
+2035-05-20,assinaturas,Compra,358.73
+2035-05-21,saude,Taxi/Uber,93.49
+2035-05-22,saude,Farmácia,115.93
+2035-05-23,mercado,Compra,104.75
+2035-05-24,lazer,Assinatura mensal,28.02
+2035-05-25,saude,Taxi/Uber,91.36
+2035-05-26,mercado,Taxi/Uber,171.23
+2035-05-27,lazer,Mercado,185.43
+2035-05-28,assinaturas,Mercado,142.71
+2035-05-29,assinaturas,Mercado,234.05
+2035-05-30,mercado,Restaurante,173.21
+2035-05-31,assinaturas,Farmácia,436.81
+2035-06-01,mercado,Taxi/Uber,364.27
+2035-06-02,alimentacao,Mercado,419.28
+2035-06-03,lazer,Taxi/Uber,253.05
+2035-06-04,mercado,Assinatura mensal,306.86
+2035-06-05,lazer,Mercado,79.17
+2035-06-06,alimentacao,Taxi/Uber,339.99
+2035-06-07,lazer,Farmácia,110.01
+2035-06-08,mercado,Restaurante,69.9
+2035-06-09,assinaturas,Farmácia,23.63
+2035-06-10,lazer,Farmácia,215.14
+2035-06-11,lazer,Mercado,132.62
+2035-06-12,saude,Farmácia,444.09
+2035-06-13,saude,Restaurante,116.18
+2035-06-14,alimentacao,Compra,390.61
+2035-06-15,transporte,Restaurante,145.82
+2035-06-16,assinaturas,Assinatura mensal,338.36
+2035-06-17,mercado,Restaurante,298.63
+2035-06-18,alimentacao,Taxi/Uber,254.99
+2035-06-19,mercado,Compra,190.49
+2035-06-20,mercado,Mercado,303.64
+2035-06-21,lazer,Taxi/Uber,186.24
+2035-06-22,alimentacao,Restaurante,248.9
+2035-06-23,alimentacao,Taxi/Uber,267.46
+2035-06-24,saude,Farmácia,123.97
+2035-06-25,assinaturas,Taxi/Uber,156.18
+2035-06-26,transporte,Taxi/Uber,13.03
+2035-06-27,mercado,Restaurante,384.21
+2035-06-28,assinaturas,Assinatura mensal,341.41
+2035-06-29,saude,Restaurante,86.67
+2035-06-30,assinaturas,Mercado,166.11
+2035-07-01,mercado,Compra,192.38
+2035-07-02,lazer,Farmácia,153.8
+2035-07-03,lazer,Assinatura mensal,360.22
+2035-07-04,mercado,Compra,327.81
+2035-07-05,saude,Compra,346.39
+2035-07-06,saude,Assinatura mensal,407.34
+2035-07-07,alimentacao,Farmácia,269.84
+2035-07-08,transporte,Mercado,278.47
+2035-07-09,lazer,Assinatura mensal,326.26
+2035-07-10,transporte,Assinatura mensal,308.15
+2035-07-11,assinaturas,Assinatura mensal,392.07
+2035-07-12,assinaturas,Farmácia,347.74
+2035-07-13,mercado,Assinatura mensal,58.6
+2035-07-14,mercado,Assinatura mensal,418.12
+2035-07-15,mercado,Taxi/Uber,308.98
+2035-07-16,saude,Taxi/Uber,61.58
+2035-07-17,lazer,Taxi/Uber,348.53
+2035-07-18,transporte,Taxi/Uber,164.49
+2035-07-19,assinaturas,Assinatura mensal,363.66
+2035-07-20,transporte,Taxi/Uber,430.16
+2035-07-21,lazer,Compra,118.58
+2035-07-22,transporte,Mercado,386.55
+2035-07-23,transporte,Taxi/Uber,349.23
+2035-07-24,saude,Farmácia,303.68
+2035-07-25,mercado,Mercado,176.29
+2035-07-26,saude,Restaurante,53.89
+2035-07-27,saude,Restaurante,220.33
+2035-07-28,transporte,Compra,52.02
+2035-07-29,transporte,Mercado,227.57
+2035-07-30,saude,Mercado,370.03
+2035-07-31,transporte,Compra,448.95
+2035-08-01,saude,Restaurante,93.11
+2035-08-02,alimentacao,Taxi/Uber,97.5
+2035-08-03,saude,Compra,365.84
+2035-08-04,assinaturas,Farmácia,213.73
+2035-08-05,assinaturas,Compra,412.53
+2035-08-06,transporte,Assinatura mensal,347.2
+2035-08-07,saude,Restaurante,332.71
+2035-08-08,saude,Assinatura mensal,50.37
+2035-08-09,mercado,Restaurante,20.96
+2035-08-10,mercado,Restaurante,145.96
+2035-08-11,mercado,Mercado,101.7
+2035-08-12,saude,Taxi/Uber,321.98
+2035-08-13,saude,Taxi/Uber,205.58
+2035-08-14,assinaturas,Restaurante,237.8
+2035-08-15,lazer,Restaurante,367.11
+2035-08-16,transporte,Assinatura mensal,217.93
+2035-08-17,assinaturas,Farmácia,247.49
+2035-08-18,mercado,Compra,379.83
+2035-08-19,assinaturas,Restaurante,196.94
+2035-08-20,assinaturas,Restaurante,41.99
+2035-08-21,assinaturas,Compra,237.16
+2035-08-22,mercado,Compra,262.82
+2035-08-23,lazer,Farmácia,232.75
+2035-08-24,alimentacao,Farmácia,119.83
+2035-08-25,transporte,Compra,104.54
+2035-08-26,transporte,Restaurante,169.54
+2035-08-27,assinaturas,Restaurante,78.97
+2035-08-28,lazer,Compra,301.38
+2035-08-29,mercado,Restaurante,278.53
+2035-08-30,alimentacao,Farmácia,286.42
+2035-08-31,alimentacao,Compra,105.03
+2035-09-01,assinaturas,Farmácia,114.71
+2035-09-02,assinaturas,Restaurante,355.39
+2035-09-03,mercado,Restaurante,312.1
+2035-09-04,mercado,Mercado,394.46
+2035-09-05,saude,Assinatura mensal,184.56
+2035-09-06,mercado,Assinatura mensal,248.56
+2035-09-07,assinaturas,Farmácia,333.76
+2035-09-08,lazer,Compra,438.5
+2035-09-09,assinaturas,Assinatura mensal,445.39
+2035-09-10,assinaturas,Restaurante,449.63
+2035-09-11,alimentacao,Taxi/Uber,401.28
+2035-09-12,mercado,Compra,289.64
+2035-09-13,transporte,Farmácia,8.1
+2035-09-14,mercado,Restaurante,316.3
+2035-09-15,saude,Restaurante,111.18
+2035-09-16,lazer,Taxi/Uber,30.44
+2035-09-17,lazer,Farmácia,315.25
+2035-09-18,mercado,Compra,341.42
+2035-09-19,mercado,Restaurante,298.45
+2035-09-20,assinaturas,Mercado,167.5
+2035-09-21,transporte,Restaurante,232.4
+2035-09-22,assinaturas,Mercado,421.05
+2035-09-23,alimentacao,Mercado,329.68
+2035-09-24,alimentacao,Compra,229.58
+2035-09-25,lazer,Compra,269.08
+2035-09-26,lazer,Taxi/Uber,417.82
+2035-09-27,transporte,Restaurante,180.23
+2035-09-28,lazer,Compra,50.32
+2035-09-29,saude,Compra,149.99
+2035-09-30,alimentacao,Taxi/Uber,189.76
+2035-10-01,transporte,Taxi/Uber,126.47
+2035-10-02,alimentacao,Restaurante,240.39
+2035-10-03,mercado,Farmácia,140.66
+2035-10-04,mercado,Assinatura mensal,50.91
+2035-10-05,transporte,Restaurante,88.69
+2035-10-06,assinaturas,Assinatura mensal,413.58
+2035-10-07,saude,Farmácia,285.17
+2035-10-08,saude,Mercado,144.87
+2035-10-09,lazer,Restaurante,168.28
+2035-10-10,transporte,Compra,224.56
+2035-10-11,saude,Taxi/Uber,304.54
+2035-10-12,lazer,Restaurante,264.07
+2035-10-13,alimentacao,Taxi/Uber,420.05
+2035-10-14,assinaturas,Mercado,283.46
+2035-10-15,lazer,Taxi/Uber,410.3
+2035-10-16,mercado,Mercado,7.42
+2035-10-17,mercado,Farmácia,401.3
+2035-10-18,alimentacao,Mercado,326.05
+2035-10-19,transporte,Assinatura mensal,81.63
+2035-10-20,lazer,Restaurante,122.05
+2035-10-21,alimentacao,Mercado,246.55
+2035-10-22,mercado,Restaurante,60.6
+2035-10-23,mercado,Farmácia,354.49
+2035-10-24,mercado,Mercado,357.07
+2035-10-25,assinaturas,Farmácia,138.92
+2035-10-26,assinaturas,Assinatura mensal,36.07
+2035-10-27,mercado,Compra,445.04
+2035-10-28,saude,Farmácia,116.57
+2035-10-29,transporte,Compra,35.06
+2035-10-30,assinaturas,Farmácia,151.83
+2035-10-31,lazer,Mercado,436.21
+2035-11-01,assinaturas,Compra,357.85
+2035-11-02,lazer,Farmácia,218.75
+2035-11-03,assinaturas,Restaurante,140.87
+2035-11-04,mercado,Farmácia,193.37
+2035-11-05,lazer,Compra,12.73
+2035-11-06,transporte,Restaurante,324.67
+2035-11-07,assinaturas,Farmácia,49.34
+2035-11-08,assinaturas,Compra,235.97
+2035-11-09,mercado,Assinatura mensal,256.8
+2035-11-10,lazer,Taxi/Uber,5.75
+2035-11-11,saude,Assinatura mensal,441.05
+2035-11-12,mercado,Compra,139.45
+2035-11-13,lazer,Mercado,39.36
+2035-11-14,assinaturas,Mercado,385.2
+2035-11-15,assinaturas,Taxi/Uber,72.62
+2035-11-16,assinaturas,Compra,16.11
+2035-11-17,assinaturas,Restaurante,225.14
+2035-11-18,alimentacao,Farmácia,62.81
+2035-11-19,assinaturas,Assinatura mensal,442.18
+2035-11-20,assinaturas,Restaurante,9.63
+2035-11-21,saude,Assinatura mensal,27.78
+2035-11-22,saude,Taxi/Uber,375.81
+2035-11-23,lazer,Taxi/Uber,111.69
+2035-11-24,assinaturas,Taxi/Uber,410.66
+2035-11-25,assinaturas,Restaurante,143.46
+2035-11-26,lazer,Restaurante,36.05
+2035-11-27,assinaturas,Taxi/Uber,9.71
+2035-11-28,assinaturas,Restaurante,130.74
+2035-11-29,mercado,Taxi/Uber,215.81
+2035-11-30,alimentacao,Restaurante,5.45
+2035-12-01,lazer,Taxi/Uber,263.59
+2035-12-02,mercado,Farmácia,153.48
+2035-12-03,saude,Farmácia,178.62
+2035-12-04,transporte,Assinatura mensal,121.33
+2035-12-05,transporte,Assinatura mensal,240.43
+2035-12-06,saude,Taxi/Uber,107.4
+2035-12-07,alimentacao,Assinatura mensal,65.0
+2035-12-08,transporte,Restaurante,401.34
+2035-12-09,alimentacao,Taxi/Uber,178.8
+2035-12-10,transporte,Farmácia,39.23
+2035-12-11,transporte,Mercado,107.49
+2035-12-12,mercado,Farmácia,142.92
+2035-12-13,transporte,Compra,347.49
+2035-12-14,saude,Farmácia,14.9
+2035-12-15,alimentacao,Compra,217.82
+2035-12-16,assinaturas,Assinatura mensal,186.42
+2035-12-17,assinaturas,Farmácia,435.94
+2035-12-18,assinaturas,Mercado,85.13
+2035-12-19,alimentacao,Restaurante,284.4
+2035-12-20,alimentacao,Farmácia,94.98
+2035-12-21,assinaturas,Restaurante,249.05
+2035-12-22,saude,Farmácia,252.0
+2035-12-23,transporte,Farmácia,38.53
+2035-12-24,assinaturas,Restaurante,208.12
+2035-12-25,lazer,Restaurante,210.21
+2035-12-26,alimentacao,Taxi/Uber,147.02
+2035-12-27,lazer,Farmácia,128.34
+2035-12-28,lazer,Farmácia,104.81
+2035-12-29,alimentacao,Mercado,7.64
+2035-12-30,assinaturas,Restaurante,5.81
+2035-12-31,saude,Restaurante,267.46
+2036-01-01,mercado,Compra,134.7
+2036-01-02,lazer,Compra,79.71
+2036-01-03,assinaturas,Restaurante,309.71
+2036-01-04,mercado,Mercado,240.36
+2036-01-05,lazer,Assinatura mensal,412.16
+2036-01-06,assinaturas,Farmácia,374.8
+2036-01-07,lazer,Assinatura mensal,328.39
+2036-01-08,assinaturas,Mercado,61.33
+2036-01-09,saude,Assinatura mensal,301.41
+2036-01-10,transporte,Compra,313.8
+2036-01-11,transporte,Taxi/Uber,344.68
+2036-01-12,alimentacao,Assinatura mensal,122.09
+2036-01-13,mercado,Taxi/Uber,289.93
+2036-01-14,lazer,Assinatura mensal,280.13
+2036-01-15,lazer,Mercado,176.46
+2036-01-16,assinaturas,Taxi/Uber,300.26
+2036-01-17,mercado,Assinatura mensal,43.58
+2036-01-18,lazer,Mercado,291.36
+2036-01-19,mercado,Restaurante,274.68
+2036-01-20,mercado,Compra,98.73
+2036-01-21,transporte,Farmácia,369.11
+2036-01-22,lazer,Mercado,394.11
+2036-01-23,lazer,Mercado,98.67
+2036-01-24,alimentacao,Compra,38.8
+2036-01-25,mercado,Taxi/Uber,273.59
+2036-01-26,assinaturas,Assinatura mensal,218.56
+2036-01-27,transporte,Taxi/Uber,195.28
+2036-01-28,alimentacao,Mercado,343.65
+2036-01-29,transporte,Restaurante,436.5
+2036-01-30,assinaturas,Assinatura mensal,217.56
+2036-01-31,alimentacao,Farmácia,7.74
+2036-02-01,transporte,Farmácia,270.34
+2036-02-02,assinaturas,Assinatura mensal,296.01
+2036-02-03,saude,Mercado,373.47
+2036-02-04,alimentacao,Restaurante,93.74
+2036-02-05,assinaturas,Compra,238.33
+2036-02-06,alimentacao,Restaurante,203.97
+2036-02-07,lazer,Taxi/Uber,300.68
+2036-02-08,lazer,Restaurante,33.45
+2036-02-09,transporte,Restaurante,398.39
+2036-02-10,mercado,Taxi/Uber,232.47
+2036-02-11,saude,Compra,395.29
+2036-02-12,mercado,Compra,156.41
+2036-02-13,assinaturas,Farmácia,295.82
+2036-02-14,alimentacao,Compra,430.74
+2036-02-15,lazer,Assinatura mensal,424.8
+2036-02-16,mercado,Farmácia,425.13
+2036-02-17,lazer,Mercado,24.11
+2036-02-18,saude,Farmácia,184.34
+2036-02-19,assinaturas,Restaurante,32.05
+2036-02-20,saude,Restaurante,142.72
+2036-02-21,saude,Farmácia,82.69
+2036-02-22,assinaturas,Taxi/Uber,280.96
+2036-02-23,alimentacao,Compra,352.43
+2036-02-24,saude,Restaurante,233.44
+2036-02-25,mercado,Restaurante,358.99
+2036-02-26,assinaturas,Assinatura mensal,10.7
+2036-02-27,assinaturas,Compra,370.11
+2036-02-28,lazer,Restaurante,84.37
+2036-02-29,transporte,Taxi/Uber,210.12
+2036-03-01,saude,Restaurante,201.95
+2036-03-02,mercado,Compra,393.55
+2036-03-03,alimentacao,Assinatura mensal,434.86
+2036-03-04,saude,Compra,118.53
+2036-03-05,alimentacao,Taxi/Uber,35.0
+2036-03-06,lazer,Assinatura mensal,294.48
+2036-03-07,saude,Compra,228.76
+2036-03-08,alimentacao,Taxi/Uber,256.74
+2036-03-09,saude,Taxi/Uber,25.59
+2036-03-10,assinaturas,Farmácia,350.01
+2036-03-11,saude,Restaurante,108.4
+2036-03-12,mercado,Assinatura mensal,154.05
+2036-03-13,saude,Assinatura mensal,106.62
+2036-03-14,alimentacao,Restaurante,425.95
+2036-03-15,mercado,Compra,80.08
+2036-03-16,alimentacao,Farmácia,330.88
+2036-03-17,transporte,Assinatura mensal,114.36
+2036-03-18,transporte,Taxi/Uber,194.09
+2036-03-19,mercado,Assinatura mensal,448.25
+2036-03-20,transporte,Farmácia,49.76
+2036-03-21,transporte,Restaurante,397.2
+2036-03-22,assinaturas,Mercado,425.99
+2036-03-23,alimentacao,Restaurante,315.71
+2036-03-24,transporte,Taxi/Uber,9.43
+2036-03-25,mercado,Assinatura mensal,370.26
+2036-03-26,assinaturas,Restaurante,397.61
+2036-03-27,transporte,Taxi/Uber,441.52
+2036-03-28,saude,Compra,378.5
+2036-03-29,mercado,Taxi/Uber,203.29
+2036-03-30,alimentacao,Assinatura mensal,311.45
+2036-03-31,saude,Compra,220.88
+2036-04-01,transporte,Compra,162.09
+2036-04-02,mercado,Compra,283.76
+2036-04-03,saude,Mercado,347.58
+2036-04-04,mercado,Mercado,287.98
+2036-04-05,lazer,Compra,372.83
+2036-04-06,saude,Restaurante,83.49
+2036-04-07,mercado,Restaurante,171.29
+2036-04-08,saude,Restaurante,144.1
+2036-04-09,lazer,Assinatura mensal,91.39
+2036-04-10,alimentacao,Compra,202.21
+2036-04-11,alimentacao,Restaurante,426.8
+2036-04-12,assinaturas,Compra,244.41
+2036-04-13,saude,Taxi/Uber,132.45
+2036-04-14,lazer,Restaurante,162.56
+2036-04-15,mercado,Taxi/Uber,277.82
+2036-04-16,assinaturas,Taxi/Uber,161.97
+2036-04-17,saude,Restaurante,244.56
+2036-04-18,assinaturas,Farmácia,127.0
+2036-04-19,saude,Taxi/Uber,158.94
+2036-04-20,alimentacao,Restaurante,319.05
+2036-04-21,mercado,Taxi/Uber,265.16
+2036-04-22,lazer,Assinatura mensal,46.6
+2036-04-23,alimentacao,Mercado,438.07
+2036-04-24,assinaturas,Mercado,26.95
+2036-04-25,transporte,Mercado,41.91
+2036-04-26,assinaturas,Farmácia,317.12
+2036-04-27,transporte,Compra,320.07
+2036-04-28,saude,Taxi/Uber,13.43
+2036-04-29,alimentacao,Assinatura mensal,291.03
+2036-04-30,saude,Farmácia,19.8
+2036-05-01,lazer,Mercado,432.54
+2036-05-02,mercado,Farmácia,314.78
+2036-05-03,transporte,Assinatura mensal,88.03
+2036-05-04,mercado,Restaurante,75.36
+2036-05-05,saude,Farmácia,258.5
+2036-05-06,alimentacao,Mercado,286.92
+2036-05-07,alimentacao,Compra,374.9
+2036-05-08,saude,Mercado,406.98
+2036-05-09,saude,Mercado,179.68
+2036-05-10,alimentacao,Mercado,380.62
+2036-05-11,lazer,Farmácia,246.36
+2036-05-12,transporte,Assinatura mensal,214.41
+2036-05-13,mercado,Mercado,316.04
+2036-05-14,assinaturas,Restaurante,50.92
+2036-05-15,saude,Farmácia,123.1
+2036-05-16,saude,Assinatura mensal,368.46
+2036-05-17,alimentacao,Compra,229.32
+2036-05-18,mercado,Mercado,409.08
+2036-05-19,mercado,Taxi/Uber,44.47
+2036-05-20,lazer,Farmácia,144.47
+2036-05-21,transporte,Restaurante,163.22
+2036-05-22,lazer,Compra,193.11
+2036-05-23,lazer,Compra,444.13
+2036-05-24,mercado,Compra,143.24
+2036-05-25,transporte,Farmácia,235.81
+2036-05-26,transporte,Assinatura mensal,243.55
+2036-05-27,transporte,Taxi/Uber,348.01
+2036-05-28,alimentacao,Restaurante,235.45
+2036-05-29,transporte,Assinatura mensal,274.55
+2036-05-30,mercado,Mercado,340.23
+2036-05-31,alimentacao,Taxi/Uber,50.0
+2036-06-01,assinaturas,Assinatura mensal,433.75
+2036-06-02,saude,Mercado,381.61
+2036-06-03,lazer,Taxi/Uber,178.0
+2036-06-04,transporte,Farmácia,329.15
+2036-06-05,assinaturas,Restaurante,344.23
+2036-06-06,transporte,Restaurante,383.36
+2036-06-07,lazer,Mercado,88.8
+2036-06-08,mercado,Assinatura mensal,318.15
+2036-06-09,mercado,Taxi/Uber,19.84
+2036-06-10,lazer,Mercado,56.43
+2036-06-11,assinaturas,Mercado,350.35
+2036-06-12,alimentacao,Farmácia,366.79
+2036-06-13,saude,Mercado,268.63
+2036-06-14,saude,Taxi/Uber,263.85
+2036-06-15,saude,Compra,338.53
+2036-06-16,alimentacao,Taxi/Uber,408.21
+2036-06-17,transporte,Taxi/Uber,192.4
+2036-06-18,lazer,Farmácia,56.1
+2036-06-19,lazer,Farmácia,378.35
+2036-06-20,alimentacao,Restaurante,157.03
+2036-06-21,assinaturas,Restaurante,64.53
+2036-06-22,saude,Mercado,278.5
+2036-06-23,lazer,Restaurante,262.25
+2036-06-24,mercado,Farmácia,216.04
+2036-06-25,mercado,Mercado,387.61
+2036-06-26,lazer,Compra,126.14
+2036-06-27,saude,Assinatura mensal,10.89
+2036-06-28,saude,Farmácia,148.94
+2036-06-29,saude,Farmácia,9.32
+2036-06-30,assinaturas,Compra,246.9
+2036-07-01,mercado,Farmácia,173.32
+2036-07-02,assinaturas,Restaurante,367.2
+2036-07-03,alimentacao,Restaurante,359.93
+2036-07-04,transporte,Restaurante,198.41
+2036-07-05,saude,Compra,101.34
+2036-07-06,alimentacao,Mercado,192.98
+2036-07-07,transporte,Farmácia,290.39
+2036-07-08,mercado,Farmácia,89.64
+2036-07-09,transporte,Restaurante,349.01
+2036-07-10,transporte,Mercado,152.1
+2036-07-11,lazer,Farmácia,419.82
+2036-07-12,transporte,Taxi/Uber,232.78
+2036-07-13,lazer,Compra,381.97
+2036-07-14,transporte,Assinatura mensal,279.07
+2036-07-15,lazer,Taxi/Uber,251.8
+2036-07-16,mercado,Assinatura mensal,308.55
+2036-07-17,mercado,Taxi/Uber,366.11
+2036-07-18,transporte,Taxi/Uber,291.81
+2036-07-19,assinaturas,Taxi/Uber,359.77
+2036-07-20,mercado,Compra,89.76
+2036-07-21,alimentacao,Assinatura mensal,128.49
+2036-07-22,alimentacao,Mercado,107.23
+2036-07-23,lazer,Mercado,360.24
+2036-07-24,assinaturas,Restaurante,43.33
+2036-07-25,saude,Farmácia,359.16
+2036-07-26,lazer,Compra,178.12
+2036-07-27,transporte,Restaurante,40.38
+2036-07-28,mercado,Restaurante,193.87
+2036-07-29,assinaturas,Compra,138.72
+2036-07-30,lazer,Compra,268.42
+2036-07-31,lazer,Taxi/Uber,215.27
+2036-08-01,alimentacao,Compra,137.07
+2036-08-02,transporte,Mercado,388.71
+2036-08-03,lazer,Compra,186.04
+2036-08-04,alimentacao,Taxi/Uber,214.46
+2036-08-05,assinaturas,Assinatura mensal,381.75
+2036-08-06,lazer,Restaurante,44.63
+2036-08-07,saude,Compra,178.5
+2036-08-08,saude,Restaurante,184.27
+2036-08-09,alimentacao,Assinatura mensal,225.64
+2036-08-10,saude,Farmácia,52.22
+2036-08-11,transporte,Taxi/Uber,50.68
+2036-08-12,mercado,Restaurante,190.31
+2036-08-13,saude,Compra,19.7
+2036-08-14,assinaturas,Farmácia,118.47
+2036-08-15,lazer,Farmácia,94.52
+2036-08-16,alimentacao,Assinatura mensal,222.78
+2036-08-17,lazer,Restaurante,9.97
+2036-08-18,mercado,Restaurante,305.7
+2036-08-19,lazer,Mercado,385.74
+2036-08-20,lazer,Mercado,319.5
+2036-08-21,alimentacao,Mercado,369.04
+2036-08-22,mercado,Restaurante,291.28
+2036-08-23,assinaturas,Restaurante,230.78
+2036-08-24,alimentacao,Mercado,102.46
+2036-08-25,mercado,Taxi/Uber,129.43
+2036-08-26,mercado,Compra,146.38
+2036-08-27,lazer,Compra,21.92
+2036-08-28,transporte,Taxi/Uber,411.32
+2036-08-29,transporte,Assinatura mensal,405.63
+2036-08-30,assinaturas,Compra,52.96
+2036-08-31,lazer,Restaurante,252.73
+2036-09-01,transporte,Farmácia,213.1
+2036-09-02,alimentacao,Restaurante,309.12
+2036-09-03,assinaturas,Compra,273.34
+2036-09-04,lazer,Taxi/Uber,60.32
+2036-09-05,saude,Assinatura mensal,298.73
+2036-09-06,alimentacao,Compra,275.95
+2036-09-07,transporte,Taxi/Uber,241.39
+2036-09-08,transporte,Farmácia,184.07
+2036-09-09,transporte,Mercado,429.94
+2036-09-10,transporte,Farmácia,383.0
+2036-09-11,mercado,Farmácia,265.36
+2036-09-12,saude,Assinatura mensal,7.84
+2036-09-13,assinaturas,Compra,197.29
+2036-09-14,assinaturas,Mercado,316.65
+2036-09-15,transporte,Taxi/Uber,57.2
+2036-09-16,assinaturas,Mercado,185.91
+2036-09-17,saude,Compra,90.32
+2036-09-18,alimentacao,Assinatura mensal,155.47
+2036-09-19,alimentacao,Compra,16.87
+2036-09-20,assinaturas,Taxi/Uber,61.4
+2036-09-21,transporte,Mercado,207.37
+2036-09-22,lazer,Farmácia,404.69
+2036-09-23,saude,Compra,223.31
+2036-09-24,transporte,Restaurante,206.62
+2036-09-25,mercado,Assinatura mensal,355.47
+2036-09-26,lazer,Assinatura mensal,124.18
+2036-09-27,saude,Mercado,47.31
+2036-09-28,mercado,Farmácia,98.26
+2036-09-29,assinaturas,Taxi/Uber,357.13
+2036-09-30,mercado,Farmácia,306.29
+2036-10-01,assinaturas,Mercado,45.73
+2036-10-02,mercado,Farmácia,301.86
+2036-10-03,lazer,Mercado,419.54
+2036-10-04,mercado,Farmácia,25.0
+2036-10-05,transporte,Compra,279.31
+2036-10-06,assinaturas,Assinatura mensal,173.73
+2036-10-07,alimentacao,Mercado,227.96
+2036-10-08,mercado,Mercado,240.04
+2036-10-09,assinaturas,Assinatura mensal,348.12
+2036-10-10,alimentacao,Restaurante,252.87
+2036-10-11,assinaturas,Restaurante,268.92
+2036-10-12,assinaturas,Taxi/Uber,153.15
+2036-10-13,alimentacao,Mercado,61.05
+2036-10-14,alimentacao,Compra,308.82
+2036-10-15,lazer,Farmácia,5.21
+2036-10-16,saude,Compra,151.28
+2036-10-17,mercado,Mercado,102.03
+2036-10-18,mercado,Taxi/Uber,177.9
+2036-10-19,assinaturas,Mercado,143.51
+2036-10-20,transporte,Taxi/Uber,318.38
+2036-10-21,transporte,Assinatura mensal,120.79
+2036-10-22,saude,Farmácia,254.53
+2036-10-23,assinaturas,Compra,207.82
+2036-10-24,lazer,Taxi/Uber,361.47
+2036-10-25,alimentacao,Compra,195.5
+2036-10-26,assinaturas,Assinatura mensal,389.42
+2036-10-27,mercado,Mercado,5.06
+2036-10-28,transporte,Taxi/Uber,274.15
+2036-10-29,transporte,Farmácia,9.36
+2036-10-30,transporte,Taxi/Uber,322.7
+2036-10-31,lazer,Restaurante,109.54
+2036-11-01,mercado,Mercado,174.09
+2036-11-02,lazer,Mercado,174.29
+2036-11-03,alimentacao,Farmácia,381.66
+2036-11-04,assinaturas,Farmácia,50.43
+2036-11-05,assinaturas,Assinatura mensal,301.77
+2036-11-06,transporte,Compra,441.66
+2036-11-07,transporte,Taxi/Uber,14.96
+2036-11-08,alimentacao,Assinatura mensal,434.82
+2036-11-09,lazer,Compra,13.19
+2036-11-10,saude,Assinatura mensal,379.31
+2036-11-11,saude,Restaurante,432.75
+2036-11-12,saude,Farmácia,446.9
+2036-11-13,mercado,Farmácia,209.31
+2036-11-14,alimentacao,Mercado,390.8
+2036-11-15,assinaturas,Taxi/Uber,59.44
+2036-11-16,assinaturas,Taxi/Uber,194.3
+2036-11-17,lazer,Taxi/Uber,142.05
+2036-11-18,alimentacao,Assinatura mensal,180.85
+2036-11-19,mercado,Assinatura mensal,317.38
+2036-11-20,alimentacao,Taxi/Uber,43.93
+2036-11-21,alimentacao,Mercado,449.18
+2036-11-22,lazer,Compra,287.6
+2036-11-23,mercado,Restaurante,393.72
+2036-11-24,saude,Assinatura mensal,374.21
+2036-11-25,assinaturas,Taxi/Uber,345.87
+2036-11-26,transporte,Farmácia,22.45
+2036-11-27,saude,Assinatura mensal,234.83
+2036-11-28,mercado,Compra,151.03
+2036-11-29,assinaturas,Assinatura mensal,55.26
+2036-11-30,saude,Compra,157.63
+2036-12-01,lazer,Compra,291.94
+2036-12-02,mercado,Assinatura mensal,107.63
+2036-12-03,mercado,Compra,202.84
+2036-12-04,assinaturas,Assinatura mensal,185.0
+2036-12-05,assinaturas,Assinatura mensal,28.35
+2036-12-06,alimentacao,Mercado,284.5
+2036-12-07,alimentacao,Farmácia,280.39
+2036-12-08,mercado,Restaurante,435.05
+2036-12-09,transporte,Compra,137.61
+2036-12-10,lazer,Assinatura mensal,191.43
+2036-12-11,assinaturas,Compra,184.62
+2036-12-12,alimentacao,Assinatura mensal,414.29
+2036-12-13,lazer,Restaurante,186.85
+2036-12-14,saude,Assinatura mensal,202.03
+2036-12-15,saude,Assinatura mensal,117.29
+2036-12-16,mercado,Farmácia,5.52
+2036-12-17,assinaturas,Compra,54.15
+2036-12-18,saude,Farmácia,318.23
+2036-12-19,assinaturas,Farmácia,308.71
+2036-12-20,alimentacao,Farmácia,148.53
+2036-12-21,saude,Farmácia,215.49
+2036-12-22,transporte,Mercado,137.33
+2036-12-23,saude,Compra,330.26
+2036-12-24,assinaturas,Compra,379.91
+2036-12-25,transporte,Assinatura mensal,405.1
+2036-12-26,lazer,Compra,82.37
+2036-12-27,saude,Restaurante,314.28
+2036-12-28,assinaturas,Farmácia,433.54
+2036-12-29,saude,Taxi/Uber,294.52
+2036-12-30,saude,Compra,161.18
+2036-12-31,assinaturas,Taxi/Uber,288.0
+2037-01-01,transporte,Restaurante,311.35
+2037-01-02,alimentacao,Mercado,181.69
+2037-01-03,saude,Assinatura mensal,51.28
+2037-01-04,mercado,Assinatura mensal,274.96
+2037-01-05,lazer,Assinatura mensal,361.95
+2037-01-06,assinaturas,Mercado,448.92
+2037-01-07,saude,Farmácia,104.26
+2037-01-08,alimentacao,Taxi/Uber,316.67
+2037-01-09,assinaturas,Compra,17.48
+2037-01-10,saude,Farmácia,436.57
+2037-01-11,lazer,Assinatura mensal,10.59
+2037-01-12,mercado,Assinatura mensal,164.66
+2037-01-13,assinaturas,Farmácia,39.0
+2037-01-14,saude,Taxi/Uber,281.33
+2037-01-15,transporte,Farmácia,156.08
+2037-01-16,alimentacao,Mercado,331.16
+2037-01-17,mercado,Assinatura mensal,221.44
+2037-01-18,assinaturas,Taxi/Uber,191.63
+2037-01-19,saude,Compra,160.09
+2037-01-20,mercado,Assinatura mensal,43.33
+2037-01-21,transporte,Farmácia,96.15
+2037-01-22,assinaturas,Taxi/Uber,289.4
+2037-01-23,mercado,Assinatura mensal,226.05
+2037-01-24,assinaturas,Compra,36.19
+2037-01-25,assinaturas,Compra,247.06
+2037-01-26,mercado,Restaurante,29.09
+2037-01-27,assinaturas,Farmácia,232.72
+2037-01-28,transporte,Mercado,434.41
+2037-01-29,mercado,Farmácia,141.77
+2037-01-30,saude,Taxi/Uber,326.96
+2037-01-31,mercado,Farmácia,336.77
+2037-02-01,transporte,Taxi/Uber,185.16
+2037-02-02,transporte,Restaurante,269.02
+2037-02-03,transporte,Restaurante,215.06
+2037-02-04,saude,Restaurante,131.1
+2037-02-05,saude,Mercado,340.86
+2037-02-06,assinaturas,Restaurante,317.76
+2037-02-07,assinaturas,Farmácia,405.74
+2037-02-08,lazer,Compra,280.07
+2037-02-09,assinaturas,Taxi/Uber,177.98
+2037-02-10,transporte,Taxi/Uber,322.73
+2037-02-11,lazer,Compra,280.47
+2037-02-12,transporte,Farmácia,279.39
+2037-02-13,alimentacao,Mercado,383.18
+2037-02-14,saude,Assinatura mensal,410.16
+2037-02-15,mercado,Farmácia,85.21
+2037-02-16,alimentacao,Restaurante,144.75
+2037-02-17,saude,Farmácia,294.39
+2037-02-18,saude,Taxi/Uber,252.96
+2037-02-19,transporte,Taxi/Uber,295.29
+2037-02-20,assinaturas,Mercado,197.69
+2037-02-21,mercado,Restaurante,188.54
+2037-02-22,assinaturas,Mercado,57.36
+2037-02-23,assinaturas,Mercado,282.52
+2037-02-24,mercado,Compra,83.22
+2037-02-25,mercado,Assinatura mensal,303.6
+2037-02-26,alimentacao,Assinatura mensal,435.35
+2037-02-27,transporte,Restaurante,119.1
+2037-02-28,assinaturas,Mercado,68.26
+2037-03-01,transporte,Taxi/Uber,15.76
+2037-03-02,transporte,Assinatura mensal,173.58
+2037-03-03,lazer,Farmácia,100.5
+2037-03-04,alimentacao,Compra,223.88
+2037-03-05,assinaturas,Taxi/Uber,238.32
+2037-03-06,saude,Compra,160.45
+2037-03-07,mercado,Farmácia,338.71
+2037-03-08,mercado,Assinatura mensal,407.64
+2037-03-09,transporte,Compra,99.13
+2037-03-10,alimentacao,Restaurante,377.15
+2037-03-11,alimentacao,Compra,63.38
+2037-03-12,assinaturas,Compra,106.77
+2037-03-13,assinaturas,Farmácia,254.83
+2037-03-14,transporte,Taxi/Uber,141.43
+2037-03-15,transporte,Taxi/Uber,23.56
+2037-03-16,transporte,Farmácia,136.22
+2037-03-17,lazer,Compra,407.67
+2037-03-18,alimentacao,Compra,82.53
+2037-03-19,transporte,Mercado,344.87
+2037-03-20,alimentacao,Restaurante,326.42
+2037-03-21,saude,Assinatura mensal,52.27
+2037-03-22,mercado,Assinatura mensal,151.6
+2037-03-23,mercado,Taxi/Uber,89.26
+2037-03-24,alimentacao,Farmácia,15.3
+2037-03-25,saude,Compra,82.0
+2037-03-26,mercado,Restaurante,94.7
+2037-03-27,mercado,Assinatura mensal,78.86
+2037-03-28,mercado,Farmácia,45.54
+2037-03-29,assinaturas,Farmácia,239.21
+2037-03-30,saude,Compra,148.57
+2037-03-31,assinaturas,Restaurante,409.17
+2037-04-01,alimentacao,Farmácia,88.31
+2037-04-02,alimentacao,Assinatura mensal,273.27
+2037-04-03,lazer,Mercado,405.78
+2037-04-04,assinaturas,Assinatura mensal,26.0
+2037-04-05,alimentacao,Restaurante,234.74
+2037-04-06,assinaturas,Mercado,205.55
+2037-04-07,lazer,Farmácia,418.31
+2037-04-08,alimentacao,Assinatura mensal,300.38
+2037-04-09,alimentacao,Compra,160.38
+2037-04-10,alimentacao,Restaurante,321.63
+2037-04-11,alimentacao,Farmácia,264.28
+2037-04-12,transporte,Compra,159.49
+2037-04-13,saude,Mercado,354.44
+2037-04-14,saude,Taxi/Uber,302.34
+2037-04-15,assinaturas,Taxi/Uber,7.41
+2037-04-16,assinaturas,Mercado,389.98
+2037-04-17,assinaturas,Taxi/Uber,181.71
+2037-04-18,lazer,Restaurante,292.22
+2037-04-19,transporte,Farmácia,181.56
+2037-04-20,assinaturas,Farmácia,397.21
+2037-04-21,assinaturas,Restaurante,294.62
+2037-04-22,alimentacao,Assinatura mensal,262.83
+2037-04-23,alimentacao,Farmácia,441.22
+2037-04-24,alimentacao,Taxi/Uber,129.89
+2037-04-25,assinaturas,Restaurante,34.04
+2037-04-26,alimentacao,Compra,234.62
+2037-04-27,assinaturas,Assinatura mensal,193.69
+2037-04-28,lazer,Compra,207.16
+2037-04-29,lazer,Taxi/Uber,280.95
+2037-04-30,mercado,Compra,278.73
+2037-05-01,transporte,Taxi/Uber,179.56
+2037-05-02,alimentacao,Farmácia,388.98
+2037-05-03,saude,Assinatura mensal,294.9
+2037-05-04,alimentacao,Mercado,401.01
+2037-05-05,transporte,Taxi/Uber,411.35
+2037-05-06,transporte,Restaurante,79.45
+2037-05-07,mercado,Restaurante,307.85
+2037-05-08,transporte,Farmácia,146.29
+2037-05-09,assinaturas,Restaurante,377.21
+2037-05-10,alimentacao,Compra,331.12
+2037-05-11,transporte,Farmácia,93.44
+2037-05-12,assinaturas,Restaurante,422.74
+2037-05-13,transporte,Compra,309.15
+2037-05-14,saude,Compra,427.14
+2037-05-15,assinaturas,Compra,94.85
+2037-05-16,lazer,Restaurante,392.02
+2037-05-17,assinaturas,Compra,302.29
+2037-05-18,mercado,Assinatura mensal,250.77
+2037-05-19,assinaturas,Restaurante,370.13
+2037-05-20,transporte,Compra,286.62
+2037-05-21,lazer,Assinatura mensal,302.97
+2037-05-22,lazer,Mercado,117.88
+2037-05-23,assinaturas,Assinatura mensal,368.59
+2037-05-24,transporte,Restaurante,294.38
+2037-05-25,lazer,Restaurante,380.75
+2037-05-26,saude,Compra,161.43
+2037-05-27,assinaturas,Restaurante,152.61
+2037-05-28,assinaturas,Mercado,15.64
+2037-05-29,assinaturas,Farmácia,347.03
+2037-05-30,lazer,Assinatura mensal,151.99
+2037-05-31,alimentacao,Farmácia,150.61
+2037-06-01,transporte,Mercado,311.46
+2037-06-02,mercado,Assinatura mensal,117.53
+2037-06-03,mercado,Compra,409.51
+2037-06-04,transporte,Assinatura mensal,244.44
+2037-06-05,alimentacao,Compra,436.42
+2037-06-06,transporte,Taxi/Uber,39.12
+2037-06-07,assinaturas,Assinatura mensal,154.89
+2037-06-08,saude,Assinatura mensal,174.75
+2037-06-09,transporte,Farmácia,330.04
+2037-06-10,transporte,Farmácia,99.77
+2037-06-11,saude,Mercado,172.03
+2037-06-12,lazer,Compra,410.24
+2037-06-13,mercado,Restaurante,55.98
+2037-06-14,mercado,Farmácia,336.67
+2037-06-15,assinaturas,Mercado,317.61
+2037-06-16,saude,Compra,63.07
+2037-06-17,assinaturas,Compra,311.38
+2037-06-18,lazer,Compra,258.55
+2037-06-19,assinaturas,Taxi/Uber,132.95
+2037-06-20,saude,Compra,143.46
+2037-06-21,saude,Mercado,375.68
+2037-06-22,alimentacao,Compra,107.8
+2037-06-23,lazer,Restaurante,233.19
+2037-06-24,saude,Restaurante,308.11
+2037-06-25,saude,Compra,62.81
+2037-06-26,lazer,Mercado,419.9
+2037-06-27,transporte,Assinatura mensal,120.98
+2037-06-28,transporte,Compra,146.88
+2037-06-29,alimentacao,Mercado,301.42
+2037-06-30,saude,Farmácia,39.8
+2037-07-01,lazer,Mercado,284.29
+2037-07-02,lazer,Taxi/Uber,412.63
+2037-07-03,transporte,Farmácia,115.85
+2037-07-04,mercado,Restaurante,166.05
+2037-07-05,mercado,Restaurante,108.39
+2037-07-06,saude,Assinatura mensal,369.35
+2037-07-07,transporte,Assinatura mensal,79.59
+2037-07-08,saude,Mercado,159.25
+2037-07-09,assinaturas,Mercado,272.45
+2037-07-10,lazer,Compra,185.03
+2037-07-11,saude,Compra,34.13
+2037-07-12,alimentacao,Restaurante,426.74
+2037-07-13,mercado,Taxi/Uber,155.37
+2037-07-14,saude,Compra,203.31
+2037-07-15,assinaturas,Restaurante,79.56
+2037-07-16,lazer,Mercado,390.08
+2037-07-17,assinaturas,Mercado,134.69
+2037-07-18,saude,Compra,13.82
+2037-07-19,lazer,Taxi/Uber,145.8
+2037-07-20,lazer,Restaurante,442.91
+2037-07-21,transporte,Mercado,70.35
+2037-07-22,transporte,Restaurante,18.89
+2037-07-23,alimentacao,Taxi/Uber,262.29
+2037-07-24,alimentacao,Mercado,170.39
+2037-07-25,assinaturas,Restaurante,358.76
+2037-07-26,transporte,Taxi/Uber,330.69
+2037-07-27,lazer,Taxi/Uber,87.51
+2037-07-28,transporte,Taxi/Uber,256.26
+2037-07-29,lazer,Compra,19.43
+2037-07-30,transporte,Assinatura mensal,200.57
+2037-07-31,lazer,Restaurante,322.75
+2037-08-01,assinaturas,Taxi/Uber,189.66
+2037-08-02,transporte,Restaurante,57.49
+2037-08-03,mercado,Taxi/Uber,32.38
+2037-08-04,mercado,Restaurante,384.88
+2037-08-05,lazer,Mercado,401.64
+2037-08-06,assinaturas,Restaurante,157.68
+2037-08-07,lazer,Assinatura mensal,78.06
+2037-08-08,assinaturas,Mercado,440.48
+2037-08-09,alimentacao,Mercado,247.91
+2037-08-10,transporte,Taxi/Uber,217.11
+2037-08-11,assinaturas,Farmácia,335.02
+2037-08-12,lazer,Assinatura mensal,80.15
+2037-08-13,alimentacao,Mercado,263.1
+2037-08-14,lazer,Farmácia,401.12
+2037-08-15,mercado,Farmácia,15.27
+2037-08-16,mercado,Mercado,304.46
+2037-08-17,transporte,Taxi/Uber,250.38
+2037-08-18,saude,Compra,428.11
+2037-08-19,transporte,Mercado,120.12
+2037-08-20,alimentacao,Taxi/Uber,387.21
+2037-08-21,mercado,Assinatura mensal,142.5
+2037-08-22,assinaturas,Taxi/Uber,196.29
+2037-08-23,mercado,Farmácia,99.91
+2037-08-24,saude,Assinatura mensal,389.3
+2037-08-25,transporte,Assinatura mensal,91.96
+2037-08-26,lazer,Compra,387.26
+2037-08-27,alimentacao,Compra,207.75
+2037-08-28,saude,Mercado,376.61
+2037-08-29,mercado,Taxi/Uber,122.7
+2037-08-30,assinaturas,Mercado,64.06
+2037-08-31,saude,Compra,251.96
+2037-09-01,assinaturas,Farmácia,231.7
+2037-09-02,assinaturas,Compra,163.69
+2037-09-03,alimentacao,Taxi/Uber,299.96
+2037-09-04,assinaturas,Farmácia,47.34
+2037-09-05,assinaturas,Mercado,281.79
+2037-09-06,mercado,Mercado,99.23
+2037-09-07,alimentacao,Compra,62.38
+2037-09-08,lazer,Compra,409.78
+2037-09-09,lazer,Restaurante,209.61
+2037-09-10,assinaturas,Mercado,344.72
+2037-09-11,saude,Mercado,44.66
+2037-09-12,transporte,Assinatura mensal,30.57
+2037-09-13,alimentacao,Taxi/Uber,225.21
+2037-09-14,transporte,Assinatura mensal,145.42
+2037-09-15,alimentacao,Assinatura mensal,7.18
+2037-09-16,alimentacao,Mercado,86.57
+2037-09-17,mercado,Restaurante,102.36
+2037-09-18,assinaturas,Taxi/Uber,133.39
+2037-09-19,mercado,Mercado,395.5
+2037-09-20,saude,Assinatura mensal,192.17
+2037-09-21,transporte,Assinatura mensal,307.35
+2037-09-22,transporte,Mercado,13.19
+2037-09-23,lazer,Compra,367.2
+2037-09-24,saude,Compra,111.95
+2037-09-25,saude,Mercado,142.52
+2037-09-26,mercado,Farmácia,25.14
+2037-09-27,mercado,Farmácia,187.31
+2037-09-28,saude,Compra,384.4
+2037-09-29,mercado,Taxi/Uber,173.54
+2037-09-30,lazer,Restaurante,409.33
+2037-10-01,mercado,Assinatura mensal,391.01
+2037-10-02,mercado,Taxi/Uber,32.57
+2037-10-03,saude,Compra,140.85
+2037-10-04,saude,Mercado,410.14
+2037-10-05,mercado,Farmácia,18.26
+2037-10-06,mercado,Compra,345.78
+2037-10-07,saude,Taxi/Uber,408.36
+2037-10-08,transporte,Taxi/Uber,347.87
+2037-10-09,assinaturas,Restaurante,336.0
+2037-10-10,transporte,Compra,380.29
+2037-10-11,mercado,Assinatura mensal,301.28
+2037-10-12,alimentacao,Taxi/Uber,193.28
+2037-10-13,alimentacao,Assinatura mensal,32.93
+2037-10-14,lazer,Assinatura mensal,355.65
+2037-10-15,transporte,Mercado,407.84
+2037-10-16,saude,Compra,232.66
+2037-10-17,lazer,Compra,241.97
+2037-10-18,lazer,Assinatura mensal,184.46
+2037-10-19,alimentacao,Mercado,386.31
+2037-10-20,transporte,Taxi/Uber,11.59
+2037-10-21,assinaturas,Taxi/Uber,282.92
+2037-10-22,saude,Compra,408.8
+2037-10-23,transporte,Assinatura mensal,50.93
+2037-10-24,lazer,Mercado,431.83
+2037-10-25,mercado,Mercado,435.62
+2037-10-26,lazer,Taxi/Uber,418.76
+2037-10-27,transporte,Taxi/Uber,210.83
+2037-10-28,alimentacao,Farmácia,175.42
+2037-10-29,transporte,Farmácia,319.15
+2037-10-30,assinaturas,Assinatura mensal,146.82
+2037-10-31,saude,Farmácia,35.41
+2037-11-01,saude,Mercado,406.13
+2037-11-02,mercado,Farmácia,287.51
+2037-11-03,mercado,Compra,97.18
+2037-11-04,lazer,Compra,13.19
+2037-11-05,transporte,Restaurante,326.96
+2037-11-06,saude,Taxi/Uber,384.5
+2037-11-07,alimentacao,Taxi/Uber,185.51
+2037-11-08,assinaturas,Assinatura mensal,41.0
+2037-11-09,lazer,Compra,293.64
+2037-11-10,transporte,Restaurante,137.13
+2037-11-11,alimentacao,Assinatura mensal,69.06
+2037-11-12,transporte,Assinatura mensal,232.13
+2037-11-13,alimentacao,Farmácia,219.42
+2037-11-14,transporte,Taxi/Uber,234.96
+2037-11-15,transporte,Assinatura mensal,371.65
+2037-11-16,saude,Assinatura mensal,220.62
+2037-11-17,lazer,Taxi/Uber,405.74
+2037-11-18,transporte,Taxi/Uber,379.61
+2037-11-19,transporte,Compra,294.75
+2037-11-20,lazer,Taxi/Uber,30.3
+2037-11-21,lazer,Farmácia,389.9
+2037-11-22,mercado,Compra,407.98
+2037-11-23,mercado,Restaurante,171.9
+2037-11-24,saude,Assinatura mensal,239.14
+2037-11-25,lazer,Farmácia,130.05
+2037-11-26,assinaturas,Farmácia,11.55
+2037-11-27,saude,Compra,218.36
+2037-11-28,alimentacao,Assinatura mensal,62.56
+2037-11-29,lazer,Compra,86.58
+2037-11-30,mercado,Mercado,218.92
+2037-12-01,transporte,Mercado,390.83
+2037-12-02,lazer,Compra,380.86
+2037-12-03,lazer,Assinatura mensal,434.46
+2037-12-04,mercado,Assinatura mensal,219.79
+2037-12-05,mercado,Taxi/Uber,250.64
+2037-12-06,assinaturas,Farmácia,370.84
+2037-12-07,saude,Compra,316.35
+2037-12-08,mercado,Farmácia,86.36
+2037-12-09,mercado,Farmácia,182.19
+2037-12-10,mercado,Mercado,418.48
+2037-12-11,saude,Mercado,70.03
+2037-12-12,transporte,Restaurante,98.16
+2037-12-13,lazer,Compra,183.29
+2037-12-14,lazer,Restaurante,423.24
+2037-12-15,mercado,Compra,55.65
+2037-12-16,saude,Assinatura mensal,304.46
+2037-12-17,assinaturas,Compra,63.79
+2037-12-18,mercado,Assinatura mensal,238.4
+2037-12-19,saude,Assinatura mensal,243.77
+2037-12-20,saude,Compra,23.97
+2037-12-21,assinaturas,Assinatura mensal,429.58
+2037-12-22,saude,Farmácia,363.95
+2037-12-23,lazer,Assinatura mensal,139.77
+2037-12-24,assinaturas,Farmácia,63.13
+2037-12-25,assinaturas,Farmácia,158.8
+2037-12-26,alimentacao,Farmácia,402.95
+2037-12-27,assinaturas,Taxi/Uber,64.04
+2037-12-28,assinaturas,Restaurante,160.45
+2037-12-29,transporte,Taxi/Uber,224.97
+2037-12-30,lazer,Assinatura mensal,19.63
+2037-12-31,mercado,Restaurante,124.28
+2038-01-01,alimentacao,Restaurante,270.06
+2038-01-02,assinaturas,Restaurante,149.16
+2038-01-03,transporte,Compra,392.38
+2038-01-04,transporte,Assinatura mensal,421.86
+2038-01-05,saude,Taxi/Uber,201.49
+2038-01-06,mercado,Restaurante,241.75
+2038-01-07,mercado,Restaurante,285.71
+2038-01-08,lazer,Mercado,300.72
+2038-01-09,saude,Restaurante,33.15
+2038-01-10,assinaturas,Restaurante,28.89
+2038-01-11,transporte,Mercado,390.19
+2038-01-12,alimentacao,Assinatura mensal,102.84
+2038-01-13,lazer,Taxi/Uber,264.93
+2038-01-14,assinaturas,Farmácia,282.98
+2038-01-15,saude,Taxi/Uber,78.19
+2038-01-16,mercado,Assinatura mensal,343.91
+2038-01-17,saude,Taxi/Uber,390.35
+2038-01-18,assinaturas,Mercado,131.99
+2038-01-19,saude,Restaurante,395.64
+2038-01-20,mercado,Restaurante,41.06
+2038-01-21,assinaturas,Farmácia,361.21
+2038-01-22,alimentacao,Assinatura mensal,289.85
+2038-01-23,lazer,Restaurante,264.48
+2038-01-24,saude,Assinatura mensal,107.41
+2038-01-25,mercado,Compra,166.02
+2038-01-26,alimentacao,Farmácia,410.09
+2038-01-27,transporte,Assinatura mensal,212.25
+2038-01-28,alimentacao,Taxi/Uber,269.5
+2038-01-29,alimentacao,Taxi/Uber,421.45
+2038-01-30,alimentacao,Taxi/Uber,212.59
+2038-01-31,mercado,Taxi/Uber,177.78
+2038-02-01,transporte,Assinatura mensal,402.47
+2038-02-02,lazer,Mercado,410.35
+2038-02-03,alimentacao,Farmácia,162.81
+2038-02-04,mercado,Taxi/Uber,268.44
+2038-02-05,mercado,Assinatura mensal,433.86
+2038-02-06,lazer,Restaurante,29.68
+2038-02-07,assinaturas,Restaurante,22.71
+2038-02-08,transporte,Assinatura mensal,234.88
+2038-02-09,transporte,Taxi/Uber,134.6
+2038-02-10,saude,Compra,263.92
+2038-02-11,alimentacao,Assinatura mensal,327.31
+2038-02-12,assinaturas,Farmácia,35.74
+2038-02-13,transporte,Farmácia,397.65
+2038-02-14,saude,Compra,128.21
+2038-02-15,alimentacao,Restaurante,174.7
+2038-02-16,assinaturas,Restaurante,154.98
+2038-02-17,mercado,Assinatura mensal,378.73
+2038-02-18,alimentacao,Compra,80.94
+2038-02-19,assinaturas,Assinatura mensal,17.76
+2038-02-20,lazer,Assinatura mensal,437.45
+2038-02-21,transporte,Compra,441.38
+2038-02-22,alimentacao,Restaurante,119.67
+2038-02-23,saude,Mercado,9.16
+2038-02-24,mercado,Taxi/Uber,292.43
+2038-02-25,saude,Taxi/Uber,293.57
+2038-02-26,alimentacao,Taxi/Uber,423.46
+2038-02-27,transporte,Compra,137.82
+2038-02-28,transporte,Assinatura mensal,89.33
+2038-03-01,assinaturas,Assinatura mensal,279.29
+2038-03-02,saude,Farmácia,255.83
+2038-03-03,saude,Assinatura mensal,324.39
+2038-03-04,mercado,Restaurante,398.88
+2038-03-05,assinaturas,Mercado,254.09
+2038-03-06,mercado,Taxi/Uber,71.78
+2038-03-07,alimentacao,Restaurante,271.17
+2038-03-08,alimentacao,Restaurante,171.48
+2038-03-09,saude,Mercado,206.47
+2038-03-10,assinaturas,Taxi/Uber,431.97
+2038-03-11,lazer,Compra,251.95
+2038-03-12,transporte,Mercado,71.59
+2038-03-13,assinaturas,Restaurante,202.21
+2038-03-14,assinaturas,Assinatura mensal,106.65
+2038-03-15,alimentacao,Taxi/Uber,65.29
+2038-03-16,transporte,Farmácia,321.94
+2038-03-17,assinaturas,Mercado,284.71
+2038-03-18,alimentacao,Restaurante,226.52
+2038-03-19,alimentacao,Compra,193.34
+2038-03-20,saude,Restaurante,148.39
+2038-03-21,saude,Farmácia,44.16
+2038-03-22,assinaturas,Compra,138.17
+2038-03-23,assinaturas,Taxi/Uber,378.09
+2038-03-24,alimentacao,Mercado,353.74
+2038-03-25,saude,Compra,437.68
+2038-03-26,assinaturas,Farmácia,296.95
+2038-03-27,transporte,Restaurante,251.37
+2038-03-28,alimentacao,Farmácia,136.74
+2038-03-29,alimentacao,Assinatura mensal,39.2
+2038-03-30,assinaturas,Compra,280.02
+2038-03-31,assinaturas,Mercado,222.23
+2038-04-01,assinaturas,Mercado,342.79
+2038-04-02,transporte,Restaurante,188.28
+2038-04-03,alimentacao,Restaurante,443.57
+2038-04-04,lazer,Restaurante,181.94
+2038-04-05,transporte,Assinatura mensal,153.22
+2038-04-06,transporte,Farmácia,392.59
+2038-04-07,saude,Restaurante,181.0
+2038-04-08,alimentacao,Compra,392.55
+2038-04-09,lazer,Restaurante,17.17
+2038-04-10,alimentacao,Farmácia,313.2
+2038-04-11,transporte,Compra,36.97
+2038-04-12,assinaturas,Compra,70.96
+2038-04-13,alimentacao,Compra,316.53
+2038-04-14,alimentacao,Farmácia,133.93
+2038-04-15,assinaturas,Restaurante,98.64
+2038-04-16,lazer,Farmácia,361.68
+2038-04-17,lazer,Farmácia,426.08
+2038-04-18,alimentacao,Taxi/Uber,108.41
+2038-04-19,assinaturas,Farmácia,146.15
+2038-04-20,saude,Assinatura mensal,322.76
+2038-04-21,alimentacao,Taxi/Uber,367.81
+2038-04-22,assinaturas,Compra,449.63
+2038-04-23,transporte,Restaurante,126.65
+2038-04-24,saude,Mercado,252.7
+2038-04-25,assinaturas,Restaurante,64.64
+2038-04-26,alimentacao,Taxi/Uber,152.22
+2038-04-27,mercado,Taxi/Uber,25.01
+2038-04-28,lazer,Compra,98.82
+2038-04-29,alimentacao,Farmácia,230.41
+2038-04-30,assinaturas,Farmácia,77.87
+2038-05-01,saude,Taxi/Uber,400.78
+2038-05-02,saude,Farmácia,321.09
+2038-05-03,assinaturas,Taxi/Uber,17.34
+2038-05-04,lazer,Restaurante,395.13
+2038-05-05,alimentacao,Mercado,439.91
+2038-05-06,saude,Restaurante,228.33
+2038-05-07,saude,Mercado,145.0
+2038-05-08,mercado,Compra,122.24
+2038-05-09,transporte,Assinatura mensal,43.9
+2038-05-10,mercado,Assinatura mensal,223.77
+2038-05-11,transporte,Restaurante,27.31
+2038-05-12,saude,Farmácia,229.21
+2038-05-13,transporte,Assinatura mensal,117.38
+2038-05-14,alimentacao,Mercado,217.01
+2038-05-15,saude,Compra,191.18
+2038-05-16,saude,Mercado,140.78
+2038-05-17,transporte,Taxi/Uber,204.64
+2038-05-18,assinaturas,Farmácia,215.95
+2038-05-19,transporte,Farmácia,375.99
+2038-05-20,transporte,Assinatura mensal,301.27
+2038-05-21,lazer,Taxi/Uber,197.75
+2038-05-22,lazer,Assinatura mensal,407.83
+2038-05-23,alimentacao,Assinatura mensal,341.3
+2038-05-24,alimentacao,Assinatura mensal,38.69
+2038-05-25,assinaturas,Taxi/Uber,73.42
+2038-05-26,lazer,Assinatura mensal,41.34
+2038-05-27,mercado,Farmácia,146.89
+2038-05-28,alimentacao,Assinatura mensal,198.86
+2038-05-29,alimentacao,Taxi/Uber,229.39
+2038-05-30,lazer,Taxi/Uber,383.88
+2038-05-31,lazer,Mercado,12.99
+2038-06-01,assinaturas,Assinatura mensal,195.59
+2038-06-02,lazer,Taxi/Uber,187.89
+2038-06-03,transporte,Restaurante,426.63
+2038-06-04,saude,Assinatura mensal,112.26
+2038-06-05,mercado,Compra,59.47
+2038-06-06,saude,Farmácia,68.31
+2038-06-07,transporte,Farmácia,236.46
+2038-06-08,transporte,Restaurante,178.95
+2038-06-09,saude,Assinatura mensal,340.59
+2038-06-10,transporte,Farmácia,148.82
+2038-06-11,alimentacao,Farmácia,61.94
+2038-06-12,saude,Compra,177.16
+2038-06-13,transporte,Farmácia,397.95
+2038-06-14,alimentacao,Farmácia,185.46
+2038-06-15,lazer,Taxi/Uber,375.96
+2038-06-16,mercado,Farmácia,170.33
+2038-06-17,mercado,Assinatura mensal,130.22
+2038-06-18,transporte,Farmácia,349.81
+2038-06-19,mercado,Assinatura mensal,98.11
+2038-06-20,alimentacao,Farmácia,108.16
+2038-06-21,lazer,Assinatura mensal,27.17
+2038-06-22,transporte,Farmácia,88.59
+2038-06-23,assinaturas,Restaurante,173.57
+2038-06-24,saude,Assinatura mensal,182.81
+2038-06-25,mercado,Farmácia,192.18
+2038-06-26,mercado,Compra,218.46
+2038-06-27,transporte,Taxi/Uber,259.5
+2038-06-28,saude,Taxi/Uber,89.3
+2038-06-29,saude,Taxi/Uber,278.21
+2038-06-30,mercado,Taxi/Uber,154.77
+2038-07-01,mercado,Compra,331.63
+2038-07-02,assinaturas,Restaurante,252.96
+2038-07-03,saude,Restaurante,251.65
+2038-07-04,alimentacao,Compra,310.04
+2038-07-05,transporte,Farmácia,153.19
+2038-07-06,transporte,Compra,196.01
+2038-07-07,assinaturas,Taxi/Uber,264.39
+2038-07-08,assinaturas,Restaurante,192.59
+2038-07-09,alimentacao,Mercado,202.69
+2038-07-10,lazer,Farmácia,126.26
+2038-07-11,transporte,Assinatura mensal,132.89
+2038-07-12,saude,Restaurante,316.04
+2038-07-13,mercado,Taxi/Uber,6.91
+2038-07-14,alimentacao,Restaurante,47.4
+2038-07-15,transporte,Taxi/Uber,427.22
+2038-07-16,saude,Taxi/Uber,88.22
+2038-07-17,alimentacao,Restaurante,191.06
+2038-07-18,lazer,Restaurante,383.11
+2038-07-19,saude,Restaurante,5.05
+2038-07-20,transporte,Compra,416.7
+2038-07-21,mercado,Restaurante,28.8
+2038-07-22,saude,Assinatura mensal,81.04
+2038-07-23,transporte,Farmácia,17.95
+2038-07-24,alimentacao,Taxi/Uber,236.19
+2038-07-25,lazer,Restaurante,424.68
+2038-07-26,saude,Assinatura mensal,378.37
+2038-07-27,alimentacao,Mercado,289.69
+2038-07-28,alimentacao,Restaurante,87.54
+2038-07-29,assinaturas,Compra,391.97
+2038-07-30,alimentacao,Taxi/Uber,340.88
+2038-07-31,saude,Assinatura mensal,123.75
+2038-08-01,lazer,Restaurante,363.26
+2038-08-02,mercado,Assinatura mensal,395.33
+2038-08-03,assinaturas,Taxi/Uber,315.71
+2038-08-04,alimentacao,Assinatura mensal,49.67
+2038-08-05,saude,Assinatura mensal,442.99
+2038-08-06,transporte,Restaurante,38.82
+2038-08-07,assinaturas,Restaurante,296.24
+2038-08-08,lazer,Farmácia,54.18
+2038-08-09,transporte,Compra,407.91
+2038-08-10,lazer,Farmácia,160.74
+2038-08-11,transporte,Compra,232.62
+2038-08-12,mercado,Compra,84.55
+2038-08-13,lazer,Farmácia,248.22
+2038-08-14,transporte,Taxi/Uber,422.78
+2038-08-15,lazer,Assinatura mensal,406.23
+2038-08-16,assinaturas,Mercado,33.43
+2038-08-17,lazer,Farmácia,173.33
+2038-08-18,saude,Farmácia,124.01
+2038-08-19,lazer,Taxi/Uber,219.21
+2038-08-20,transporte,Assinatura mensal,376.01
+2038-08-21,lazer,Restaurante,333.79
+2038-08-22,mercado,Farmácia,158.07
+2038-08-23,alimentacao,Mercado,175.29
+2038-08-24,assinaturas,Assinatura mensal,296.14
+2038-08-25,saude,Farmácia,91.43
+2038-08-26,transporte,Restaurante,50.71
+2038-08-27,lazer,Farmácia,112.95
+2038-08-28,lazer,Restaurante,60.19
+2038-08-29,lazer,Compra,161.63
+2038-08-30,assinaturas,Compra,422.22
+2038-08-31,saude,Farmácia,58.53
+2038-09-01,alimentacao,Taxi/Uber,369.15
+2038-09-02,mercado,Compra,242.92
+2038-09-03,saude,Farmácia,286.64
+2038-09-04,mercado,Restaurante,80.69
+2038-09-05,saude,Assinatura mensal,72.36
+2038-09-06,transporte,Restaurante,77.42
+2038-09-07,alimentacao,Mercado,301.84
+2038-09-08,alimentacao,Compra,337.77
+2038-09-09,assinaturas,Farmácia,414.51
