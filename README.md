@@ -1,5 +1,5 @@
 # 📊 Personal Productivity Analytics
-### *Um sistema completo de produtividade + finanças – ETL, ML, Web, Dashboard e CLI.*
+### *Sistema completo de produtividade + finanças – ETL, ML, Web, Dashboard e CLI.*
 
 ![Python](https://img.shields.io/badge/Python-3.11+-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-ETL-green)
@@ -11,133 +11,224 @@
 
 ---
 
+# 🇧🇷 Versão em Português
+
 ## 📘 Sobre o Projeto
+O **Personal Productivity Analytics** é um sistema pessoal que integra:
 
-O **Personal Productivity Analytics** é um sistema pessoal de produtividade criado para unificar:
-
-- **tarefas**
-- **tempo investido**
-- **despesas e gastos**
-- **previsões financeiras**
-- **dashboard interativo**
-- **API Web para inserir dados**
-- **CLI para automação**
-- **ETL completo estruturado**
+- Produtividade (tarefas, tempo, categorias)
+- Controle financeiro (despesas, categorias, totais)
+- ETL estruturado com SQLite
+- Previsões financeiras com Machine Learning
+- Dashboard interativo via Streamlit
+- API Web + interface em Flask
+- Automação completa via CLI
 
 ---
 
-## 📐 Arquitetura do Sistema
+## 📐 Arquitetura
 
 ```
 personal-productivity-analytics/
 │
 ├── app/
-│   ├── etl.py              # Lê CSVs e carrega para o SQLite
-│   ├── models.py           # ORM SQLAlchemy - tabelas do banco
-│   ├── ml.py               # Modelo de Machine Learning (previsão)
-│   ├── report.py           # Relatórios agregados
-│   ├── main.py             # CLI principal do sistema
-│   ├── web.py              # Interface Web + API Flask
-│   ├── config.py           # Caminhos e configuração global
-│   └── utils.py            # Funções auxiliares
+│   ├── etl.py
+│   ├── models.py
+│   ├── ml.py
+│   ├── report.py
+│   ├── main.py
+│   ├── web.py
+│   ├── config.py
+│   └── utils.py
 │
 ├── data/
 │   ├── tasks.csv
 │   ├── finance.csv
-│   └── productivity.db     # Banco SQLite gerado pelo ETL
+│   └── productivity.db
 │
-├── dashboard.py            # Dashboard em Streamlit
-├── README.md               # Este arquivo ❤
-└── requirements.txt        # Dependências
+├── dashboard.py
+├── README.md
+└── requirements.txt
 ```
 
 ---
 
 ## 🚀 Funcionalidades
-
-### ✔ ETL Completo
-Importa os dados dos arquivos `tasks.csv` e `finance.csv` e carrega tudo no SQLite.
-
-### ✔ Relatórios via CLI
-```
-python -m app.main report --period 30d
-```
-
-### ✔ Previsão com Machine Learning
-Utiliza `LinearRegression` para prever gastos.
-
-### ✔ Dashboard Streamlit
-```
-streamlit run dashboard.py
-```
-
-### ✔ Web Flask
-```
-flask --app app.web run
-```
+✔ ETL completo  
+✔ Relatórios CLI  
+✔ Previsões (ML)  
+✔ Dashboard (Streamlit)  
+✔ Web/API (Flask)  
+✔ Base de dados SQLite  
 
 ---
 
-## 📂 Estrutura dos CSVs
+## 📂 Formato dos CSVs
 
-### tasks.csv
+### **tasks.csv**
+
 | external_id | title | category | completed_at | duration_minutes |
-|-------------|--------|----------|----------------|------------------|
-| 1 | Limpar casa | pessoal | 2025-01-01 09:00:00 | 45 |
+|-------------|--------|----------|--------------|------------------|
 
-Categorias aceitas:
+Categorias:
 ```
 pessoal, profissional, saude, estudos, familia, financeiro
 ```
 
-### finance.csv
-| date | category | description | amount |
-|-------|----------|-------------|--------|
-| 2025-01-01 | mercado | Compra mensal | 320.50 |
+### **finance.csv**
 
-Categorias aceitas:
+| date | category | description | amount |
+|------|----------|-------------|--------|
+
+Categorias:
 ```
 alimentacao, transporte, assinaturas, mercado, lazer, saude, outros
 ```
 
 ---
 
-## 🔧 Como Rodar o Projeto
+## 🔧 Como Rodar
 
-### Criar ambiente virtual
+### Criar ambiente
 ```
 python -m venv .venv
 ```
 
 ### Ativar
 ```
-.venv\Scriptsctivate
+.venv\Scripts\activate
 ```
 
-### Instalar dependências
+### Instalar libs
 ```
 pip install -r requirements.txt
 ```
 
-### Executar ETL
+### Rodar ETL
 ```
 python -m app.main etl
 ```
 
----
+### Dashboard
+```
+streamlit run dashboard.py
+```
 
-## 📁 Explicação dos Arquivos
-
-- **etl.py** → extrai, trata e carrega dados  
-- **models.py** → ORM  
-- **ml.py** → modelo de previsão  
-- **report.py** → relatórios e KPIs  
-- **main.py** → interface CLI  
-- **web.py** → interface web e API  
-- **dashboard.py** → dashboard Streamlit  
+### Web
+```
+flask --app app.web run
+```
 
 ---
 
-## 📜 Licença
+# 🇺🇸 English Version
 
-MIT — livre para uso pessoal e profissional.
+## 📘 About the Project
+**Personal Productivity Analytics** is a unified personal data platform integrating:
+
+- Productivity tracking (tasks, categories, durations)
+- Financial tracking (expenses, categories, totals)
+- ETL pipeline using SQLite
+- Machine Learning forecasting
+- Streamlit dashboard
+- Web/API using Flask
+- CLI automation for daily routines
+
+---
+
+## 📐 Architecture
+
+```
+personal-productivity-analytics/
+│
+├── app/
+│   ├── etl.py
+│   ├── models.py
+│   ├── ml.py
+│   ├── report.py
+│   ├── main.py
+│   ├── web.py
+│   ├── config.py
+│   └── utils.py
+│
+├── data/
+│   ├── tasks.csv
+│   ├── finance.csv
+│   └── productivity.db
+│
+├── dashboard.py
+└── requirements.txt
+```
+
+---
+
+## 🚀 Features
+✔ Full ETL pipeline  
+✔ CLI reports  
+✔ Machine Learning forecasts  
+✔ Streamlit dashboard  
+✔ Flask Web/API  
+✔ SQLite storage  
+
+---
+
+## 📂 CSV Format
+
+### **tasks.csv**
+
+| external_id | title | category | completed_at | duration_minutes |
+|-------------|--------|----------|--------------|------------------|
+
+Categories:
+```
+personal, professional, health, study, family, financial
+```
+
+### **finance.csv**
+
+| date | category | description | amount |
+|------|----------|-------------|--------|
+
+Categories:
+```
+food, transport, subscriptions, groceries, leisure, health, other
+```
+
+---
+
+## 🔧 How to Run
+
+### Create environment
+```
+python -m venv .venv
+```
+
+### Activate
+```
+.venv\Scripts\activate
+```
+
+### Install dependencies
+```
+pip install -r requirements.txt
+```
+
+### Run ETL
+```
+python -m app.main etl
+```
+
+### Run dashboard
+```
+streamlit run dashboard.py
+```
+
+### Run web server
+```
+flask --app app.web run
+```
+
+---
+
+## 📜 License
+MIT — free for personal and professional use.
