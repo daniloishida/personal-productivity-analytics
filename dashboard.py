@@ -1,127 +1,256 @@
 # dashboard.py
+"""
+Dashboard Streamlit do Personal Productivity Analytics.
+
+Mostra:
+- Métricas de agilidade (throughput, horas focadas, tempo médio por tarefa)
+- Distribuição por categoria
+- Série temporal de tarefas concluídas
+- Resumo financeiro por categoria
+- Previsão de gastos (se houver dados suficientes)
+"""
+
+from datetime import datetime, timedelta
+
 import pandas as pd
 import streamlit as st
+from sqlalchemy import text
 
-from app.models import init_db, engine, Task, TimeLog, Expense
-
-# Garante que o banco/tabelas existem
-init_db()
-
-
-def load_tasks():
-    # Usa o nome real da tabela a partir do modelo
-    return pd.read_sql_table(Task.__tablename__, engine)
+from app.database import engine
+from app.analytics import (
+    get_productivity_summary,
+    get_finance_summary,
+    get_monthly_forecast,
+)
 
 
-def load_timelog():
-    return pd.read_sql_table(TimeLog.__tablename__, engine)
+# ---------------------------------------------------------------------
+# Helpers
+# ---------------------------------------------------------------------
+
+def load_tasks_df(period: str) -> pd.DataFrame:
+    """
+    Carrega tasks do banco como DataFrame, filtrando pelo período.
+    period: "today", "7d", "30d", "all"
+    """
+    base_query = "SELECT id, external_id, title, category, completed_at, duration_minutes FROM tasks"
+    params = {}
+
+    now = datetime.now()
+
+    if period == "today":
+        start = now.replace(hour=0, minute=0, second=0, microsecond=0)
+        base_query += " WHERE completed_at >= :start"
+        params["start"] = start
+    elif period == "7d":
+        start = now - timedelta(days=7)
+        base_query += " WHERE completed_at >= :start"
+        params["start"] = start
+    elif period == "30d":
+        start = now - timedelta(days=30)
+        base_query += " WHERE completed_at >= :start"
+        params["start"] = start
+    # "all" não filtra
+
+    with engine.connect() as conn:
+        df = pd.read_sql(text(base_query), conn, params=params or None)
+
+    if not df.empty and "completed_at" in df.columns:
+        df["completed_at"] = pd.to_datetime(df["completed_at"])
+
+    return df
 
 
-def load_expenses():
-    return pd.read_sql_table(Expense.__tablename__, engine)
+def load_expenses_df(period: str) -> pd.DataFrame:
+    """
+    Carrega expenses do banco como DataFrame, filtrando pelo período.
+    """
+    base_query = "SELECT id, date, category, description, amount FROM expenses"
+    params = {}
+    now = datetime.now()
+
+    if period == "today":
+        start = now.replace(hour=0, minute=0, second=0, microsecond=0)
+        base_query += " WHERE date >= :start"
+        params["start"] = start
+    elif period == "7d":
+        start = now - timedelta(days=7)
+        base_query += " WHERE date >= :start"
+        params["start"] = start
+    elif period == "30d":
+        start = now - timedelta(days=30)
+        base_query += " WHERE date >= :start"
+        params["start"] = start
+
+    with engine.connect() as conn:
+        df = pd.read_sql(text(base_query), conn, params=params or None)
+
+    if not df.empty and "date" in df.columns:
+        df["date"] = pd.to_datetime(df["date"])
+
+    return df
 
 
-st.set_page_config(page_title="Personal Productivity Analytics", layout="wide")
+# ---------------------------------------------------------------------
+# UI
+# ---------------------------------------------------------------------
 
-st.title("📊 Personal Productivity Analytics Dashboard")
+st.set_page_config(
+    page_title="Personal Productivity Analytics",
+    layout="wide",
+)
 
-tab1, tab2, tab3 = st.tabs(["Produtividade", "Time Log", "Financeiro"])
+st.title("📊 Personal Productivity Analytics")
+st.caption("Métricas de produtividade + finanças com foco em agilidade")
 
-# -------------------------------------------------
-# PRODUTIVIDADE
-# -------------------------------------------------
-with tab1:
-    st.header("Produtividade (Tasks)")
-    try:
-        tasks_df = load_tasks()
-        if not tasks_df.empty:
-            tasks_df["completed_at"] = pd.to_datetime(tasks_df["completed_at"])
-            tasks_df["date"] = tasks_df["completed_at"].dt.date
 
-            col1, col2 = st.columns(2)
-            with col1:
-                st.metric("Total de tarefas", len(tasks_df))
-            with col2:
-                st.metric(
-                    "Duração média (min)",
-                    f"{tasks_df['duration_minutes'].mean():.1f}",
-                )
+# Sidebar - filtro de período
+period = st.sidebar.selectbox(
+    "Período",
+    options=["today", "7d", "30d", "all"],
+    format_func=lambda p: {
+        "today": "Hoje",
+        "7d": "Últimos 7 dias",
+        "30d": "Últimos 30 dias",
+        "all": "Todo o histórico",
+    }[p],
+    index=3,
+)
 
-            st.subheader("Últimas tarefas")
-            st.dataframe(
-                tasks_df[
-                    ["id", "title", "category", "completed_at", "duration_minutes"]
-                ].tail(20)
-            )
+st.sidebar.markdown("---")
+st.sidebar.write("💡 Dica: use `all` para ver a base inteira.")
 
-            st.subheader("Tarefas por categoria")
-            cat_counts = (
-                tasks_df.groupby("category")["id"].count().reset_index(name="count")
-            )
-            st.bar_chart(cat_counts.set_index("category"))
 
-        else:
-            st.info("Nenhuma task encontrada no banco.")
-    except Exception as e:
-        st.error(f"Erro ao carregar tasks: {e}")
+# ---------------------------------------------------------------------
+# Seção 1: Métricas de Agilidade (Produtividade)
+# ---------------------------------------------------------------------
 
-# -------------------------------------------------
-# TIME LOG
-# -------------------------------------------------
-with tab2:
-    st.header("Time Log")
-    try:
-        tl_df = load_timelog()
-        if not tl_df.empty:
-            tl_df["started_at"] = pd.to_datetime(tl_df["started_at"])
-            tl_df["date"] = tl_df["started_at"].dt.date
+st.header("⚙️ Métricas de Agilidade (Tasks)")
 
-            st.subheader("Últimos registros de tempo")
-            st.dataframe(
-                tl_df[
-                    [
-                        "id",
-                        "task_label",
-                        "project",
-                        "started_at",
-                        "ended_at",
-                        "duration_minutes",
-                    ]
-                ].tail(20)
-            )
+tasks_df = load_tasks_df(period)
+prod_summary = get_productivity_summary(period)
 
-            st.subheader("Horas por atividade")
-            agg = tl_df.groupby("task_label")["duration_minutes"].sum() / 60.0
-            st.bar_chart(agg)
-        else:
-            st.info("Nenhum time log encontrado.")
-    except Exception as e:
-        st.error(f"Erro ao carregar time logs: {e}")
+total_tasks = prod_summary["tasks"]
+total_minutes = prod_summary["minutes"]
+total_hours = round(total_minutes / 60, 2) if total_minutes else 0
 
-# -------------------------------------------------
-# FINANCEIRO
-# -------------------------------------------------
-with tab3:
-    st.header("Financeiro (Despesas)")
-    try:
-        exp_df = load_expenses()
-        if not exp_df.empty:
-            exp_df["date"] = pd.to_datetime(exp_df["date"])
-            exp_df["dia"] = exp_df["date"].dt.date
+avg_minutes = round(total_minutes / total_tasks, 2) if total_tasks else 0
+avg_hours = round(avg_minutes / 60, 2) if avg_minutes else 0
 
-            st.subheader("Últimas despesas")
-            st.dataframe(
-                exp_df[["id", "date", "category", "description", "amount"]].tail(20)
-            )
+# Throughput: tasks por dia (no período)
+if period == "today":
+    days = 1
+elif period == "7d":
+    days = 7
+elif period == "30d":
+    days = 30
+else:
+    # all: calcular pelo delta entre min e max completed_at
+    if not tasks_df.empty:
+        delta_days = (tasks_df["completed_at"].max() - tasks_df["completed_at"].min()).days
+        days = max(delta_days, 1)
+    else:
+        days = 1
 
-            st.subheader("Gasto por categoria")
-            cat_sum = exp_df.groupby("category")["amount"].sum()
-            st.bar_chart(cat_sum)
+throughput_per_day = round(total_tasks / days, 2) if days else 0
 
-            st.subheader("Gasto diário")
-            daily = exp_df.groupby("dia")["amount"].sum()
-            st.line_chart(daily)
-        else:
-            st.info("Nenhuma despesa encontrada.")
-    except Exception as e:
-        st.error(f"Erro ao carregar despesas: {e}")
+col1, col2, col3, col4 = st.columns(4)
+col1.metric("📌 Tasks concluídas", f"{total_tasks}")
+col2.metric("⏱️ Horas focadas (total)", f"{total_hours} h")
+col3.metric("🧠 Tempo médio por task", f"{avg_minutes} min ({avg_hours} h)")
+col4.metric("🚀 Throughput (tasks/dia)", f"{throughput_per_day}")
+
+# Distribuição por categoria (horas)
+if prod_summary["by_category"]:
+    cat_df = (
+        pd.DataFrame(
+            [
+                {"category": cat, "minutes": mins, "hours": round(mins / 60, 2)}
+                for cat, mins in prod_summary["by_category"].items()
+            ]
+        )
+        .sort_values("hours", ascending=False)
+    )
+
+    st.subheader("📂 Tempo por categoria (horas)")
+    st.dataframe(cat_df, use_container_width=True)
+
+    st.bar_chart(
+        cat_df.set_index("category")["hours"],
+        use_container_width=True,
+    )
+else:
+    st.info("Nenhuma task encontrada no período selecionado.")
+
+# Série temporal de tasks por dia
+if not tasks_df.empty:
+    # cria uma coluna "day" com apenas a data (sem hora)
+    daily = tasks_df.copy()
+    daily["day"] = daily["completed_at"].dt.date
+
+    # conta quantas tasks por dia
+    daily = (
+        daily.groupby("day")["id"]
+        .count()
+        .reset_index(name="tasks")
+    )
+
+    # converte para datetime e usa como índice
+    daily["date"] = pd.to_datetime(daily["day"])
+    daily = daily.set_index("date")[["tasks"]]
+
+    st.subheader("📈 Tasks concluídas por dia")
+    st.line_chart(daily, width="stretch")
+else:
+    st.info("Ainda não há dados suficientes para série temporal de tasks.")
+
+
+# ---------------------------------------------------------------------
+# Seção 2: Métricas Financeiras
+# ---------------------------------------------------------------------
+
+st.header("💰 Métricas Financeiras")
+
+fin_summary = get_finance_summary(period)
+total_spent = fin_summary["total"]
+
+colf1, colf2 = st.columns(2)
+colf1.metric(
+    "💵 Gasto total no período",
+    f"R$ {total_spent:,.2f}".replace(",", "X").replace(".", ",").replace("X", "."),
+)
+
+try:
+    forecast = get_monthly_forecast()
+    colf2.metric(
+        "📈 Previsão próximo mês",
+        f"R$ {forecast:,.2f}".replace(",", "X").replace(".", ",").replace("X", "."),
+    )
+except Exception as e:
+    colf2.metric("📈 Previsão próximo mês", "Indisponível")
+    st.warning(f"Erro ao calcular previsão: {e}")
+
+if fin_summary["by_category"]:
+    fin_cat_df = (
+        pd.DataFrame(
+            [
+                {"category": cat, "amount": amt}
+                for cat, amt in fin_summary["by_category"].items()
+            ]
+        )
+        .sort_values("amount", ascending=False)
+    )
+
+    fin_cat_df["amount_fmt"] = fin_cat_df["amount"].apply(
+        lambda v: f"R$ {v:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+    )
+
+    st.subheader("📂 Gasto por categoria")
+    st.dataframe(fin_cat_df[["category", "amount_fmt"]], use_container_width=True)
+
+    st.bar_chart(
+        fin_cat_df.set_index("category")["amount"],
+        use_container_width=True,
+    )
+else:
+    st.info("Nenhuma despesa encontrada no período selecionado.")

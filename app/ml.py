@@ -1,99 +1,95 @@
 # app/ml.py
-from datetime import datetime, timedelta
+"""
+Módulo de Machine Learning para previsão de gastos mensais.
+
+Agora sem scikit-learn nem scipy:
+- usa apenas NumPy + Pandas
+- modelo de regressão linear simples via np.polyfit
+
+Fluxo:
+- Lê as despesas da tabela Expense
+- Agrega por mês
+- Ajusta uma reta (y = a*x + b) nos pontos (mês_idx, gasto_mensal)
+- Prevê o gasto do próximo mês
+"""
+
+from __future__ import annotations
+
+from dataclasses import dataclass
 
 import numpy as np
-from sqlalchemy import func
+import pandas as pd
 
-from .models import SessionLocal, Expense
+from .database import SessionLocal
+from .models import Expense
 
 
+@dataclass
 class SpendingForecaster:
     """
-    Modelo simples para prever gasto do próximo mês com base em alguns meses anteriores.
-    Em vez de usar scikit-learn, implementamos uma regressão linear simples com NumPy.
-
-    Ideia:
-    - Coleta o total de gastos por mês (últimos N meses)
-    - Ajusta uma reta y = a*x + b
-    - Usa o próximo ponto no eixo x para prever o valor futuro
+    Classe responsável por carregar os dados de despesas
+    e prever o gasto do próximo mês usando uma regressão linear simples.
     """
 
-    def __init__(self, months_back: int = 6):
-        self.months_back = months_back
-        self.coef_ = None
-        self.intercept_ = None
-        self.trained = False
-        self._n_points = 0
-
-    def _load_data(self):
+    def _load_data(self) -> pd.DataFrame:
         """
-        Carrega o total de gastos por mês (últimos N meses).
-        Retorna X (índices de tempo) e y (gasto total daquele mês).
+        Lê a tabela Expense e retorna um DataFrame com gasto mensal agregado.
+
+        Colunas retornadas:
+        - month (periodo mensal ex: 2025-01)
+        - amount (soma de gastos no mês)
+        - month_idx (0,1,2,...)
         """
         session = SessionLocal()
         try:
-            now = datetime.now()
-            totals = []
-
-            # vamos pegar months_back meses para trás
-            for i in range(self.months_back, 0, -1):
-                # início aproximado de cada "janela" mensal
-                start = (now.replace(day=1) - timedelta(days=30 * i))
-                end = start + timedelta(days=30)
-
-                q = (
-                    session.query(func.sum(Expense.amount))
-                    .filter(Expense.date >= start)
-                    .filter(Expense.date < end)
-                )
-                total = q.scalar() or 0.0
-                totals.append(total)
+            rows = session.query(Expense.date, Expense.amount).all()
         finally:
             session.close()
 
-        # precisamos de pelo menos 2 pontos pra ajustar uma reta
-        if len(totals) < 2:
-            raise RuntimeError("Dados insuficientes para treinar o modelo de gastos.")
+        if not rows:
+            raise ValueError("Nenhum dado de despesa encontrado para treinar o modelo.")
 
-        X = np.arange(len(totals)).astype(float)  # [0, 1, 2, ..., n-1]
-        y = np.array(totals, dtype=float)
-        self._n_points = len(totals)
-        return X, y
+        df = pd.DataFrame(rows, columns=["date", "amount"])
+        df["date"] = pd.to_datetime(df["date"])
 
-    def train(self):
+        # período mensal
+        df["month"] = df["date"].dt.to_period("M")
+
+        monthly = (
+            df.groupby("month")["amount"]
+            .sum()
+            .sort_index()
+            .reset_index()
+        )
+
+        monthly["month_idx"] = np.arange(len(monthly))
+
+        return monthly
+
+    def predict_next_month(self) -> float:
         """
-        Ajusta uma regressão linear simples y = a*x + b usando fórmula fechada.
+        Retorna a previsão de gasto para o próximo mês.
+
+        Estratégia:
+        - Se tiver apenas 1 mês de dados: retorna o próprio valor.
+        - Se tiver 2+ meses:
+            - usa np.polyfit para ajustar uma linha (grau 1)
+            - prevê o valor para o próximo month_idx
         """
-        X, y = self._load_data()
+        monthly = self._load_data()
 
-        # regressão linear simples
-        x_mean = X.mean()
-        y_mean = y.mean()
+        # Caso com só um ponto: devolve o próprio valor
+        if len(monthly) == 1:
+            return float(monthly["amount"].iloc[0])
 
-        # coeficiente angular (a)
-        num = ((X - x_mean) * (y - y_mean)).sum()
-        den = ((X - x_mean) ** 2).sum()
-        if den == 0:
-            # se der algum caso degenerado, assume linha horizontal
-            a = 0.0
-        else:
-            a = num / den
+        x = monthly["month_idx"].to_numpy(dtype=float)
+        y = monthly["amount"].to_numpy(dtype=float)
 
-        # intercepto (b)
-        b = y_mean - a * x_mean
+        # np.polyfit retorna coeficientes [a, b] da reta y = a*x + b
+        a, b = np.polyfit(x, y, 1)
 
-        self.coef_ = float(a)
-        self.intercept_ = float(b)
-        self.trained = True
+        next_idx = float(monthly["month_idx"].iloc[-1] + 1)
+        next_value = a * next_idx + b
 
-    def forecast_next_month(self) -> float:
-        """
-        Faz a previsão para o "próximo" mês, ou seja, para x = n (se temos n pontos históricos).
-        """
-        if not self.trained:
-            self.train()
-
-        next_x = float(self._n_points)  # se temos pontos 0..n-1, o próximo é n
-        y_pred = self.coef_ * next_x + self.intercept_
-        # Evita valores negativos se houver muita oscilação
-        return max(0.0, float(y_pred))
+        # Segurança: não deixar valor negativo
+        return float(max(next_value, 0.0))

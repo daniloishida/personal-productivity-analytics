@@ -1,49 +1,87 @@
 # app/models.py
-from sqlalchemy import (
-    Column, Integer, Float, String, DateTime, create_engine, ForeignKey
-)
-from sqlalchemy.orm import declarative_base, relationship, sessionmaker
-from .config import DATABASE_URL
+"""
+Modelos ORM do projeto Personal Productivity Analytics.
 
-Base = declarative_base()
-engine = create_engine(DATABASE_URL, echo=False, future=True)
-SessionLocal = sessionmaker(bind=engine, autoflush=False, autocommit=False)
+Tabelas principais:
+- Task: registra atividades de produtividade (tarefas, tempo, categoria).
+- Expense: registra despesas financeiras (data, categoria, valor).
+"""
+
+from datetime import datetime
+
+from sqlalchemy import (
+    Column,
+    Integer,
+    String,
+    DateTime,
+    Float,
+    UniqueConstraint,
+    Index,
+)
+from sqlalchemy.orm import Mapped, mapped_column
+
+from .database import Base
 
 
 class Task(Base):
+    """
+    Representa uma tarefa concluída, usada para análise de produtividade.
+
+    Campos:
+    - external_id: id externo vindo do CSV ou de outra fonte
+    - title: nome ou descrição da tarefa
+    - category: categoria (pessoal, profissional, estudos, etc.)
+    - completed_at: data/hora de conclusão
+    - duration_minutes: duração estimada/em minutos
+    """
+
     __tablename__ = "tasks"
 
-    id = Column(Integer, primary_key=True)
-    external_id = Column(String, index=True, unique=True)
-    title = Column(String, nullable=False)
-    category = Column(String, index=True)  # ex: trabalho, estudo, pessoal
-    completed_at = Column(DateTime, index=True)
-    duration_minutes = Column(Integer)     # se houver estimativa/duração
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)
+    external_id: Mapped[str] = mapped_column(String(100), nullable=False)
+    title: Mapped[str] = mapped_column(String(255), nullable=False)
+    category: Mapped[str] = mapped_column(String(50), nullable=False, index=True)
+    completed_at: Mapped[datetime | None] = mapped_column(DateTime, nullable=True, index=True)
+    duration_minutes: Mapped[float | None] = mapped_column(Float, nullable=True)
 
-    def __repr__(self):
-        return f"<Task {self.title} ({self.category})>"
+    __table_args__ = (
+        UniqueConstraint("external_id", name="uq_tasks_external_id"),
+        Index("ix_tasks_category_completed_at", "category", "completed_at"),
+    )
 
-
-class TimeLog(Base):
-    __tablename__ = "time_logs"
-
-    id = Column(Integer, primary_key=True)
-    task_label = Column(String, index=True)    # ex: deep work, reunião
-    project = Column(String, index=True)
-    started_at = Column(DateTime, index=True)
-    ended_at = Column(DateTime, index=True)
-    duration_minutes = Column(Integer)
+    def __repr__(self) -> str:
+        return (
+            f"<Task id={self.id} external_id={self.external_id!r} "
+            f"title={self.title!r} category={self.category!r} "
+            f"completed_at={self.completed_at!r} duration={self.duration_minutes}>"
+        )
 
 
 class Expense(Base):
+    """
+    Representa uma despesa financeira.
+
+    Campos:
+    - date: data da despesa
+    - category: categoria (alimentacao, mercado, lazer, etc.)
+    - description: texto livre descrevendo a despesa
+    - amount: valor em moeda
+    """
+
     __tablename__ = "expenses"
 
-    id = Column(Integer, primary_key=True)
-    date = Column(DateTime, index=True)
-    category = Column(String, index=True)  # ex: alimentação, transporte
-    description = Column(String)
-    amount = Column(Float)
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)
+    date: Mapped[datetime] = mapped_column(DateTime, nullable=False, index=True)
+    category: Mapped[str] = mapped_column(String(50), nullable=False, index=True)
+    description: Mapped[str | None] = mapped_column(String(255), nullable=True)
+    amount: Mapped[float] = mapped_column(Float, nullable=False)
 
+    __table_args__ = (
+        Index("ix_expenses_category_date", "category", "date"),
+    )
 
-def init_db():
-    Base.metadata.create_all(bind=engine)
+    def __repr__(self) -> str:
+        return (
+            f"<Expense id={self.id} date={self.date!r} category={self.category!r} "
+            f"amount={self.amount} description={self.description!r}>"
+        )

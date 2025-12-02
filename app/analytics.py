@@ -1,102 +1,134 @@
 # app/analytics.py
+"""
+Funções de análise (produção e finanças)
+Usadas por report.py e pela CLI.
+"""
+
 from datetime import datetime, timedelta
-from tabulate import tabulate
 from sqlalchemy import func
+from .database import SessionLocal
+from .models import Task, Expense
 
-from .models import SessionLocal, Task, TimeLog, Expense
 
+# -------------------------------------------------------------------------
+# Helpers de período
+# -------------------------------------------------------------------------
 
-def _period_filter(query, model_datetime_field, period: str):
+def _get_date_limit(period: str) -> datetime | None:
     """
-    Aplica filtro de período, com suporte para ALL = sem filtro.
+    Retorna a data limite para filtragem.
+    period pode ser: "today", "7d", "30d", "all"
     """
-    if period == "all":
-        return query
-
     now = datetime.now()
 
     if period == "today":
-        start = now.replace(hour=0, minute=0, second=0, microsecond=0)
-
+        return now.replace(hour=0, minute=0, second=0, microsecond=0)
     elif period == "7d":
-        start = now - timedelta(days=7)
-
+        return now - timedelta(days=7)
     elif period == "30d":
-        start = now - timedelta(days=30)
-
+        return now - timedelta(days=30)
+    elif period == "all":
+        return None
     else:
-        # fallback: não filtra
-        return query
-
-    return query.filter(model_datetime_field >= start)
+        raise ValueError(f"Período inválido: {period}")
 
 
-# =====================================================
+# -------------------------------------------------------------------------
 # PRODUTIVIDADE
-# =====================================================
-def show_productivity_summary(period="7d"):
+# -------------------------------------------------------------------------
+
+def get_productivity_summary(period: str):
+    """
+    Retorna:
+      - número de tasks concluídas
+      - total de minutos
+      - soma por categoria
+    """
     session = SessionLocal()
+    date_limit = _get_date_limit(period)
 
-    print("\n📌 Resumo de produtividade")
+    q = session.query(Task)
 
-    # tarefas
-    q_tasks = session.query(Task)
-    q_tasks = _period_filter(q_tasks, Task.completed_at, period)
-    tasks_count = q_tasks.count()
+    if date_limit:
+        q = q.filter(Task.completed_at >= date_limit)
 
-    # tempo registrado
-    q_tl = session.query(TimeLog)
-    q_tl = _period_filter(q_tl, TimeLog.started_at, period)
+    total_tasks = q.count()
 
-    total_minutes = sum(t.duration_minutes for t in q_tl.all())
+    total_minutes = q.with_entities(func.sum(Task.duration_minutes)).scalar() or 0
 
-    print(f"Tarefas concluídas: {tasks_count}")
-    print(f"Tempo total registrado: {total_minutes / 60:.1f} horas")
+    # agrupamento por categoria
+    category_rows = (
+        q.with_entities(Task.category, func.sum(Task.duration_minutes))
+        .group_by(Task.category)
+        .all()
+    )
 
-    # detalhes por label
-    logs = q_tl.all()
-    if logs:
-        grouped = {}
-        for l in logs:
-            grouped.setdefault(l.task_label, 0)
-            grouped[l.task_label] += l.duration_minutes
-
-        table = [[k, f"{v/60:.2f} h"] for k, v in grouped.items()]
-        print("\nTempo por tipo de atividade:")
-        print(tabulate(table, headers=["Atividade", "Horas"]))
-    else:
-        print("\nNenhum registro de tempo no período.")
+    category_summary = {
+        cat: float(minutes or 0)
+        for cat, minutes in category_rows
+    }
 
     session.close()
 
+    return {
+        "tasks": total_tasks,
+        "minutes": total_minutes,
+        "by_category": category_summary,
+    }
 
-# =====================================================
-# FINANCEIRO
-# =====================================================
-def show_finance_summary(period="30d"):
+
+# -------------------------------------------------------------------------
+# FINANÇAS
+# -------------------------------------------------------------------------
+
+def get_finance_summary(period: str):
+    """
+    Retorna:
+      - total gasto
+      - gasto por categoria
+    """
     session = SessionLocal()
+    date_limit = _get_date_limit(period)
 
-    print("\n💰 Resumo financeiro")
+    q = session.query(Expense)
 
-    q_exp = session.query(Expense)
-    q_exp = _period_filter(q_exp, Expense.date, period)
+    if date_limit:
+        q = q.filter(Expense.date >= date_limit)
 
-    expenses = q_exp.all()
+    total_spent = q.with_entities(func.sum(Expense.amount)).scalar() or 0
 
-    total = sum(e.amount for e in expenses)
+    # agrupamento por categoria
+    category_rows = (
+        q.with_entities(Expense.category, func.sum(Expense.amount))
+        .group_by(Expense.category)
+        .all()
+    )
 
-    print(f"Gasto total: R$ {total:,.2f}")
-
-    if expenses:
-        grouped = {}
-        for e in expenses:
-            grouped.setdefault(e.category, 0)
-            grouped[e.category] += e.amount
-
-        table = [[cat, f"R$ {amt:,.2f}"] for cat, amt in grouped.items()]
-        print("\nGasto por categoria:")
-        print(tabulate(table, headers=["Categoria", "Total"]))
-    else:
-        print("\nNenhum gasto neste período.")
+    category_summary = {
+        cat: float(amount or 0)
+        for cat, amount in category_rows
+    }
 
     session.close()
+
+    return {
+        "total": total_spent,
+        "by_category": category_summary,
+    }
+
+
+# -------------------------------------------------------------------------
+# PREVISÃO (ML)
+# -------------------------------------------------------------------------
+
+def get_monthly_forecast():
+    """
+    Retorna um valor de previsão usando o ml.py (modelo Linear Regression)
+    """
+    try:
+        from .ml import SpendingForecaster
+        forecast = SpendingForecaster().predict_next_month()
+        return float(forecast)
+    except Exception as e:
+        print("[analytics] ⚠ Erro ao calcular previsão:", e)
+        return 0.0

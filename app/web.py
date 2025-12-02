@@ -1,16 +1,31 @@
 # app/web.py
-from flask import Flask, request, redirect, jsonify
+"""
+Aplicação Flask do Personal Productivity Analytics.
+
+Rotas HTML:
+- /              -> visão geral com métricas (tasks + finanças)
+- /tasks         -> listagem de tasks
+- /task/new      -> formulário para criar task
+- /expenses      -> listagem de despesas
+- /expense/new   -> formulário para criar despesa
+
+Rotas API:
+- /api/tasks     -> JSON com tasks
+- /api/expenses  -> JSON com despesas
+"""
+
 from datetime import datetime
 
-from .models import init_db, SessionLocal, Task, Expense
+from flask import Flask, jsonify, request, redirect, url_for
+from sqlalchemy import func, desc
+
+from .database import SessionLocal
+from .models import Task, Expense
 
 app = Flask(__name__)
-init_db()
 
-# -------------------------
-# CATEGORIAS PADRONIZADAS
-# -------------------------
-TASK_CATEGORIES = [
+# Categorias padrão (para forms e validação simples)
+TASK_CATEGORIES_PT = [
     "pessoal",
     "profissional",
     "saude",
@@ -19,7 +34,7 @@ TASK_CATEGORIES = [
     "financeiro",
 ]
 
-EXPENSE_CATEGORIES = [
+EXPENSE_CATEGORIES_PT = [
     "alimentacao",
     "transporte",
     "assinaturas",
@@ -30,279 +45,527 @@ EXPENSE_CATEGORIES = [
 ]
 
 
-def html_page(title: str, body: str) -> str:
-    # Atenção: {{ e }} por causa do f-string
-    return f"""
-    <!doctype html>
-    <html lang="pt-br">
-      <head>
-        <meta charset="utf-8">
-        <title>{title}</title>
-        <style>
-          body {{ font-family: Arial, sans-serif; margin: 2rem; }}
-          h1 {{ margin-bottom: 1rem; }}
-          nav a {{ margin-right: 1rem; }}
-          form {{ margin-top: 1rem; margin-bottom: 2rem; }}
-          label {{ display: block; margin-top: 0.5rem; }}
-          input, select {{ padding: 0.3rem; width: 300px; }}
-          table {{ border-collapse: collapse; margin-top: 1rem; }}
-          th, td {{ border: 1px solid #ccc; padding: 0.4rem 0.7rem; }}
-        </style>
-      </head>
-      <body>
-        <h1>Personal Productivity Analytics</h1>
-        <nav>
-          <a href="/">Início</a>
-          <a href="/task/new">Nova Task</a>
-          <a href="/expense/new">Nova Despesa</a>
-          <a href="/expenses">Ver Despesas</a>
-        </nav>
-        <hr>
-        {body}
-      </body>
-    </html>
-    """
+# ---------------------------------------------------------------------
+# Helpers
+# ---------------------------------------------------------------------
 
+def get_session():
+    return SessionLocal()
+
+
+def _html_head(title: str) -> str:
+    return f"""
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <title>{title}</title>
+  <style>
+    body {{
+      font-family: Arial, sans-serif;
+      margin: 20px 40px;
+      background-color: #f5f5f7;
+      color: #222;
+    }}
+    h1, h2, h3 {{
+      font-family: Arial, sans-serif;
+    }}
+    a {{
+      color: #005bbb;
+      text-decoration: none;
+    }}
+    a:hover {{
+      text-decoration: underline;
+    }}
+    .metric {{
+      display: inline-block;
+      margin-right: 30px;
+      margin-bottom: 15px;
+      padding: 10px 14px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    }}
+    .metric span.label {{
+      display: block;
+      font-size: 11px;
+      color: #666;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }}
+    .metric span.value {{
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 4px;
+    }}
+    table {{
+      border-collapse: collapse;
+      margin-top: 10px;
+      width: 100%;
+      background: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    }}
+    th, td {{
+      border-bottom: 1px solid #eee;
+      padding: 8px 10px;
+      font-size: 14px;
+    }}
+    th {{
+      background-color: #f0f2f5;
+      text-align: left;
+      font-weight: 600;
+    }}
+    tr:nth-child(even) td {{
+      background-color: #fafafa;
+    }}
+    .btn {{
+      display: inline-block;
+      padding: 8px 14px;
+      margin: 4px 0;
+      border-radius: 6px;
+      border: none;
+      background: #005bbb;
+      color: #fff;
+      font-size: 14px;
+      cursor: pointer;
+    }}
+    .btn.secondary {{
+      background: #555;
+    }}
+    .btn:hover {{
+      opacity: 0.9;
+    }}
+    .top-links {{
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }}
+    .top-links a {{
+      margin-right: 15px;
+      font-size: 14px;
+    }}
+    form {{
+      background: #fff;
+      padding: 16px 20px;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+      max-width: 500px;
+    }}
+    label {{
+      display: block;
+      margin-top: 10px;
+      font-size: 13px;
+      font-weight: 600;
+    }}
+    input[type="text"],
+    input[type="number"],
+    input[type="datetime-local"],
+    input[type="date"],
+    select {{
+      width: 100%;
+      padding: 6px 8px;
+      margin-top: 4px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+    }}
+    .page-header {{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }}
+  </style>
+</head>
+<body>
+"""
+
+
+def _html_footer() -> str:
+    return """
+</body>
+</html>
+"""
+
+
+# ---------------------------------------------------------------------
+# Rotas HTML
+# ---------------------------------------------------------------------
 
 @app.route("/")
 def index():
-    body = """
-    <p>Bem-vindo! Aqui você pode cadastrar tasks e despesas diretamente no banco.</p>
-    <ul>
-      <li>Use os links acima para adicionar dados.</li>
-      <li>A API está disponível em <code>/api/tasks</code> e <code>/api/expenses</code>.</li>
-    </ul>
     """
-    return html_page("Início", body)
+    Home com visão geral dos dados:
+    - total de tasks
+    - horas totais
+    - tasks por categoria
+    - total de despesas
+    - despesas por categoria
+    """
+    session = get_session()
 
+    # --- Métricas de tasks ---
+    total_tasks = session.query(func.count(Task.id)).scalar() or 0
+    total_minutes = session.query(func.sum(Task.duration_minutes)).scalar() or 0.0
+    total_hours = round((total_minutes or 0) / 60, 2)
 
-# ======================================
-# FORMULÁRIO DE TASK
-# ======================================
-@app.route("/task/new", methods=["GET", "POST"])
-def add_task_form():
-    if request.method == "POST":
-        title = request.form.get("title") or "Tarefa sem título"
-        category = request.form.get("category") or "pessoal"
-        completed_raw = request.form.get("completed_at", "").strip()
-        duration_raw = request.form.get("duration_minutes", "30").strip()
-
-        # Garante categoria válida
-        if category not in TASK_CATEGORIES:
-            category = "pessoal"
-
-        # Data/hora
-        if completed_raw:
-            try:
-                completed_at = datetime.strptime(completed_raw, "%Y-%m-%d %H:%M")
-            except ValueError:
-                completed_at = datetime.now()
-        else:
-            completed_at = datetime.now()
-
-        # Duração
-        try:
-            duration = int(duration_raw)
-        except ValueError:
-            duration = 30
-
-        session = SessionLocal()
-        try:
-            task = Task(
-                external_id=None,
-                title=title,
-                category=category,
-                completed_at=completed_at,
-                duration_minutes=duration,
-            )
-            session.add(task)
-            session.commit()
-        finally:
-            session.close()
-
-        return redirect("/")
-
-    # GET: mostra formulário
-    cat_options = "".join(
-        f'<option value="{c}">{c}</option>' for c in TASK_CATEGORIES
+    tasks_by_cat = (
+        session.query(
+            Task.category,
+            func.count(Task.id).label("qtde"),
+            func.sum(Task.duration_minutes).label("minutes"),
+        )
+        .group_by(Task.category)
+        .order_by(desc("qtde"))
+        .all()
     )
 
-    body = f"""
-    <h2>Nova Task</h2>
-    <p><strong>Categorias aceitas:</strong> {", ".join(TASK_CATEGORIES)}</p>
-    <form method="post">
-      <label>Título:
-        <input type="text" name="title" required>
-      </label>
-      <label>Categoria:
-        <select name="category">
-          {cat_options}
-        </select>
-      </label>
-      <label>Data/hora conclusão (YYYY-MM-DD HH:MM) [opcional]:
-        <input type="text" name="completed_at">
-      </label>
-      <label>Duração (minutos):
-        <input type="number" name="duration_minutes" value="30">
-      </label>
-      <button type="submit">Salvar</button>
-    </form>
+    # --- Métricas de despesas ---
+    total_expenses = session.query(func.count(Expense.id)).scalar() or 0
+    total_spent = session.query(func.sum(Expense.amount)).scalar() or 0.0
+
+    expenses_by_cat = (
+        session.query(
+            Expense.category,
+            func.count(Expense.id).label("qtde"),
+            func.sum(Expense.amount).label("amount"),
+        )
+        .group_by(Expense.category)
+        .order_by(desc("amount"))
+        .all()
+    )
+
+    session.close()
+
+    html = [
+        _html_head("Personal Productivity Analytics"),
+        "<h1>📊 Personal Productivity Analytics</h1>",
+        "<p>Visão geral das métricas de produtividade e finanças.</p>",
+        "<div class='top-links'>",
+        "<a href='/tasks'>📋 Ver tasks</a>",
+        "<a href='/task/new'>➕ Nova task</a>",
+        "<a href='/expenses'>💸 Ver despesas</a>",
+        "<a href='/expense/new'>➕ Nova despesa</a>",
+        "</div>",
+        "<hr/>",
+        "<h2>⚙️ Métricas de Agilidade (Tasks)</h2>",
+        "<div class='metric'><span class='label'>Tasks concluídas (histórico)</span>",
+        f"<span class='value'>{total_tasks}</span></div>",
+        "<div class='metric'><span class='label'>Horas totais focadas</span>",
+        f"<span class='value'>{total_hours} h</span></div>",
+        "<div class='metric'><span class='label'>Tempo total em minutos</span>",
+        f"<span class='value'>{int(total_minutes)} min</span></div>",
+        "<br/><br/>",
+        "<h3>Distribuição por categoria (Tasks)</h3>",
+        "<table><tr><th>Categoria</th><th>Qtde Tasks</th><th>Horas</th></tr>",
+    ]
+
+    for cat, qtde, mins in tasks_by_cat:
+        hours = round((mins or 0) / 60, 2)
+        html.append(
+            f"<tr><td>{cat}</td><td>{qtde}</td><td>{hours} h</td></tr>"
+        )
+
+    # Finanças
+    total_spent_fmt = f"R$ {total_spent:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+
+    html.extend(
+        [
+            "</table>",
+            "<hr/>",
+            "<h2>💰 Métricas Financeiras</h2>",
+            "<div class='metric'><span class='label'>Qtde de despesas</span>",
+            f"<span class='value'>{total_expenses}</span></div>",
+            "<div class='metric'><span class='label'>Gasto total (histórico)</span>",
+            f"<span class='value'>{total_spent_fmt}</span></div>",
+            "<br/><br/>",
+            "<h3>Distribuição por categoria (Despesas)</h3>",
+            "<table><tr><th>Categoria</th><th>Qtde</th><th>Total</th></tr>",
+        ]
+    )
+
+    for cat, qtde, amount in expenses_by_cat:
+        amount_fmt = f"R$ {amount:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+        html.append(
+            f"<tr><td>{cat}</td><td>{qtde}</td><td>{amount_fmt}</td></tr>"
+        )
+
+    html.extend(
+        [
+            "</table>",
+            "<hr/>",
+            "<p>",
+            "🔗 <a href='/tasks'>Ver últimas tasks</a> | ",
+            "<a href='/expenses'>Ver últimas despesas</a> | ",
+            "<a href='/api/tasks'>API /tasks</a> | ",
+            "<a href='/api/expenses'>API /expenses</a>",
+            "</p>",
+            _html_footer(),
+        ]
+    )
+
+    return "\n".join(html)
+
+
+@app.route("/tasks")
+def list_tasks():
     """
-    return html_page("Nova Task", body)
+    Lista simples das últimas N tasks.
+    """
+    session = get_session()
+    tasks = (
+        session.query(Task)
+        .order_by(Task.completed_at.desc().nullslast())
+        .limit(100)
+        .all()
+    )
+    session.close()
+
+    rows = []
+    for t in tasks:
+        completed_str = t.completed_at.strftime("%Y-%m-%d %H:%M:%S") if t.completed_at else "-"
+        rows.append(
+            f"<tr><td>{t.id}</td><td>{t.title}</td><td>{t.category}</td>"
+            f"<td>{completed_str}</td><td>{t.duration_minutes}</td></tr>"
+        )
+
+    html = [
+        _html_head("Tasks"),
+        "<div class='page-header'>",
+        "<h1>📋 Tasks</h1>",
+        "<div>",
+        "<a href='/' class='btn secondary'>⬅ Voltar</a> ",
+        "<a href='/task/new' class='btn'>➕ Nova task</a>",
+        "</div>",
+        "</div>",
+        "<table><tr><th>ID</th><th>Título</th><th>Categoria</th><th>Concluída em</th><th>Duração (min)</th></tr>",
+        *rows,
+        "</table>",
+        _html_footer(),
+    ]
+
+    return "\n".join(html)
 
 
-# ======================================
-# FORMULÁRIO DE DESPESA
-# ======================================
-@app.route("/expense/new", methods=["GET", "POST"])
-def add_expense_form():
+@app.route("/task/new", methods=["GET", "POST"])
+def create_task():
+    """
+    Formulário para criar uma nova task.
+    Salva direto no banco.
+    """
     if request.method == "POST":
-        date_raw = request.form.get("date", "").strip()
-        category = request.form.get("category") or "alimentacao"
-        description = request.form.get("description") or ""
-        amount_raw = request.form.get("amount", "0").strip()
+        title = (request.form.get("title") or "").strip()
+        category = (request.form.get("category") or "").strip().lower()
+        duration_str = request.form.get("duration_minutes") or "0"
+        completed_str = request.form.get("completed_at") or ""
 
-        # Garante categoria válida
-        if category not in EXPENSE_CATEGORIES:
-            category = "outros"
+        if not title:
+            return "Título é obrigatório", 400
 
-        # Data
-        if date_raw:
-            try:
-                date_val = datetime.strptime(date_raw, "%Y-%m-%d")
-            except ValueError:
-                date_val = datetime.now()
-        else:
-            date_val = datetime.now()
-
-        # Valor
         try:
-            amount = float(amount_raw.replace(",", "."))
+            duration = float(duration_str)
+        except ValueError:
+            duration = 0.0
+
+        completed_at = None
+        if completed_str:
+            try:
+                # datetime-local vem como "YYYY-MM-DDTHH:MM"
+                completed_at = datetime.strptime(completed_str, "%Y-%m-%dT%H:%M")
+            except ValueError:
+                completed_at = None
+
+        # external_id único via timestamp em ms
+        external_id = str(int(datetime.now().timestamp() * 1000))
+
+        session = get_session()
+        task = Task(
+            external_id=external_id,
+            title=title,
+            category=category or "pessoal",
+            completed_at=completed_at,
+            duration_minutes=duration,
+        )
+        session.add(task)
+        session.commit()
+        session.close()
+
+        return redirect(url_for("list_tasks"))
+
+    # GET -> exibe formulário
+    options_html = "".join(
+        f"<option value='{c}'>{c}</option>" for c in TASK_CATEGORIES_PT
+    )
+
+    html = [
+        _html_head("Nova Task"),
+        "<div class='page-header'>",
+        "<h1>➕ Nova Task</h1>",
+        "<div><a href='/' class='btn secondary'>⬅ Voltar</a></div>",
+        "</div>",
+        "<form method='post'>",
+        "<label for='title'>Título da task</label>",
+        "<input type='text' id='title' name='title' required />",
+        "<label for='category'>Categoria</label>",
+        f"<select id='category' name='category'>{options_html}</select>",
+        "<label for='duration_minutes'>Duração (minutos)</label>",
+        "<input type='number' id='duration_minutes' name='duration_minutes' min='0' step='1' value='30' />",
+        "<label for='completed_at'>Concluída em</label>",
+        "<input type='datetime-local' id='completed_at' name='completed_at' />",
+        "<br/><br/>",
+        "<button type='submit' class='btn'>Salvar task</button>",
+        "</form>",
+        _html_footer(),
+    ]
+
+    return "\n".join(html)
+
+
+@app.route("/expenses")
+def list_expenses():
+    """
+    Lista simples das últimas N despesas.
+    """
+    session = get_session()
+    expenses = (
+        session.query(Expense)
+        .order_by(Expense.date.desc().nullslast())
+        .limit(100)
+        .all()
+    )
+    session.close()
+
+    rows = []
+    for e in expenses:
+        date_str = e.date.strftime("%Y-%m-%d") if e.date else "-"
+        amount_fmt = f"R$ {e.amount:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+        rows.append(
+            f"<tr><td>{e.id}</td><td>{date_str}</td><td>{e.category}</td>"
+            f"<td>{e.description}</td><td>{amount_fmt}</td></tr>"
+        )
+
+    html = [
+        _html_head("Despesas"),
+        "<div class='page-header'>",
+        "<h1>💸 Despesas</h1>",
+        "<div>",
+        "<a href='/' class='btn secondary'>⬅ Voltar</a> ",
+        "<a href='/expense/new' class='btn'>➕ Nova despesa</a>",
+        "</div>",
+        "</div>",
+        "<table><tr><th>ID</th><th>Data</th><th>Categoria</th><th>Descrição</th><th>Valor</th></tr>",
+        *rows,
+        "</table>",
+        _html_footer(),
+    ]
+
+    return "\n".join(html)
+
+
+@app.route("/expense/new", methods=["GET", "POST"])
+def create_expense():
+    """
+    Formulário para criar uma nova despesa.
+    Salva direto no banco.
+    """
+    if request.method == "POST":
+        category = (request.form.get("category") or "").strip().lower()
+        description = (request.form.get("description") or "").strip()
+        amount_str = request.form.get("amount") or "0"
+        date_str = request.form.get("date") or ""
+
+        try:
+            amount = float(amount_str)
         except ValueError:
             amount = 0.0
 
-        session = SessionLocal()
-        try:
-            expense = Expense(
-                date=date_val,
-                category=category,
-                description=description,
-                amount=amount,
-            )
-            session.add(expense)
-            session.commit()
-        finally:
-            session.close()
+        date = None
+        if date_str:
+            try:
+                date = datetime.strptime(date_str, "%Y-%m-%d")
+            except ValueError:
+                date = None
 
-        return redirect("/expenses")
+        session = get_session()
+        expense = Expense(
+            date=date or datetime.now(),
+            category=category or "outros",
+            description=description,
+            amount=amount,
+        )
+        session.add(expense)
+        session.commit()
+        session.close()
 
-    # GET: mostra formulário
-    cat_options = "".join(
-        f'<option value="{c}">{c}</option>' for c in EXPENSE_CATEGORIES
+        return redirect(url_for("list_expenses"))
+
+    options_html = "".join(
+        f"<option value='{c}'>{c}</option>" for c in EXPENSE_CATEGORIES_PT
     )
 
-    body = f"""
-    <h2>Nova Despesa</h2>
-    <p><strong>Categorias aceitas:</strong> {", ".join(EXPENSE_CATEGORIES)}</p>
-    <form method="post">
-      <label>Data (YYYY-MM-DD) [opcional]:
-        <input type="text" name="date">
-      </label>
-      <label>Categoria:
-        <select name="category">
-          {cat_options}
-        </select>
-      </label>
-      <label>Descrição:
-        <input type="text" name="description">
-      </label>
-      <label>Valor (R$):
-        <input type="number" step="0.01" name="amount" value="0.00">
-      </label>
-      <button type="submit">Salvar</button>
-    </form>
-    """
-    return html_page("Nova Despesa", body)
+    html = [
+        _html_head("Nova Despesa"),
+        "<div class='page-header'>",
+        "<h1>➕ Nova Despesa</h1>",
+        "<div><a href='/' class='btn secondary'>⬅ Voltar</a></div>",
+        "</div>",
+        "<form method='post'>",
+        "<label for='date'>Data</label>",
+        "<input type='date' id='date' name='date' />",
+        "<label for='category'>Categoria</label>",
+        f"<select id='category' name='category'>{options_html}</select>",
+        "<label for='description'>Descrição</label>",
+        "<input type='text' id='description' name='description' />",
+        "<label for='amount'>Valor</label>",
+        "<input type='number' id='amount' name='amount' min='0' step='0.01' value='0' />",
+        "<br/><br/>",
+        "<button type='submit' class='btn'>Salvar despesa</button>",
+        "</form>",
+        _html_footer(),
+    ]
+
+    return "\n".join(html)
 
 
-# ======================================
-# LISTAGEM DE DESPESAS
-# ======================================
-@app.route("/expenses")
-def list_expenses():
-    session = SessionLocal()
-    try:
-        expenses = session.query(Expense).order_by(Expense.date.desc()).limit(50).all()
-    finally:
-        session.close()
+# ---------------------------------------------------------------------
+# Rotas API (JSON)
+# ---------------------------------------------------------------------
 
-    rows = ""
-    for e in expenses:
-        date_txt = e.date.strftime("%Y-%m-%d") if e.date else ""
-        rows += f"""
-        <tr>
-          <td>{date_txt}</td>
-          <td>{e.category}</td>
-          <td>{e.description}</td>
-          <td>{e.amount:.2f}</td>
-        </tr>
-        """
-
-    body = f"""
-    <h2>Últimas despesas</h2>
-    <table>
-      <tr>
-        <th>Data</th><th>Categoria</th><th>Descrição</th><th>Valor (R$)</th>
-      </tr>
-      {rows}
-    </table>
-    """
-    return html_page("Despesas", body)
-
-
-# ======================================
-# API JSON – TASKS
-# ======================================
 @app.route("/api/tasks")
 def api_tasks():
-    session = SessionLocal()
-    try:
-        tasks = session.query(Task).order_by(Task.completed_at.desc()).limit(100).all()
-        data = [
-            {
-                "id": t.id,
-                "title": t.title,
-                "category": t.category,
-                "completed_at": t.completed_at.isoformat() if t.completed_at else None,
-                "duration_minutes": t.duration_minutes,
-            }
-            for t in tasks
-        ]
-    finally:
-        session.close()
+    session = get_session()
+    tasks = session.query(Task).order_by(Task.completed_at.desc().nullslast()).limit(100).all()
+    session.close()
 
+    data = [
+        {
+            "id": t.id,
+            "external_id": t.external_id,
+            "title": t.title,
+            "category": t.category,
+            "completed_at": t.completed_at.isoformat() if t.completed_at else None,
+            "duration_minutes": t.duration_minutes,
+        }
+        for t in tasks
+    ]
     return jsonify(data)
 
 
-# ======================================
-# API JSON – EXPENSES
-# ======================================
 @app.route("/api/expenses")
 def api_expenses():
-    session = SessionLocal()
-    try:
-        expenses = session.query(Expense).order_by(Expense.date.desc()).limit(100).all()
-        data = [
-            {
-                "id": e.id,
-                "date": e.date.isoformat() if e.date else None,
-                "category": e.category,
-                "description": e.description,
-                "amount": float(e.amount),
-            }
-            for e in expenses
-        ]
-    finally:
-        session.close()
+    session = get_session()
+    expenses = session.query(Expense).order_by(Expense.date.desc().nullslast()).limit(100).all()
+    session.close()
 
+    data = [
+        {
+            "id": e.id,
+            "date": e.date.isoformat() if e.date else None,
+            "category": e.category,
+            "description": e.description,
+            "amount": e.amount,
+        }
+        for e in expenses
+    ]
     return jsonify(data)

@@ -1,234 +1,338 @@
-# 📊 Personal Productivity Analytics
-### *Sistema completo de produtividade + finanças – ETL, ML, Web, Dashboard e CLI.*
 
-![Python](https://img.shields.io/badge/Python-3.11+-blue)
-![Pandas](https://img.shields.io/badge/Pandas-ETL-green)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-ORM-orange)
-![scikit-learn](https://img.shields.io/badge/ML-scikit--learn-yellow)
-![Flask](https://img.shields.io/badge/Web-API-red)
-![Streamlit](https://img.shields.io/badge/Dashboard-Streamlit-pink)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
+# 📊 Personal Productivity Analytics  
+Sistema completo de **produtividade + finanças pessoais**, com **ETL, banco SQLite, API Flask, dashboards Streamlit e CLI**.
 
 ---
 
-# 🇧🇷 Versão em Português
+## 🧠 Visão Geral do Projeto  
+Este projeto foi criado para ser **realmente útil** no dia a dia — não apenas um portfólio técnico.  
+Ele integra:
 
-## 📘 Sobre o Projeto
-O **Personal Productivity Analytics** é um sistema pessoal que integra:
-
-- Produtividade (tarefas, tempo, categorias)
-- Controle financeiro (despesas, categorias, totais)
-- ETL estruturado com SQLite
-- Previsões financeiras com Machine Learning
-- Dashboard interativo via Streamlit
-- API Web + interface em Flask
-- Automação completa via CLI
+- ✔ ETL completo (tasks + despesas)
+- ✔ Banco SQLite estruturado
+- ✔ API e Interface Web (Flask)
+- ✔ Dashboard visual (Streamlit)
+- ✔ Machine Learning para previsão de gastos
+- ✔ Linha de comando (CLI) poderosa
+- ✔ Suporte a automações posteriores (Airflow / Cron)
 
 ---
 
-## 📐 Arquitetura
+# 🏗 Arquitetura Geral
 
 ```
 personal-productivity-analytics/
 │
 ├── app/
-│   ├── etl.py
-│   ├── models.py
-│   ├── ml.py
-│   ├── report.py
-│   ├── main.py
-│   ├── web.py
-│   ├── config.py
-│   └── utils.py
+│   ├── etl.py               # Carrega CSVs → banco SQLite (raw → staging → curated)
+│   ├── models.py            # ORM: Task, Expense, TimeLog + SessionLocal
+│   ├── analytics.py         # Métricas, agregações e KPIs
+│   ├── ml.py                # Modelo de previsão (Linear Regression)
+│   ├── report.py            # Relatórios e formatação CLI
+│   ├── main.py              # CLI do sistema
+│   ├── web.py               # Interface Web Flask + API JSON
+│   ├── config.py            # Configurações, paths, database
+│   └── utils.py             # Helpers gerais
+│
+├── dashboard.py             # Dashboard Streamlit (gráficos / KPIs)
+├── run_all.py               # Executa Flask + Streamlit juntos
 │
 ├── data/
+│   ├── raw/
+│   ├── staging/
+│   ├── curated/
 │   ├── tasks.csv
 │   ├── finance.csv
-│   └── productivity.db
+│   └── personal_analytics.db
 │
-├── dashboard.py
-├── README.md
-└── requirements.txt
+└── README.md
 ```
 
 ---
 
-## 🚀 Funcionalidades
-✔ ETL completo  
-✔ Relatórios CLI  
-✔ Previsões (ML)  
-✔ Dashboard (Streamlit)  
-✔ Web/API (Flask)  
-✔ Base de dados SQLite  
+# 🚀 Funcionalidades Principais
+
+### ✔ ETL Completo
+- Importa `tasks.csv` e `finance.csv`
+- Normaliza, limpa, remove duplicados
+- Gera tabelas no SQLite automaticamente
+
+### ✔ CLI de Produtividade e Finanças
+
+Exemplos:
+
+```
+python -m app.main etl
+python -m app.main report --period all
+python -m app.main prod --period 7d
+python -m app.main fin --period 30d
+```
+
+### ✔ Machine Learning  
+Usa **Linear Regression** para prever gastos futuros:
+
+- Entrada: histórico do CSV ou banco
+- Saída: projeção financeira
+
+### ✔ Dashboard (Streamlit)
+```
+streamlit run dashboard.py
+```
+
+Exibe:
+
+- Gastos por categoria  
+- Horas por atividade  
+- Tarefas por dia  
+- Linha do tempo de produtividade  
+- Previsão automática
+
+### ✔ Interface Web (Flask)
+```
+flask --app app.web run
+```
+
+Inclui:
+
+- Formulário para criar tasks  
+- Formulário para despesas  
+- Listar tasks  
+- Listar despesas  
+- API JSON
+
+Endpoints:
+
+```
+/api/tasks
+/api/expenses
+/api/summary
+```
+
+### ✔ Executar Tudo Junto  
+```
+python run_all.py
+```
+Isso abre Streamlit e Flask simultaneamente.
 
 ---
 
-## 📂 Formato dos CSVs
+# 📂 Formato dos CSVs
 
-### **tasks.csv**
+## ✅ tasks.csv
+| external_id | title        | category      | completed_at          | duration_minutes |
+|-------------|--------------|---------------|------------------------|------------------|
+| 1           | Estudar IA   | estudos       | 2025-01-01 09:00:00    | 60               |
 
-| external_id | title | category | completed_at | duration_minutes |
-|-------------|--------|----------|--------------|------------------|
-
-Categorias:
+Categorias aceitas:
 ```
-pessoal, profissional, saude, estudos, familia, financeiro
+pessoal, profissional, estudos, saude
 ```
 
-### **finance.csv**
+---
 
-| date | category | description | amount |
-|------|----------|-------------|--------|
+## ✅ finance.csv
+| date       | category     | description     | amount  |
+|------------|--------------|-----------------|---------|
+| 2025-01-01 | mercado      | compra mensal   | 320.50  |
 
-Categorias:
+Categorias aceitas:
 ```
 alimentacao, transporte, assinaturas, mercado, lazer, saude, outros
 ```
 
 ---
 
-## 🔧 Como Rodar
+# 🔧 Instalação e Configuração
 
-### Criar ambiente
+## 1 — Criar venv
 ```
 python -m venv .venv
 ```
 
-### Ativar
+## 2 — Ativar
+Windows:
 ```
 .venv\Scripts\activate
 ```
 
-### Instalar libs
+## 3 — Instalar dependências
 ```
 pip install -r requirements.txt
 ```
 
-### Rodar ETL
+---
+
+# 🧪 Rodando o ETL
 ```
 python -m app.main etl
 ```
 
-### Dashboard
+---
+
+# 📊 Relatórios via CLI
+
+### Relatório completo:
+```
+python -m app.main report --period all
+```
+
+### Somente produtividade:
+```
+python -m app.main prod --period all
+```
+
+### Somente finanças:
+```
+python -m app.main fin --period all
+```
+
+---
+
+# 🌐 Interface Web (Flask)
+
+### Rodar:
+```
+flask --app app.web run
+```
+
+### Acessar:
+- http://localhost:5000/
+- /tasks
+- /expenses
+- /task/new
+- /expense/new
+- /api/tasks
+- /api/expenses
+- /api/summary
+
+---
+
+# 📺 Dashboard (Streamlit)
+
+### Rodar:
 ```
 streamlit run dashboard.py
 ```
 
-### Web
+Inclui:
+
+- KPIs de produtividade  
+- KPIs financeiros  
+- Gráficos dinâmicos  
+- Previsões ML  
+- Tabelas filtráveis  
+
+---
+
+# 🧩 Integrando com Airflow (Opcional)
+
+Crie uma DAG em:
+
+`airflow/dags/personal_analytics_dag.py`
+
+Exemplo:
+
+```python
+from airflow import DAG
+from airflow.operators.bash import BashOperator
+from datetime import datetime
+
+with DAG("personal_analytics", start_date=datetime(2025,1,1), schedule="@daily"):
+    etl = BashOperator(
+        task_id="etl",
+        bash_command="cd /path/to/project && .venv/Scripts/activate && python -m app.main etl"
+    )
 ```
-flask --app app.web run
+
+---
+
+# 📁 Explicação dos Arquivos
+
+### `etl.py`
+- Lê os CSVs
+- Valida
+- Normaliza
+- Insere no SQLite
+
+### `models.py`
+- Define Task, Expense e TimeLog
+- Cria tabelas automaticamente
+
+### `analytics.py`
+- KPIs de produtividade
+- Gasto por categoria
+- Horas totais
+- Tempo médio por atividade
+
+### `ml.py`
+- Previsão de gastos  
+- Modelo Linear Regression
+
+### `web.py`
+- Formulários HTML
+- API JSON
+- Tabelas formatadas
+
+### `dashboard.py`
+- UI Streamlit  
+- KPIs
+- Gráficos
+- Previsões
+
+### `run_all.py`
+- Flask + Streamlit simultâneos
+
+---
+
+# ➕ Como adicionar dados ao CSV
+
+```python
+import csv
+from datetime import datetime
+
+def add_task(title, category, minutes):
+    with open("data/tasks.csv", "a", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow([
+            datetime.now().timestamp(),
+            title,
+            category,
+            datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            minutes
+        ])
 ```
+
+---
+
+# 🤝 Contribuindo
+- Melhorar dashboards
+- Criar novos modelos ML
+- Adicionar categorização automática
+- Criar notificações
+- Criar API pública
+
+---
+
+# 📜 Licença
+MIT — livre para uso pessoal e profissional.
 
 ---
 
 # 🇺🇸 English Version
 
-## 📘 About the Project
-**Personal Productivity Analytics** is a unified personal data platform integrating:
+(English summary)
 
-- Productivity tracking (tasks, categories, durations)
-- Financial tracking (expenses, categories, totals)
-- ETL pipeline using SQLite
-- Machine Learning forecasting
-- Streamlit dashboard
-- Web/API using Flask
-- CLI automation for daily routines
+## Personal Productivity Analytics  
+A complete personal productivity + finance analytics platform with:
 
----
+- ETL (CSV → SQLite)
+- Flask Web UI + JSON API
+- Streamlit Dashboard
+- Machine Learning forecast
+- Full CLI interface
+- Ready for Airflow automation
 
-## 📐 Architecture
-
-```
-personal-productivity-analytics/
-│
-├── app/
-│   ├── etl.py
-│   ├── models.py
-│   ├── ml.py
-│   ├── report.py
-│   ├── main.py
-│   ├── web.py
-│   ├── config.py
-│   └── utils.py
-│
-├── data/
-│   ├── tasks.csv
-│   ├── finance.csv
-│   └── productivity.db
-│
-├── dashboard.py
-└── requirements.txt
-```
+(… full English version available on request)
 
 ---
 
-## 🚀 Features
-✔ Full ETL pipeline  
-✔ CLI reports  
-✔ Machine Learning forecasts  
-✔ Streamlit dashboard  
-✔ Flask Web/API  
-✔ SQLite storage  
-
----
-
-## 📂 CSV Format
-
-### **tasks.csv**
-
-| external_id | title | category | completed_at | duration_minutes |
-|-------------|--------|----------|--------------|------------------|
-
-Categories:
-```
-personal, professional, health, study, family, financial
-```
-
-### **finance.csv**
-
-| date | category | description | amount |
-|------|----------|-------------|--------|
-
-Categories:
-```
-food, transport, subscriptions, groceries, leisure, health, other
-```
-
----
-
-## 🔧 How to Run
-
-### Create environment
-```
-python -m venv .venv
-```
-
-### Activate
-```
-.venv\Scripts\activate
-```
-
-### Install dependencies
-```
-pip install -r requirements.txt
-```
-
-### Run ETL
-```
-python -m app.main etl
-```
-
-### Run dashboard
-```
-streamlit run dashboard.py
-```
-
-### Run web server
-```
-flask --app app.web run
-```
-
----
-
-## 📜 License
-MIT — free for personal and professional use.
