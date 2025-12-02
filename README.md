@@ -317,22 +317,3 @@ def add_task(title, category, minutes):
 MIT — livre para uso pessoal e profissional.
 
 ---
-
-# 🇺🇸 English Version
-
-(English summary)
-
-## Personal Productivity Analytics  
-A complete personal productivity + finance analytics platform with:
-
-- ETL (CSV → SQLite)
-- Flask Web UI + JSON API
-- Streamlit Dashboard
-- Machine Learning forecast
-- Full CLI interface
-- Ready for Airflow automation
-
-(… full English version available on request)
-
----
-
