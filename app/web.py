@@ -376,6 +376,9 @@ def create_task():
             except ValueError:
                 completed_at = None
 
+        if completed_at is None:
+            return "Data de conclusão é obrigatória e deve ser válida", 400
+
         # external_id único via timestamp em ms
         external_id = str(int(datetime.now().timestamp() * 1000))
 
@@ -412,7 +415,7 @@ def create_task():
         "<label for='duration_minutes'>Duração (minutos)</label>",
         "<input type='number' id='duration_minutes' name='duration_minutes' min='0' step='1' value='30' />",
         "<label for='completed_at'>Concluída em</label>",
-        "<input type='datetime-local' id='completed_at' name='completed_at' />",
+        "<input type='datetime-local' id='completed_at' name='completed_at' required />",
         "<br/><br/>",
         "<button type='submit' class='btn'>Salvar task</button>",
         "</form>",
