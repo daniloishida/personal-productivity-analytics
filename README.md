@@ -68,11 +68,14 @@ python -m app.main prod --period 7d
 python -m app.main fin --period 30d
 ```
 
-### ✔ Machine Learning  
-Usa **Linear Regression** para prever gastos futuros:
+### ✔ Machine Learning
+Modelos leves (NumPy/Pandas) para prever gastos futuros:
 
-- Entrada: histórico do CSV ou banco
-- Saída: projeção financeira
+- Regressão linear simples (tendência)
+- Média móvel dos últimos meses (baseline estável)
+- Crescimento pela mediana das variações (robusto a outliers)
+
+É possível escolher o modelo ou consultar as previsões de todos.
 
 ### ✔ Dashboard (Streamlit)
 ```
